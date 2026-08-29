@@ -927,7 +927,8 @@
     "cost": 8,
     "counter": "-",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-051_p1.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-051_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-051_p2.png"
     ]
   },
   "OP01-052": {
@@ -2223,7 +2224,7 @@
   },
   "OP02-001": {
     "name": "Edward.Newgate",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-001.png",
     "alt_arts": [],
     "card_type": "Leader",
     "color": "Red",
@@ -2240,7 +2241,7 @@
   },
   "OP02-002": {
     "name": "Monkey.D.Garp",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-002.png",
     "alt_arts": [],
     "card_type": "Leader",
     "color": "Red/Black",
@@ -2256,7 +2257,7 @@
   },
   "OP02-003": {
     "name": "Atmos",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-003.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2273,7 +2274,7 @@
   },
   "OP02-004": {
     "name": "Edward.Newgate",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-004.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2291,7 +2292,7 @@
   },
   "OP02-005": {
     "name": "Curly.Dadan",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-005.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2308,7 +2309,7 @@
   },
   "OP02-006": {
     "name": "Kingdew",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-006.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2325,7 +2326,7 @@
   },
   "OP02-007": {
     "name": "Thatch",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-007.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2342,7 +2343,7 @@
   },
   "OP02-008": {
     "name": "Jozu",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-008.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2359,7 +2360,7 @@
   },
   "OP02-009": {
     "name": "Squard",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-009.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2376,7 +2377,7 @@
   },
   "OP02-010": {
     "name": "Dogura",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-010.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2393,7 +2394,7 @@
   },
   "OP02-011": {
     "name": "Vista",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-011.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2410,7 +2411,7 @@
   },
   "OP02-012": {
     "name": "Blenheim",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-012.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2427,7 +2428,7 @@
   },
   "OP02-013": {
     "name": "Portgas.D.Ace",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-013.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2444,7 +2445,7 @@
   },
   "OP02-014": {
     "name": "Whitey Bay",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-014.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2461,7 +2462,7 @@
   },
   "OP02-015": {
     "name": "Makino",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-015.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2478,7 +2479,7 @@
   },
   "OP02-016": {
     "name": "Magura",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-016.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2495,7 +2496,7 @@
   },
   "OP02-017": {
     "name": "Masked Deuce",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-017.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2512,7 +2513,7 @@
   },
   "OP02-018": {
     "name": "Marco",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-018.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2529,7 +2530,7 @@
   },
   "OP02-019": {
     "name": "Rakuyo",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-019.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2546,7 +2547,7 @@
   },
   "OP02-020": {
     "name": "LittleOars Jr.",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-020.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
@@ -2564,7 +2565,7 @@
   },
   "OP02-021": {
     "name": "Seaquake",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-021.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Red",
@@ -2582,7 +2583,7 @@
   },
   "OP02-022": {
     "name": "Whitebeard Pirates",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-022.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Red",
@@ -2599,7 +2600,7 @@
   },
   "OP02-023": {
     "name": "You May Be a Fool...but I Still Love You",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-023.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Red",
@@ -2617,7 +2618,7 @@
   },
   "OP02-024": {
     "name": "Moby Dick",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-024.png",
     "alt_arts": [],
     "card_type": "Stage",
     "color": "Red",
@@ -2634,7 +2635,7 @@
   },
   "OP02-025": {
     "name": "Kin'emon",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-025.png",
     "alt_arts": [],
     "card_type": "Leader",
     "color": "Green",
@@ -2651,7 +2652,7 @@
   },
   "OP02-026": {
     "name": "Sanji",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-026.png",
     "alt_arts": [],
     "card_type": "Leader",
     "color": "Green/Blue",
@@ -2667,7 +2668,7 @@
   },
   "OP02-027": {
     "name": "Inuarashi",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-027.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2686,7 +2687,7 @@
   },
   "OP02-028": {
     "name": "Usopp",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-028.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2704,7 +2705,7 @@
   },
   "OP02-029": {
     "name": "Carrot",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-029.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2721,7 +2722,7 @@
   },
   "OP02-030": {
     "name": "Kouzuki Oden",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-030.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2739,7 +2740,7 @@
   },
   "OP02-031": {
     "name": "Kouzuki Toki",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-031.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2757,7 +2758,7 @@
   },
   "OP02-032": {
     "name": "Shishilian",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-032.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2774,7 +2775,7 @@
   },
   "OP02-033": {
     "name": "Jinbe",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-033.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2793,7 +2794,7 @@
   },
   "OP02-034": {
     "name": "Tony Tony.Chopper",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-034.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2812,7 +2813,7 @@
   },
   "OP02-035": {
     "name": "Trafalgar Law",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-035.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2831,7 +2832,7 @@
   },
   "OP02-036": {
     "name": "Nami",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-036.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2849,7 +2850,7 @@
   },
   "OP02-037": {
     "name": "Nico Robin",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-037.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2867,7 +2868,7 @@
   },
   "OP02-038": {
     "name": "Nekomamushi",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-038.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2886,7 +2887,7 @@
   },
   "OP02-039": {
     "name": "Franky",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-039.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2904,7 +2905,7 @@
   },
   "OP02-040": {
     "name": "Brook",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-040.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2922,7 +2923,7 @@
   },
   "OP02-041": {
     "name": "Monkey.D.Luffy",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-041.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2941,7 +2942,7 @@
   },
   "OP02-042": {
     "name": "Yamato",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-042.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2958,7 +2959,7 @@
   },
   "OP02-043": {
     "name": "Roronoa Zoro",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-043.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2977,7 +2978,7 @@
   },
   "OP02-044": {
     "name": "Wanda",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-044.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Green",
@@ -2994,7 +2995,7 @@
   },
   "OP02-045": {
     "name": "Three Sword Style Oni Giri",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-045.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Green",
@@ -3013,7 +3014,7 @@
   },
   "OP02-046": {
     "name": "Diable Jambe Venaison Shoot",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-046.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Green",
@@ -3031,7 +3032,7 @@
   },
   "OP02-047": {
     "name": "Paradise Totsuka",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-047.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Green",
@@ -3049,7 +3050,7 @@
   },
   "OP02-048": {
     "name": "Land of Wano",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-048.png",
     "alt_arts": [],
     "card_type": "Stage",
     "color": "Green",
@@ -3066,7 +3067,7 @@
   },
   "OP02-049": {
     "name": "Emporio.Ivankov",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-049.png",
     "alt_arts": [],
     "card_type": "Leader",
     "color": "Blue",
@@ -3083,7 +3084,7 @@
   },
   "OP02-050": {
     "name": "Inazuma",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-050.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3101,7 +3102,7 @@
   },
   "OP02-051": {
     "name": "Emporio.Ivankov",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-051.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3119,7 +3120,7 @@
   },
   "OP02-052": {
     "name": "Cabaji",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-052.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3136,7 +3137,7 @@
   },
   "OP02-053": {
     "name": "Crocodile",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-053.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3154,7 +3155,7 @@
   },
   "OP02-054": {
     "name": "Gecko Moria",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-054.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3172,7 +3173,7 @@
   },
   "OP02-055": {
     "name": "Dracule Mihawk",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-055.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3189,7 +3190,7 @@
   },
   "OP02-056": {
     "name": "Donquixote Doflamingo",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-056.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3207,7 +3208,7 @@
   },
   "OP02-057": {
     "name": "Bartholomew Kuma",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-057.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3225,7 +3226,7 @@
   },
   "OP02-058": {
     "name": "Buggy",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-058.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3243,7 +3244,7 @@
   },
   "OP02-059": {
     "name": "Boa Hancock",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-059.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3262,7 +3263,7 @@
   },
   "OP02-060": {
     "name": "Mohji",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-060.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3279,7 +3280,7 @@
   },
   "OP02-061": {
     "name": "Morley",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-061.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3297,7 +3298,7 @@
   },
   "OP02-062": {
     "name": "Monkey.D.Luffy",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-062.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3315,7 +3316,7 @@
   },
   "OP02-063": {
     "name": "Mr.1(Daz.Bonez)",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-063.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3333,7 +3334,7 @@
   },
   "OP02-064": {
     "name": "Mr.2.Bon.Kurei(Bentham)",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-064.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3351,7 +3352,7 @@
   },
   "OP02-065": {
     "name": "Mr.3(Galdino)",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-065.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Blue",
@@ -3369,7 +3370,7 @@
   },
   "OP02-066": {
     "name": "Impel Down All Stars",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-066.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Blue",
@@ -3386,7 +3387,7 @@
   },
   "OP02-067": {
     "name": "Arabesque Brick Fist",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-067.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Blue",
@@ -3404,7 +3405,7 @@
   },
   "OP02-068": {
     "name": "Gum-Gum Rain",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-068.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Blue",
@@ -3422,7 +3423,7 @@
   },
   "OP02-069": {
     "name": "DEATH WINK",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-069.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Blue",
@@ -3440,7 +3441,7 @@
   },
   "OP02-070": {
     "name": "New Kama Land",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-070.png",
     "alt_arts": [],
     "card_type": "Stage",
     "color": "Blue",
@@ -3457,7 +3458,7 @@
   },
   "OP02-071": {
     "name": "Magellan",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-071.png",
     "alt_arts": [],
     "card_type": "Leader",
     "color": "Purple",
@@ -3473,7 +3474,7 @@
   },
   "OP02-072": {
     "name": "Zephyr",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-072.png",
     "alt_arts": [],
     "card_type": "Leader",
     "color": "Purple/Black",
@@ -3490,7 +3491,7 @@
   },
   "OP02-073": {
     "name": "Little Sadi",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-073.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3507,7 +3508,7 @@
   },
   "OP02-074": {
     "name": "Saldeath",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-074.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3524,7 +3525,7 @@
   },
   "OP02-075": {
     "name": "Shiki",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-075.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3542,7 +3543,7 @@
   },
   "OP02-076": {
     "name": "Shiryu",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-076.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3559,7 +3560,7 @@
   },
   "OP02-077": {
     "name": "Solitaire",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-077.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3577,7 +3578,7 @@
   },
   "OP02-078": {
     "name": "Daifugo",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-078.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3595,7 +3596,7 @@
   },
   "OP02-079": {
     "name": "Douglas Bullet",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-079.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3613,7 +3614,7 @@
   },
   "OP02-080": {
     "name": "Dobon",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-080.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3631,7 +3632,7 @@
   },
   "OP02-081": {
     "name": "Domino",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-081.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3648,7 +3649,7 @@
   },
   "OP02-082": {
     "name": "Byrnndi World",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-082.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3665,7 +3666,7 @@
   },
   "OP02-083": {
     "name": "Hannyabal",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-083.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3682,7 +3683,7 @@
   },
   "OP02-084": {
     "name": "Blugori",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-084.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3700,7 +3701,7 @@
   },
   "OP02-085": {
     "name": "Magellan",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-085.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3717,7 +3718,7 @@
   },
   "OP02-086": {
     "name": "Minokoala",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-086.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3735,7 +3736,7 @@
   },
   "OP02-087": {
     "name": "Minotaur",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-087.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3753,7 +3754,7 @@
   },
   "OP02-088": {
     "name": "Sphinx",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-088.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -3771,7 +3772,7 @@
   },
   "OP02-089": {
     "name": "Judgment of Hell",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-089.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Purple",
@@ -3788,7 +3789,7 @@
   },
   "OP02-090": {
     "name": "Hydra",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-090.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Purple",
@@ -3805,7 +3806,7 @@
   },
   "OP02-091": {
     "name": "Venom Road",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-091.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Purple",
@@ -3822,7 +3823,7 @@
   },
   "OP02-092": {
     "name": "Impel Down",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-092.png",
     "alt_arts": [],
     "card_type": "Stage",
     "color": "Purple",
@@ -3839,7 +3840,7 @@
   },
   "OP02-093": {
     "name": "Smoker",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-093.png",
     "alt_arts": [],
     "card_type": "Leader",
     "color": "Black",
@@ -3855,7 +3856,7 @@
   },
   "OP02-094": {
     "name": "Isuka",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-094.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -3872,7 +3873,7 @@
   },
   "OP02-095": {
     "name": "Onigumo",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-095.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -3889,7 +3890,7 @@
   },
   "OP02-096": {
     "name": "Kuzan",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-096.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -3906,7 +3907,7 @@
   },
   "OP02-097": {
     "name": "Komille",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-097.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -3923,7 +3924,7 @@
   },
   "OP02-098": {
     "name": "Koby",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-098.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -3940,7 +3941,7 @@
   },
   "OP02-099": {
     "name": "Sakazuki",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-099.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -3957,7 +3958,7 @@
   },
   "OP02-100": {
     "name": "Jango",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-100.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -3974,7 +3975,7 @@
   },
   "OP02-101": {
     "name": "Strawberry",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-101.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -3991,7 +3992,7 @@
   },
   "OP02-102": {
     "name": "Smoker",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-102.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4008,7 +4009,7 @@
   },
   "OP02-103": {
     "name": "Sengoku",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-103.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4025,7 +4026,7 @@
   },
   "OP02-104": {
     "name": "Sentomaru",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-104.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4042,7 +4043,7 @@
   },
   "OP02-105": {
     "name": "Tashigi",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-105.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4059,7 +4060,7 @@
   },
   "OP02-106": {
     "name": "Tsuru",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-106.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4076,7 +4077,7 @@
   },
   "OP02-107": {
     "name": "Doberman",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-107.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4093,7 +4094,7 @@
   },
   "OP02-108": {
     "name": "Donquixote Rosinante",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-108.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4111,7 +4112,7 @@
   },
   "OP02-109": {
     "name": "Jaguar.D.Saul",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-109.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4129,7 +4130,7 @@
   },
   "OP02-110": {
     "name": "Hina",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-110.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4146,7 +4147,7 @@
   },
   "OP02-111": {
     "name": "Fullbody",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-111.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4163,7 +4164,7 @@
   },
   "OP02-112": {
     "name": "Bell-mère",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-112.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4180,7 +4181,7 @@
   },
   "OP02-113": {
     "name": "Helmeppo",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-113.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4197,7 +4198,7 @@
   },
   "OP02-114": {
     "name": "Borsalino",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-114.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4214,7 +4215,7 @@
   },
   "OP02-115": {
     "name": "Monkey.D.Garp",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-115.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4231,7 +4232,7 @@
   },
   "OP02-116": {
     "name": "Yamakaji",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-116.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4248,7 +4249,7 @@
   },
   "OP02-117": {
     "name": "Ice Age",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-117.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Black",
@@ -4265,7 +4266,7 @@
   },
   "OP02-118": {
     "name": "Yasakani Sacred Jewel",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-118.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Black",
@@ -4282,7 +4283,7 @@
   },
   "OP02-119": {
     "name": "Meteor Volcano",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-119.png",
     "alt_arts": [],
     "card_type": "Event",
     "color": "Black",
@@ -4299,7 +4300,7 @@
   },
   "OP02-120": {
     "name": "Uta",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-120.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
@@ -4316,7 +4317,7 @@
   },
   "OP02-121": {
     "name": "Kuzan",
-    "image_url": "",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-121.png",
     "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
@@ -4330,5 +4331,2251 @@
     "set": "OP02 Paramount War",
     "cost": 10,
     "counter": "-"
+  },
+  "OP03-001": {
+    "name": "Portgas.D.Ace",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-001_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "When this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed.",
+    "rarity": "L",
+    "set": "OP03 Pillars of Strength",
+    "life": 5
+  },
+  "OP03-002": {
+    "name": "Adio",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "ODYSSEY"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-003": {
+    "name": "Izo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 2000,
+    "types": [
+      "Land of Wano",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-004": {
+    "name": "Curiel",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 4000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "This Character cannot attack a Leader on the turn in which it is played. [DON!! x1] This Character gains [Rush].",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-005": {
+    "name": "Thatch",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] This Character gains +2000 power during this turn. Then, trash this Character at the end of this turn.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-006": {
+    "name": "Speed Jil",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-007": {
+    "name": "Namule",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Fish-Man",
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-008": {
+    "name": "Buggy",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Buggy Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d in battle by <Slash> attribute cards. [On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-009": {
+    "name": "Haruta",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-010": {
+    "name": "Fossa",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-011": {
+    "name": "Blamenco",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-012": {
+    "name": "Marshall.D.Teach",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[When Attacking] You may trash 1 of your red Characters with 4000 power or more: Draw 1 card. Then, this Character gains +1000 power during this battle.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP03-013": {
+    "name": "Marco",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-013_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less. [On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-014": {
+    "name": "Monkey.D.Garp",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] Play up to 1 red Character card with a cost of 1 from your hand.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-015": {
+    "name": "Lim",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "ODYSSEY"
+    ],
+    "effect": "[Blocker] [Opponent's Turn] When this Character is K.O.'d, give up to 1 of your opponent's Leader or Character cards -2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-016": {
+    "name": "Flame Emperor",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If your Leader is [Portgas.D.Ace], K.O. up to 1 of your opponent's Characters with 8000 power or less, and your Leader gains [Double Attack] and +3000 power during this turn. [Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 7,
+    "counter": "-"
+  },
+  "OP03-017": {
+    "name": "Cross Fire",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main]/[Counter] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters -4000 power during this turn. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-018": {
+    "name": "Fire Fist",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-018_p1.png"
+    ],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less. [Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-019": {
+    "name": "Fiery Doll",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] Your Leader gains +4000 power during this turn. [Trigger] Give up to 1 of your opponent's Leader or Character cards -10000 power during this turn.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-020": {
+    "name": "Striker",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] (2 DON) You may rest this Stage: If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-021": {
+    "name": "Kuro",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-021_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[Activate: Main] (3 DON) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "L",
+    "set": "OP03 Pillars of Strength",
+    "life": 5
+  },
+  "OP03-022": {
+    "name": "Arlong",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-022_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Green/Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] (1 DON): Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "rarity": "L",
+    "set": "OP03 Pillars of Strength",
+    "life": 4
+  },
+  "OP03-023": {
+    "name": "Alvida",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "East Blue",
+      "Alvida Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-024": {
+    "name": "Gin",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-024_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 2 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-025": {
+    "name": "Krieg",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-025_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 7000,
+    "types": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 2 of your opponent's rested Characters with a cost of 4 or less. [DON!! x1] This Character gains [Double Attack].",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP03-026": {
+    "name": "Kuroobi",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 1 of your opponent's Characters. [Trigger] Play this card.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-027": {
+    "name": "Sham",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 1 of your opponent's Characters with a cost of 2 or less and, if you don't have [Buchi], play up to 1 [Buchi] from your hand.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-028": {
+    "name": "Jango",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[On Play] Choose one: Set up to 1 of your {East Blue} type Leader or Character cards with a cost of 6 or less as active. Rest this Character and up to 1 of your opponent's Characters.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": "-"
+  },
+  "OP03-029": {
+    "name": "Chew",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 3000,
+    "types": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less. [Trigger] Play this card.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-030": {
+    "name": "Nami",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 green {East Blue} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Play this card.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-031": {
+    "name": "Pearl",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-032": {
+    "name": "Buggy",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "East Blue",
+      "Buggy Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d in battle by <Slash> attribute cards.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-033": {
+    "name": "Hatchan",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[Trigger] If your Leader has the {East Blue} type, play this card.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP03-034": {
+    "name": "Buchi",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-035": {
+    "name": "Momoo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Animal",
+      "East Blue"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-036": {
+    "name": "Out-of-the-Bag",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[Main] You may rest 1 of your {East Blue} type Characters: Set up to 1 of your [Kuro] cards as active. [Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-037": {
+    "name": "Tooth Attack",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[Main] You may rest 1 of your {East Blue} type Characters: K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less. [Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-038": {
+    "name": "Deathly Poison Gas Bomb MH5",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[Main] Rest up to 2 of your opponent's Characters with a cost of 2 or less. [Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-039": {
+    "name": "One, Two, Jango",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 1 or less. Then, up to 1 of your Characters gains +1000 power during this turn. [Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-040": {
+    "name": "Nami",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-040_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "When your deck is reduced to 0, you win the game instead of losing, according to the rules. [DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck.",
+    "rarity": "L",
+    "set": "OP03 Pillars of Strength",
+    "life": 5
+  },
+  "OP03-041": {
+    "name": "Usopp",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-041_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[Rush] [DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP03-042": {
+    "name": "Usopp's Pirate Crew",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[On Play] Add up to 1 blue [Usopp] from your trash to your hand.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-043": {
+    "name": "Gaimon",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "East Blue"
+    ],
+    "effect": "When you deal damage to your opponent's Life, you may trash 3 cards from the top of your deck. If you do, trash this Character.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-044": {
+    "name": "Kaya",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP03-045": {
+    "name": "Carne",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[Blocker] [Opponent's Turn] If you have 20 or less cards in your deck, this Character gains +3000 power.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-046": {
+    "name": "Genzo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-047": {
+    "name": "Zeff",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-047_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck. [On Play] You may return up to 1 Character with a cost of 3 or less to the owner's hand, and trash 2 cards from the top of your deck.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-048": {
+    "name": "Nojiko",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[On Play] If your Leader is [Nami], return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-049": {
+    "name": "Patty",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[On Play] If you have 20 or less cards in your deck, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-050": {
+    "name": "Boodle",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[Blocker] [On K.O.] You may trash 1 card from the top of your deck.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-051": {
+    "name": "Bell-mère",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "East Blue",
+      "Former Navy"
+    ],
+    "effect": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck. [On K.O.] You may trash 3 cards from the top of your deck.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-052": {
+    "name": "Merry",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-053": {
+    "name": "Yosaku & Johnny",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[DON!! x1] If you have 20 or less cards in your deck, this Character gains +2000 power.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-054": {
+    "name": "Usopp's Rubber Band of Doom!!!",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "East Blue",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, you may trash 1 card from the top of your deck. [Trigger] Draw 1 card, and you may trash 1 card from the top of your deck.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-055": {
+    "name": "Gum-Gum Giant Gavel",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "East Blue",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader gains +4000 power during this battle. Then, you may trash 2 cards from the top of your deck. [Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-056": {
+    "name": "Sanji's Pilaf",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[Main] Draw 2 cards. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-057": {
+    "name": "Three Thousand Worlds",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "East Blue",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck. [Trigger] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP03-058": {
+    "name": "Iceburg",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-058_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "This Leader cannot attack. [Activate: Main] DON!! -1: You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
+    "rarity": "L",
+    "set": "OP03 Pillars of Strength",
+    "life": 5
+  },
+  "OP03-059": {
+    "name": "Kaku",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[When Attacking] DON!! -1: This Character gains [Banish] during this battle.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-060": {
+    "name": "Kalifa",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[When Attacking] DON!! -1: Draw 2 cards and trash 1 card from your hand.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP03-061": {
+    "name": "Kiwi & Mozu",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-062": {
+    "name": "Kokoro",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Merfolk",
+      "Water Seven"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Water Seven} type card other than [Kokoro] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-063": {
+    "name": "Zambai",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effect": "[Blocker] [On Play] DON!! -1: If your Leader has the {Water Seven} type, draw 1 card.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-064": {
+    "name": "Tilestone",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On K.O.] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-065": {
+    "name": "Chimney & Gonbe",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Animal",
+      "Water Seven"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-066": {
+    "name": "Paulie",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-066_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On Play] (2 DON): Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": "-"
+  },
+  "OP03-067": {
+    "name": "Peepley Lulu",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-068": {
+    "name": "Minozebra",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[Banish] [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-069": {
+    "name": "Minorhinoceros",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[On K.O.] If your Leader has the {Impel Down} type, draw 2 cards and trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-070": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Water Seven",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] DON!! -1: You may trash 1 Character card with a cost of 5 from your hand: This Character gains [Rush] during this turn.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP03-071": {
+    "name": "Rob Lucci",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[When Attacking] DON!! -1: Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-072": {
+    "name": "Gum-Gum Jet Gatling",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Water Seven",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": null,
+    "counter": "-"
+  },
+  "OP03-073": {
+    "name": "Hull Dismantler Slash",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effect": "[Main] DON!! -1: If your Leader has the {Water Seven} type, K.O. up to 1 of your opponent's Characters with a cost of 2 or less. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-074": {
+    "name": "Top Knot",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[Main] DON!! -2: Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-075": {
+    "name": "Galley-La Company",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader is [Iceburg], add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-076": {
+    "name": "Rob Lucci",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-076_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] You may trash 2 cards from your hand: When your opponent's Character is K.O.'d, set this Leader as active.",
+    "rarity": "L",
+    "set": "OP03 Pillars of Strength",
+    "life": 5
+  },
+  "OP03-077": {
+    "name": "Charlotte Linlin",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-077_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Black/Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] (2 DON) You may trash 1 card from your hand: If you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "rarity": "L",
+    "set": "OP03 Pillars of Strength",
+    "life": 4
+  },
+  "OP03-078": {
+    "name": "Issho",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-078_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 9000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -3 cost. [On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 8,
+    "counter": "-"
+  },
+  "OP03-079": {
+    "name": "Vergo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Navy",
+      "Donquixote Pirates"
+    ],
+    "effect": "[DON!! x1] This Character cannot be K.O.'d in battle.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 2000
+  },
+  "OP03-080": {
+    "name": "Kaku",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-080_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-081": {
+    "name": "Kalifa",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-081_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP03-082": {
+    "name": "Kumadori",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-083": {
+    "name": "Corgy",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "World Government"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck and trash up to 2 cards. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-084": {
+    "name": "Jerry",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "CP6"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-085": {
+    "name": "Jabra",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-086": {
+    "name": "Spandam",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-086_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"CP\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"CP\" other than [Spandam] and add it to your hand. Then, trash the rest.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-087": {
+    "name": "Nero",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-088": {
+    "name": "Fukurou",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "This Character cannot be K.O.'d by effects. [Blocker]",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-089": {
+    "name": "Brannew",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Brannew] and add it to your hand. Then, trash the rest.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-090": {
+    "name": "Blueno",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "[DON!! x1] This Character gains [Blocker]. [On K.O.] Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less from your trash rested.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-091": {
+    "name": "Helmeppo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Set the cost of up to 1 of your opponent's Characters with no base effect to 0 during this turn.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-092": {
+    "name": "Rob Lucci",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-092_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "CP9"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: This Character gains [Rush] during this turn.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP03-093": {
+    "name": "Wanze",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "CP7"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: If your Leader's type includes \"CP\", K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-094": {
+    "name": "Air Door",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Main] If your Leader's type includes \"CP\", look at 5 cards from the top of your deck; play up to 1 Character card with a type including \"CP\" and a cost of 5 or less. Then, trash the rest. [Trigger] Play up to 1 black Character card with a cost of 3 or less from your trash.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP03-095": {
+    "name": "Soap Sheep",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Main] Give up to 2 of your opponent's Characters -2 cost during this turn. [Trigger] Your opponent trashes 1 card from their hand.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP03-096": {
+    "name": "Tempest Kick Sky Slicer",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 0 or your opponent's Stages with a cost of 3 or less. [Trigger] Draw 2 cards.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-097": {
+    "name": "Six King Pistol",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle. [Trigger] Draw 1 card. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": null,
+    "counter": "-"
+  },
+  "OP03-098": {
+    "name": "Enies Lobby",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "World Government"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader's type includes \"CP\", give up to 1 of your opponent's Characters -2 cost during this turn. [Trigger] Play this card.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-099": {
+    "name": "Charlotte Katakuri",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-099_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle.",
+    "rarity": "L",
+    "set": "OP03 Pillars of Strength",
+    "life": 5
+  },
+  "OP03-100": {
+    "name": "Kingbaum",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": "[Trigger] You may trash 1 card from the top or bottom of your Life cards: Play this card.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-101": {
+    "name": "Camie",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Merfolk"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-102": {
+    "name": "Sanji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "The Vinsmoke Family"
+    ],
+    "effect": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP03-103": {
+    "name": "Bobbin the Disposer",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-104": {
+    "name": "Shirley",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Merfolk"
+    ],
+    "effect": "[Blocker] [On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-105": {
+    "name": "Charlotte Oven",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] You may trash 1 card with a [Trigger] from your hand: This Character gains +3000 power during this battle.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-106": {
+    "name": "Charlotte Opera",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-107": {
+    "name": "Charlotte Galette",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP03-108": {
+    "name": "Charlotte Cracker",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-108_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character gains [Double Attack] and +1000 power. [Trigger] You may trash 1 card from your hand: Play this card.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-109": {
+    "name": "Charlotte Chiffon",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from the top or bottom of your Life cards: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-110": {
+    "name": "Charlotte Smoothie",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle. [Trigger] You may trash 1 card from your hand: Play this card.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP03-111": {
+    "name": "Charlotte Praline",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Merfolk",
+      "The Sun Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-112": {
+    "name": "Charlotte Pudding",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-112_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP03-113": {
+    "name": "Charlotte Perospero",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-113_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On K.O.] Look at 3 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] You may trash 1 card from your hand: Play this card.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-114": {
+    "name": "Charlotte Linlin",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-114_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 12000,
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
+    "rarity": "SR",
+    "set": "OP03 Pillars of Strength",
+    "cost": 10,
+    "counter": "-"
+  },
+  "OP03-115": {
+    "name": "Streusen",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 1000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP03-116": {
+    "name": "Shirahoshi",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Merfolk"
+    ],
+    "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand. [Trigger] Play this card.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP03-117": {
+    "name": "Napoleon",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains +1000 power until the start of your next turn. [Trigger] Play this card.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP03-118": {
+    "name": "Ikoku Sovereignty",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle. [Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "rarity": "UC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-119": {
+    "name": "Buzz Cut Mochi",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] If you have less Life cards than your opponent, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. [Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "rarity": "R",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-120": {
+    "name": "Tropical Torment",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] If your opponent has 4 or more Life cards, trash up to 1 card from the top of your opponent's Life cards. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP03-121": {
+    "name": "Thunder Bolt",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "C",
+    "set": "OP03 Pillars of Strength",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP03-122": {
+    "name": "Sogeking",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-122_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-122_p2.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": 6000,
+    "types": [
+      "Sniper Island"
+    ],
+    "effect": "Also treat this card's name as [Usopp] according to the rules. [On Play] Return up to 1 Character with a cost of 6 or less to the owner's hand. Then, draw 2 cards and trash 2 cards from your hand.",
+    "rarity": "SEC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP03-123": {
+    "name": "Charlotte Katakuri",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-123_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 8000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 Character with a cost of 8 or less to the top or bottom of the owner's Life cards face-up.",
+    "rarity": "SEC",
+    "set": "OP03 Pillars of Strength",
+    "cost": 8,
+    "counter": "-"
+  },
+  "ST01-012": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST01-012_p1.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "cost": 5,
+    "counter": "-",
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush] [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+    "rarity": "SP CARD",
+    "set": "ST01 Straw Hat Crew (OP03 reprint)"
+  },
+  "ST03-009": {
+    "name": "Donquixote Doflamingo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST03-009_p1.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 7,
+    "counter": "-",
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+    "rarity": "SP CARD",
+    "set": "ST03 The Seven Warlords of the Sea (OP03 reprint)"
+  },
+  "ST04-003": {
+    "name": "Kaido",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST04-003_p1.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 10000,
+    "cost": 9,
+    "counter": "-",
+    "types": [
+      "The Four Emperors",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[On Play] DON!! -5: K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.",
+    "rarity": "SP CARD",
+    "set": "ST04 Animal Kingdom Pirates (OP03 reprint)"
   }
 }
