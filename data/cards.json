@@ -14,7 +14,9 @@
     "rarity": "L",
     "set": "OP01 Romance Dawn",
     "life": 5,
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-001_p2.png"
+    ]
   },
   "OP01-002": {
     "name": "Trafalgar Law",
@@ -32,7 +34,9 @@
     "set": "OP01 Romance Dawn",
     "life": 4,
     "devil_fruit": "Ope Ope no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-002_p1.png"
+    ]
   },
   "OP01-003": {
     "name": "Monkey.D.Luffy",
@@ -50,7 +54,9 @@
     "set": "OP01 Romance Dawn",
     "life": 4,
     "devil_fruit": "Gomu Gomu no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-003_p1.png"
+    ]
   },
   "OP01-004": {
     "name": "Usopp",
@@ -137,7 +143,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 4,
     "counter": "-",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-008_p1.png"
+    ]
   },
   "OP01-009": {
     "name": "Carrot",
@@ -223,7 +231,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 2,
     "counter": 2000,
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-013_p2.png"
+    ]
   },
   "OP01-014": {
     "name": "Jinbe",
@@ -277,7 +287,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 1,
     "counter": 1000,
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-016_p2.png"
+    ]
   },
   "OP01-017": {
     "name": "Nico Robin",
@@ -419,7 +431,9 @@
     "cost": 2,
     "counter": 1000,
     "devil_fruit": "Gomu Gomu no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-024_p1.png"
+    ]
   },
   "OP01-025": {
     "name": "Roronoa Zoro",
@@ -437,7 +451,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 3,
     "counter": "-",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-025_p1.png"
+    ]
   },
   "OP01-026": {
     "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
@@ -541,7 +557,9 @@
     "rarity": "L",
     "set": "OP01 Romance Dawn",
     "life": 5,
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-031_p1.png"
+    ]
   },
   "OP01-032": {
     "name": "Ashura Doji",
@@ -596,7 +614,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 3,
     "counter": 1000,
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-034_p1.png"
+    ]
   },
   "OP01-035": {
     "name": "Okiku",
@@ -704,7 +724,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 6,
     "counter": "-",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-040_p1.png"
+    ]
   },
   "OP01-041": {
     "name": "Kouzuki Momonosuke",
@@ -828,7 +850,9 @@
     "cost": 5,
     "counter": "-",
     "devil_fruit": "Ope Ope no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-047_p1.png"
+    ]
   },
   "OP01-048": {
     "name": "Nekomamushi",
@@ -847,7 +871,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 2,
     "counter": 1000,
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-048_p1.png"
+    ]
   },
   "OP01-049": {
     "name": "Bepo",
@@ -900,7 +926,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 8,
     "counter": "-",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-051_p1.png"
+    ]
   },
   "OP01-052": {
     "name": "Raizo",
@@ -1061,7 +1089,9 @@
     "set": "OP01 Romance Dawn",
     "life": 5,
     "devil_fruit": "Ito Ito no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-060_p1.png"
+    ]
   },
   "OP01-061": {
     "name": "Kaido",
@@ -1079,7 +1109,9 @@
     "set": "OP01 Romance Dawn",
     "life": 4,
     "devil_fruit": "Uo Uo no Mi, Model: Seiryu",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-061_p1.png"
+    ]
   },
   "OP01-062": {
     "name": "Crocodile",
@@ -1097,7 +1129,9 @@
     "set": "OP01 Romance Dawn",
     "life": 4,
     "devil_fruit": "Suna Suna no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-062_p1.png"
+    ]
   },
   "OP01-063": {
     "name": "Arlong",
@@ -1132,7 +1166,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 2,
     "counter": 2000,
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-064_p1.png"
+    ]
   },
   "OP01-065": {
     "name": "Vergo",
@@ -1187,7 +1223,9 @@
     "cost": 7,
     "counter": 1000,
     "devil_fruit": "Suna Suna no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-067_p1.png"
+    ]
   },
   "OP01-068": {
     "name": "Gecko Moria",
@@ -1242,7 +1280,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 9,
     "counter": "-",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-070_p1.png"
+    ]
   },
   "OP01-071": {
     "name": "Jinbe",
@@ -1297,7 +1337,9 @@
     "cost": 3,
     "counter": 1000,
     "devil_fruit": "Ito Ito no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-073_p1.png"
+    ]
   },
   "OP01-074": {
     "name": "Bartholomew Kuma",
@@ -1369,7 +1411,9 @@
     "cost": 1,
     "counter": 1000,
     "devil_fruit": "Horo Horo no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-077_p1.png"
+    ]
   },
   "OP01-078": {
     "name": "Boa Hancock",
@@ -1388,7 +1432,9 @@
     "cost": 4,
     "counter": 1000,
     "devil_fruit": "Mero Mero no Mi",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-078_p1.png"
+    ]
   },
   "OP01-079": {
     "name": "Ms. All Sunday",
@@ -1613,7 +1659,9 @@
     "set": "OP01 Romance Dawn",
     "life": 5,
     "devil_fruit": "Ryu Ryu no Mi, Model: Pteranodon",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-091_p1.png"
+    ]
   },
   "OP01-092": {
     "name": "Urashima",
@@ -1648,7 +1696,9 @@
     "cost": 2,
     "counter": "-",
     "devil_fruit": "Ushi Ushi no Mi, Model: Giraffe",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-093_p1.png"
+    ]
   },
   "OP01-094": {
     "name": "Kaido",
@@ -1667,7 +1717,9 @@
     "cost": 10,
     "counter": "-",
     "devil_fruit": "Uo Uo no Mi, Model: Seiryu",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-094_p1.png"
+    ]
   },
   "OP01-095": {
     "name": "Kyoshirou",
@@ -1702,7 +1754,9 @@
     "cost": 7,
     "counter": "-",
     "devil_fruit": "Ryu Ryu no Mi, Model: Pteranodon",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-096_p1.png"
+    ]
   },
   "OP01-097": {
     "name": "Queen",
@@ -1720,7 +1774,9 @@
     "cost": 6,
     "counter": 1000,
     "devil_fruit": "Ryu Ryu no Mi, Model: Brachiosaurus",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-097_p1.png"
+    ]
   },
   "OP01-098": {
     "name": "Kurozumi Orochi",
@@ -1810,7 +1866,9 @@
     "cost": 3,
     "counter": 1000,
     "devil_fruit": "Zou Zou no Mi, Model: Mammoth",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-102_p1.png"
+    ]
   },
   "OP01-103": {
     "name": "Scratchmen Apoo",
@@ -1937,7 +1995,9 @@
     "set": "OP01 Romance Dawn",
     "cost": 2,
     "counter": 1000,
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-109_p1.png"
+    ]
   },
   "OP01-110": {
     "name": "Fukurokuju",
@@ -2136,7 +2196,10 @@
     "set": "OP01 Romance Dawn",
     "cost": 9,
     "counter": "-",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-120_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-120_p2.png"
+    ]
   },
   "OP01-121": {
     "name": "Yamato",
@@ -2154,6 +2217,8 @@
     "cost": 5,
     "counter": 1000,
     "devil_fruit": "Inu Inu no Mi, Model: Okuchi no Makami",
-    "alt_arts": []
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-121_p1.png"
+    ]
   }
 }
