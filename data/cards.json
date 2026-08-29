@@ -2220,5 +2220,2115 @@
     "alt_arts": [
       "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-121_p1.png"
     ]
+  },
+  "OP02-001": {
+    "name": "Edward.Newgate",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+    "rarity": "L",
+    "set": "OP02 Paramount War",
+    "life": 6
+  },
+  "OP02-002": {
+    "name": "Monkey.D.Garp",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red/Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less -1 cost during this turn.",
+    "rarity": "L",
+    "set": "OP02 Paramount War",
+    "life": 4
+  },
+  "OP02-003": {
+    "name": "Atmos",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-004": {
+    "name": "Edward.Newgate",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 10000,
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn. [DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 9,
+    "counter": "-"
+  },
+  "OP02-005": {
+    "name": "Curly.Dadan",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Mountain Bandits"
+    ],
+    "effect": "[On Play] Look at up to 5 cards from the top of your deck; reveal up to 1 red Character with a cost of 1 and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-006": {
+    "name": "Kingdew",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP02-007": {
+    "name": "Thatch",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 8000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP02-008": {
+    "name": "Jozu",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x1] If you have 2 or less Life cards and your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP02-009": {
+    "name": "Squard",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters -4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP02-010": {
+    "name": "Dogura",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Mountain Bandits"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Play up to 1 red Character other than [Dogura] with a cost of 1 from your hand.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-011": {
+    "name": "Vista",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-012": {
+    "name": "Blenheim",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP02-013": {
+    "name": "Portgas.D.Ace",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Give up to 2 of your opponent's Characters -3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 7,
+    "counter": "-"
+  },
+  "OP02-014": {
+    "name": "Whitey Bay",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-015": {
+    "name": "Makino",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Windmill Village"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP02-016": {
+    "name": "Magura",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Mountain Bandits"
+    ],
+    "effect": "[On Play] Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-017": {
+    "name": "Masked Deuce",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Spade Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP02-018": {
+    "name": "Marco",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] [On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-019": {
+    "name": "Rakuyo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x1] [Your Turn] All of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-020": {
+    "name": "LittleOars Jr.",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 9000,
+    "types": [
+      "Giant",
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP02-021": {
+    "name": "Seaquake",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", K.O. up to 1 of your opponent's Characters with 3000 power or less. [Trigger] Give up to 1 of your opponent's Leader or Character cards -3000 power during this turn.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-022": {
+    "name": "Whitebeard Pirates",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-023": {
+    "name": "You May Be a Fool...but I Still Love You",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If you have 3 or less Life cards, you cannot add Life cards to your hand using your own effects during this turn. [Trigger] Up to 1 of your Leader gains +1000 power during this turn.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-024": {
+    "name": "Moby Dick",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] If you have 1 or less Life cards, your [Edward.Newgate] and all your Characters with a type including \"Whitebeard Pirates\" gain +2000 power. [Trigger] Play this card.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP02-025": {
+    "name": "Kin'emon",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
+    "rarity": "L",
+    "set": "OP02 Paramount War",
+    "life": 5
+  },
+  "OP02-026": {
+    "name": "Sanji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Green/Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+    "rarity": "L",
+    "set": "OP02 Paramount War",
+    "life": 4
+  },
+  "OP02-027": {
+    "name": "Inuarashi",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Minks",
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "If all of your DON!! cards are rested, this Character cannot be removed from the field by your opponent's effects.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-028": {
+    "name": "Usopp",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-029": {
+    "name": "Carrot",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": 2000
+  },
+  "OP02-030": {
+    "name": "Kouzuki Oden",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 8000,
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] (3 DON): Set this Character as active. [On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 8,
+    "counter": "-"
+  },
+  "OP02-031": {
+    "name": "Kouzuki Toki",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-032": {
+    "name": "Shishilian",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] (2 DON): Set up to 1 of your {Minks} type Characters with a cost of 5 or less as active.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-033": {
+    "name": "Jinbe",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "FILM",
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-034": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "FILM",
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP02-035": {
+    "name": "Trafalgar Law",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "[Activate: Main] (1 DON) You may return this Character to the owner's hand: Play up to 1 Character with a cost of 3 from your hand.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-036": {
+    "name": "Nami",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] (1 DON): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP02-037": {
+    "name": "Nico Robin",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 2 or less from your hand.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-038": {
+    "name": "Nekomamushi",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Minks",
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP02-039": {
+    "name": "Franky",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP02-040": {
+    "name": "Brook",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 3 or less from your hand.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-041": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] [On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 7,
+    "counter": "-"
+  },
+  "OP02-042": {
+    "name": "Yamato",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "Also treat this card's name as [Kouzuki Oden] according to the rules. [On Play] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP02-043": {
+    "name": "Roronoa Zoro",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-044": {
+    "name": "Wanda",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] Play up to 1 {Minks} type Character card other than [Wanda] with a cost of 3 or less from your hand.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-045": {
+    "name": "Three Sword Style Oni Giri",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, play up to 1 Character card with a cost of 3 or less and no base effect from your hand. [Trigger] Rest up to 1 of your opponent's Leader or Character cards with a cost of 5 or less.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP02-046": {
+    "name": "Diable Jambe Venaison Shoot",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less. [Trigger] Play up to 1 Character card with a cost of 4 or less and no base effect from your hand.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP02-047": {
+    "name": "Paradise Totsuka",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 4 or less. [Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-048": {
+    "name": "Land of Wano",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[Activate: Main] You may trash 1 {Land of Wano} type card from your hand and rest this Stage: Set up to 1 of your DON!! cards as active.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-049": {
+    "name": "Emporio.Ivankov",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
+    "rarity": "L",
+    "set": "OP02 Paramount War",
+    "life": 5
+  },
+  "OP02-050": {
+    "name": "Inazuma",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "If you have 1 or less cards in your hand, this Character gains +2000 power. [Blocker]",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-051": {
+    "name": "Emporio.Ivankov",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 7,
+    "counter": "-"
+  },
+  "OP02-052": {
+    "name": "Cabaji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Buggy Pirates"
+    ],
+    "effect": "[On Play] If you have [Mohji], draw 2 cards and trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-053": {
+    "name": "Crocodile",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP02-054": {
+    "name": "Gecko Moria",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-055": {
+    "name": "Dracule Mihawk",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 8000,
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP02-056": {
+    "name": "Donquixote Doflamingo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-057": {
+    "name": "Bartholomew Kuma",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-058": {
+    "name": "Buggy",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Impel Down",
+      "Buggy Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-059": {
+    "name": "Boa Hancock",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-060": {
+    "name": "Mohji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Buggy Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-061": {
+    "name": "Morley",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Giant",
+      "Revolutionary Army"
+    ],
+    "effect": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-062": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP02-063": {
+    "name": "Mr.1(Daz.Bonez)",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 1000,
+    "types": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": "[On Play] Add up to 1 blue Event card with a cost of 1 from your trash to your hand.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-064": {
+    "name": "Mr.2.Bon.Kurei(Bentham)",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck. Then, at the end of this battle, place this Character at the bottom of the owner's deck.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": 2000
+  },
+  "OP02-065": {
+    "name": "Mr.3(Galdino)",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": "[Blocker] [End of Your Turn] You may trash 1 card from your hand: Set this Character as active.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-066": {
+    "name": "Impel Down All Stars",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Main] You may trash 2 cards from your hand: If your Leader has the {Impel Down} type, draw up to 2 cards. [Trigger] Draw 2 cards.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-067": {
+    "name": "Arabesque Brick Fist",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Fish-Man",
+      "Impel Down"
+    ],
+    "effect": "[Main] Return up to 1 Character with a cost of 4 or less to the owner's hand. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP02-068": {
+    "name": "Gum-Gum Rain",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle. [Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": null,
+    "counter": "-"
+  },
+  "OP02-069": {
+    "name": "DEATH WINK",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, draw cards so that you have 2 cards in your hand. [Trigger] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP02-070": {
+    "name": "New Kama Land",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader is [Emporio.Ivankov], draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-071": {
+    "name": "Magellan",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
+    "rarity": "L",
+    "set": "OP02 Paramount War",
+    "life": 5
+  },
+  "OP02-072": {
+    "name": "Zephyr",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Purple/Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "FILM",
+      "Neo Navy"
+    ],
+    "effect": "[When Attacking] DON!! -4: K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
+    "rarity": "L",
+    "set": "OP02 Paramount War",
+    "life": 4
+  },
+  "OP02-073": {
+    "name": "Little Sadi",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP02-074": {
+    "name": "Saldeath",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "Your [Blugori] gains [Blocker].",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-075": {
+    "name": "Shiki",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effect": "[Trigger] DON!! -1: Play this card.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP02-076": {
+    "name": "Shiryu",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] DON!! -1: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-077": {
+    "name": "Solitaire",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-078": {
+    "name": "Daifugo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "[On Play] DON!! -2: Play up to 1 {SMILE} type Character card other than [Daifugo] with a cost of 3 or less from your hand.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP02-079": {
+    "name": "Douglas Bullet",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effect": "[On Play] DON!! -1: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP02-080": {
+    "name": "Dobon",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-081": {
+    "name": "Domino",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-082": {
+    "name": "Byrnndi World",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 8000,
+    "types": [
+      "World Pirates"
+    ],
+    "effect": "[Activate: Main] DON!! -8: This Character gains +792000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 8,
+    "counter": "-"
+  },
+  "OP02-083": {
+    "name": "Hannyabal",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Impel Down} type card other than [Hannyabal] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-084": {
+    "name": "Blugori",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Animal",
+      "Impel Down"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-085": {
+    "name": "Magellan",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] DON!! -1: Your opponent returns 1 DON!! card from their field to their DON!! deck. [Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": "-"
+  },
+  "OP02-086": {
+    "name": "Minokoala",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[Blocker] [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-087": {
+    "name": "Minotaur",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[Double Attack] [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-088": {
+    "name": "Sphinx",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Animal",
+      "Impel Down"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-089": {
+    "name": "Judgment of Hell",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Counter] DON!! -1: Give up to a total of 2 of your opponent's Leader or Character cards -3000 power during this turn. [Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP02-090": {
+    "name": "Hydra",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Main] DON!! -1: Give up to 1 of your opponent's Characters -3000 power during this turn. [Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-091": {
+    "name": "Venom Road",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. [Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP02-092": {
+    "name": "Impel Down",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Impel Down} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-093": {
+    "name": "Smoker",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters -1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "rarity": "L",
+    "set": "OP02 Paramount War",
+    "life": 5
+  },
+  "OP02-094": {
+    "name": "Isuka",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Once Per Turn] When this Character battles and K.O.'s your opponent's Character, set this Character as active.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-095": {
+    "name": "Onigumo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "If there is a Character with a cost of 0, this Character gains [Banish].",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP02-096": {
+    "name": "Kuzan",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Draw 1 card. [When Attacking] Give up to 1 of your opponent's Characters -4 cost during this turn.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP02-097": {
+    "name": "Komille",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-098": {
+    "name": "Koby",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-099": {
+    "name": "Sakazuki",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP02-100": {
+    "name": "Jango",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "If you have [Fullbody], this Character cannot be K.O.'d in battle.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-101": {
+    "name": "Strawberry",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] If there is a Character with a cost of 0, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP02-102": {
+    "name": "Smoker",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "This Character cannot be K.O.'d by effects. [When Attacking] If there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-103": {
+    "name": "Sengoku",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP02-104": {
+    "name": "Sentomaru",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Trigger] Play this card.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-105": {
+    "name": "Tashigi",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP02-106": {
+    "name": "Tsuru",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP02-107": {
+    "name": "Doberman",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-108": {
+    "name": "Donquixote Rosinante",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Navy",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-109": {
+    "name": "Jaguar.D.Saul",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Giant",
+      "Navy"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-110": {
+    "name": "Hina",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Blocker] [On Block] Select up to 1 of your opponent's Characters with a cost of 6 or less. The selected Character cannot attack during this turn.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP02-111": {
+    "name": "Fullbody",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] If you have [Jango], this card gains +3000 power during this battle.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP02-112": {
+    "name": "Bell-mère",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 1000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -1 cost during this turn. Then, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP02-113": {
+    "name": "Helmeppo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters -2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle. [Trigger] Play this card.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-114": {
+    "name": "Borsalino",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects. [Blocker]",
+    "rarity": "SR",
+    "set": "OP02 Paramount War",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP02-115": {
+    "name": "Monkey.D.Garp",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP02-116": {
+    "name": "Yamakaji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP02-117": {
+    "name": "Ice Age",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Main] Give up to 1 of your opponent's Characters -5 cost during this turn. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "UC",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-118": {
+    "name": "Yasakani Sacred Jewel",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Select up to 1 of your Characters. The selected Character cannot be K.O.'d during this battle. [Trigger] K.O. up to 1 of your opponent's Stages with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "OP02 Paramount War",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP02-119": {
+    "name": "Meteor Volcano",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 1 or less. [Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "rarity": "R",
+    "set": "OP02 Paramount War",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP02-120": {
+    "name": "Uta",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 8000,
+    "types": [
+      "FILM"
+    ],
+    "effect": "[On Play] DON!! -2: Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+    "rarity": "SEC",
+    "set": "OP02 Paramount War",
+    "cost": 8,
+    "counter": "-"
+  },
+  "OP02-121": {
+    "name": "Kuzan",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 10000,
+    "types": [
+      "Former Navy"
+    ],
+    "effect": "[Your Turn] Give all of your opponent's Characters -5 cost. [On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "rarity": "SEC",
+    "set": "OP02 Paramount War",
+    "cost": 10,
+    "counter": "-"
   }
 }
