@@ -75,12 +75,43 @@ def build_embed(code: str, card: dict, art_index: int = 0) -> discord.Embed:
     if alt_arts and art_index == 0:
         embed.add_field(
             name="Alt Art Available",
-            value=f"This card has {len(alt_arts)} alt art version(s). Use `/card code:{code} art:1` to view.",
+            value=f"This card has {len(alt_arts)} alt art version(s). Use the buttons below to browse.",
             inline=False,
         )
 
-    embed.set_footer(text="One Piece TCG Card Lookup")
+    embed.set_footer(text=f"One Piece TCG Card Lookup{'' if len(alt_arts)==0 else f' — Art {art_index+1}/{len(alt_arts)+1}'}")
     return embed
+
+
+class ArtBrowser(discord.ui.View):
+    """Prev/Next buttons to cycle through a card's normal art + alt arts."""
+
+    def __init__(self, code: str, card: dict, art_index: int = 0):
+        super().__init__(timeout=180)  # buttons stop working after 3 min idle
+        self.code = code
+        self.card = card
+        self.art_index = art_index
+        self.total_arts = len(card.get("alt_arts", [])) + 1  # +1 for normal art
+        self._update_button_state()
+
+    def _update_button_state(self):
+        # Disable Prev on the first image, Next on the last image
+        self.prev_button.disabled = self.art_index == 0
+        self.next_button.disabled = self.art_index >= self.total_arts - 1
+
+    @discord.ui.button(label="◀ Prev", style=discord.ButtonStyle.secondary)
+    async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        self.art_index = max(0, self.art_index - 1)
+        self._update_button_state()
+        embed = build_embed(self.code, self.card, art_index=self.art_index)
+        await interaction.response.edit_message(embed=embed, view=self)
+
+    @discord.ui.button(label="Next ▶", style=discord.ButtonStyle.secondary)
+    async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        self.art_index = min(self.total_arts - 1, self.art_index + 1)
+        self._update_button_state()
+        embed = build_embed(self.code, self.card, art_index=self.art_index)
+        await interaction.response.edit_message(embed=embed, view=self)
 
 
 @bot.event
@@ -90,16 +121,18 @@ async def on_ready():
 
 
 @bot.tree.command(name="card", description="Look up a One Piece TCG card by its code (e.g. OP01-016)")
-@app_commands.describe(
-    code="Card code, e.g. OP01-016",
-    art="0 = normal art (default), 1 = 1st alt art, 2 = 2nd alt art, etc.",
-)
-async def card(interaction: discord.Interaction, code: str, art: int = 0):
+@app_commands.describe(code="Card code, e.g. OP01-016")
+async def card(interaction: discord.Interaction, code: str):
     match_code, result = find_card(code)
 
     if match_code:
-        embed = build_embed(match_code, result, art_index=art)
-        await interaction.response.send_message(embed=embed)
+        embed = build_embed(match_code, result, art_index=0)
+        has_alt_arts = len(result.get("alt_arts", [])) > 0
+        if has_alt_arts:
+            view = ArtBrowser(match_code, result, art_index=0)
+            await interaction.response.send_message(embed=embed, view=view)
+        else:
+            await interaction.response.send_message(embed=embed)
     elif result:  # list of close matches
         suggestions = "\n".join(f"• `{c}` — {CARDS[c]['name']}" for c in result)
         await interaction.response.send_message(
