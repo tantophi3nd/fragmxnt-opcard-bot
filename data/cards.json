@@ -2227,7 +2227,7 @@
   "OP02-001": {
     "name": "Edward.Newgate",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-001.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-001_p1.png"],
     "card_type": "Leader",
     "color": "Red",
     "attribute": "Special",
@@ -2244,7 +2244,7 @@
   "OP02-002": {
     "name": "Monkey.D.Garp",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-002.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-002_p1.png"],
     "card_type": "Leader",
     "color": "Red/Black",
     "attribute": "Strike",
@@ -2278,6 +2278,7 @@
     "name": "Edward.Newgate",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-004.png",
     "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-004_p1.png",
       "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-004_p2.png"
     ],
     "card_type": "Character",
@@ -2365,7 +2366,7 @@
   "OP02-009": {
     "name": "Squard",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-009.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-009_p1.png"],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Slash",
@@ -2433,7 +2434,10 @@
   "OP02-013": {
     "name": "Portgas.D.Ace",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-013.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-013_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-001_p1.png"
+    ],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Special",
@@ -2501,7 +2505,7 @@
   "OP02-017": {
     "name": "Masked Deuce",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-017.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-017_p1.png"],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Wisdom",
