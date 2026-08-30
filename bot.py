@@ -79,7 +79,7 @@ def build_embed(code: str, card: dict, art_index: int = 0) -> discord.Embed:
             inline=False,
         )
 
-    embed.set_footer(text=f"One Piece TCG Card Lookup{'' if len(alt_arts)==0 else f' — Art {art_index+1}/{len(alt_arts)+1}'}")
+    embed.set_footer(text=f"Developed by Fragmxnt TCG{'' if len(alt_arts)==0 else f' — Art {art_index+1}/{len(alt_arts)+1}'}")
     return embed
 
 
