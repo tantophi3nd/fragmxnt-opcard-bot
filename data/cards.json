@@ -8762,7 +8762,8 @@
     "name": "Donquixote Rosinante",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-119.png",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-119_p1.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-119_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-119_p2.png"
     ],
     "card_type": "Character",
     "color": "Green",
@@ -9916,7 +9917,10 @@
   "OP05-067": {
     "name": "Zoro-Juurou",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067.png",
-    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067_p1.png"],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067_p2.png"
+    ],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Slash",
@@ -10373,7 +10377,10 @@
   "OP05-093": {
     "name": "Rob Lucci",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093.png",
-    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093_p1.png"],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093_p1.png"
+    ],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Strike",
@@ -10828,7 +10835,8 @@
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-119.png",
     "alt_arts": [
       "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-119_p1.png",
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-119_p2.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-119_p2.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-119_p5.png"
     ],
     "card_type": "Character",
     "color": "Purple",
@@ -13235,7 +13243,10 @@
   "OP07-015": {
     "name": "Monkey.D.Dragon",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-015.png",
-    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-015_p1.png"],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-015_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-015_p2.png"
+    ],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Special",
@@ -13872,7 +13883,8 @@
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-051.png",
     "alt_arts": [
         "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-051_p1.png",
-        "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-051_p2.png"
+        "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-051_p2.png",
+        "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-051_p3.png"
       ],
     "card_type": "Character",
     "color": "Blue",
