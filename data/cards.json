@@ -288,7 +288,8 @@
     "cost": 1,
     "counter": 1000,
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-016_p2.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-016_p2.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-016_p4.png"
     ]
   },
   "OP01-017": {
@@ -2221,7 +2222,8 @@
     "counter": 1000,
     "devil_fruit": "Inu Inu no Mi, Model: Okuchi no Makami",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-121_p1.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-121_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-121_p2.png"
     ]
   },
   "OP02-001": {
@@ -4368,7 +4370,8 @@
     "name": "Uta",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-120.png",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-120_p1.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-120_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-120_p2.png"
     ],
     "card_type": "Character",
     "color": "Purple",
@@ -6050,7 +6053,7 @@
   "OP03-093": {
     "name": "Wanze",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-093.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-093_p2.png"],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Slash",
@@ -7417,7 +7420,8 @@
     "name": "Kaido",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-044.png",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-044_p1.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-044_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-044_p2.png"
     ],
     "card_type": "Character",
     "color": "Blue",
@@ -10026,7 +10030,10 @@
   "OP05-074": {
     "name": "Eustass\"Captain\"Kid",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-074.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-074_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-074_p2.png"
+    ],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Special",
@@ -10266,7 +10273,7 @@
   "OP05-088": {
     "name": "Mansherry",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-088.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-088_p1.png"],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Special",
@@ -10318,7 +10325,7 @@
   "OP05-091": {
     "name": "Rebecca",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-091.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-091_p1.png"],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Wisdom",
@@ -10352,7 +10359,7 @@
   "OP05-093": {
     "name": "Rob Lucci",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093_p1.png"],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Strike",
@@ -10439,7 +10446,7 @@
   "OP05-098": {
     "name": "Enel",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-098.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-098_p1.png"],
     "card_type": "Leader",
     "color": "Yellow",
     "attribute": "Special",
@@ -10472,7 +10479,10 @@
   "OP05-100": {
     "name": "Enel",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-100.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-100_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-100_p2.png"
+    ],
     "card_type": "Character",
     "color": "Yellow",
     "attribute": "Special",
@@ -10507,7 +10517,7 @@
   "OP05-102": {
     "name": "Gedatsu",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-102.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-102_p1.png"],
     "card_type": "Character",
     "color": "Yellow",
     "attribute": "Strike",
@@ -10784,7 +10794,7 @@
   "OP05-118": {
     "name": "Kaido",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-118.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-118_p1.png"],
     "card_type": "Character",
     "color": "Blue",
     "attribute": "Special",
@@ -10802,7 +10812,10 @@
   "OP05-119": {
     "name": "Monkey.D.Luffy",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-119.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-119_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-119_p2.png"
+    ],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Strike",
