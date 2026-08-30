@@ -9919,7 +9919,7 @@
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067.png",
     "alt_arts": [
       "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067_p1.png",
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067_p2.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067_p4.png",
     ],
     "card_type": "Character",
     "color": "Purple",
@@ -10379,7 +10379,7 @@
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093.png",
     "alt_arts": [
       "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093_p1.png",
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093_p1.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-093_p2.png"
     ],
     "card_type": "Character",
     "color": "Black",
@@ -15086,6 +15086,4256 @@
     "rarity": "SEC",
     "set": "OP07 500 Years in the Future",
     "cost": 10,
+    "counter": "-"
+  },
+  "OP08-001": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-001_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Red/Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Animal",
+      "Drum Kingdom",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
+    "rarity": "L",
+    "set": "OP08 Two Legends",
+    "life": 4
+  },
+  "OP08-002": {
+    "name": "Marco",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-002.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-002_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Red/Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "L",
+    "set": "OP08 Two Legends",
+    "life": 4
+  },
+  "OP08-003": {
+    "name": "Twenty Doctors",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP08-004": {
+    "name": "Kuromarimo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[On Play] If you have [Chess], K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-005": {
+    "name": "Chess",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 3000,
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn. Then, if you don't have [Kuromarimo], play up to 1 [Kuromarimo] from your hand.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-006": {
+    "name": "Chessmarimo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike/Ranged",
+    "power": 6000,
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[Your Turn] If you have [Kuromarimo] and [Chess] in your trash, this Character gains +2000 power.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-007": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-007.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-007_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Animal",
+      "Drum Kingdom",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Your Turn] [On Play]/[When Attacking] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with 4000 power or less rested. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP08-008": {
+    "name": "Dalton",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn. [DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains [Rush] during this turn.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-009": {
+    "name": "Maria Onion Bear",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-010": {
+    "name": "Hiking Bear",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Animal",
+      "Drum Kingdom"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Up to 1 of your {Animal} type Characters other than this Character gains +1000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP08-011": {
+    "name": "Musshuru",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 8000,
+    "types": [
+      "FILM",
+      "Drum Kingdom"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP08-012": {
+    "name": "Lapins",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Animal",
+      "Drum Kingdom"
+    ],
+    "effect": "[DON!! x2] [When Attacking] If your Leader has the {Drum Kingdom} type, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-013": {
+    "name": "Robson",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "types": [
+      "Animal",
+      "Drum Kingdom"
+    ],
+    "effect": "[DON!! x2] This Character gains [Rush].",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-014": {
+    "name": "Wapol",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-014.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn. Then, this Character gains +2000 power until the end of your opponent's next turn.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP08-015": {
+    "name": "Dr.Kureha",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-015.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-015_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-016": {
+    "name": "Dr.Hiriluk",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-016.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If your Leader is [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Characters gain +2000 power during this turn.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP08-017": {
+    "name": "I'd Never Shoot You!!!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-017.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards -1000 power during this turn. [Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP08-018": {
+    "name": "Cloven Rose",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-018.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Animal",
+      "Drum Kingdom",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Up to 3 of your Characters gain +1000 power during this turn. Then, give up to 1 of your opponent's Characters -2000 power during this turn. [Trigger] Give up to 1 of your opponent's Leader or Character cards -3000 power during this turn.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP08-019": {
+    "name": "Munch-Munch Mutation",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-019.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[Main]/[Counter] Give up to 1 of your opponent's Characters -3000 power during this turn. Then, up to 1 of your Characters gains +3000 power during this turn. [Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP08-020": {
+    "name": "Drum Kingdom",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-020.png",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[Opponent's Turn] All of your {Drum Kingdom} type Characters gain +1000 power.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP08-021": {
+    "name": "Carrot",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-021.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-021_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "L",
+    "set": "OP08 Two Legends",
+    "life": 5
+  },
+  "OP08-022": {
+    "name": "Inuarashi",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-022.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Minks",
+      "The Akazaya Nine"
+    ],
+    "effect": "[On Play] If your Leader has the {Minks} type, up to 2 of your opponent's rested Characters with a cost of 5 or less will not become active in your opponent's next Refresh Phase.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-023": {
+    "name": "Carrot",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-023.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-023_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-024": {
+    "name": "Concelot",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-024.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-025": {
+    "name": "Shishilian",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-025.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's rested Characters with a cost of 3 or less will not become active in your opponent's next Refresh Phase.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-026": {
+    "name": "Giovanni",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-026.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Up to 1 of your opponent's rested Characters with a cost of 1 or less will not become active in your opponent's next Refresh Phase.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP08-027": {
+    "name": "Tristan",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-027.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-028": {
+    "name": "Nekomamushi",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-028.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Minks",
+      "The Akazaya Nine"
+    ],
+    "effect": "[On Play] If your opponent has 7 or more rested cards, this Character gains [Rush] during this turn.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-029": {
+    "name": "Pekoms",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-029.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Minks",
+      "Big Mom Pirates"
+    ],
+    "effect": "If this Character is active, your {Minks} type Characters with a cost of 3 or less other than [Pekoms] cannot be K.O.'d by effects.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP08-030": {
+    "name": "Pedro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-030.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-030_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[Blocker] [On K.O.] Choose one: Rest up to 1 of your opponent's DON!! cards. K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-031": {
+    "name": "Miyagi",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-031.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] Set up to 1 of your {Minks} type Characters with a cost of 2 or less as active.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-032": {
+    "name": "Milky",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-032.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Minks"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP08-033": {
+    "name": "Roddy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-033.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] If your Leader has the {Minks} type and your opponent has 7 or more rested cards, K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-034": {
+    "name": "Wanda",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-034.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Minks} type card other than [Wanda] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-035": {
+    "name": "BB",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-035.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Minks"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP08-036": {
+    "name": "Electrical Luna",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-036.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Minks"
+    ],
+    "effect": "[Main] All of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase. [Trigger] Rest up to 1 of your opponent's Characters.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP08-037": {
+    "name": "Garchu",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-037.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Minks"
+    ],
+    "effect": "[Main] You may rest 1 of your {Minks} type Characters: Rest up to 1 of your opponent's Characters. [Trigger] Draw 1 card.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP08-038": {
+    "name": "We Would Never Sell a Comrade to an Enemy!!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-038.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Minks",
+      "The Akazaya Nine"
+    ],
+    "effect": "[Main] You may rest 2 of your Characters: None of your Characters can be K.O.'d by your opponent's effects until the end of your opponent's next turn. [Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP08-039": {
+    "name": "Zou",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-039.png",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Animal"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active. [End of Your Turn] Set up to 1 of your {Minks} type Characters as active.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP08-040": {
+    "name": "Atmos",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-040.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: If your Leader's type includes \"Whitebeard Pirates\", return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-041": {
+    "name": "Aphelandra",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-041.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Amazon Lily"
+    ],
+    "effect": "[Activate: Main] You may return this Character to the owner's hand: If your Leader has the {Kuja Pirates} type, place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP08-042": {
+    "name": "Edward Weevil",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-042.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-043": {
+    "name": "Edward.Newgate",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-043.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-043_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 12000,
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\" and you have 2 or less Life cards, select all of your opponent's Characters on their field. Until the end of your opponent's next turn, none of the selected Characters can attack unless your opponent trashes 2 cards from their hand whenever they attack.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 10,
+    "counter": "-"
+  },
+  "OP08-044": {
+    "name": "Kingdew",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-044.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: This Character gains +2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP08-045": {
+    "name": "Thatch",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-045.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "If this Character would be removed from the field by your opponent's effect or K.O.'d, trash this Character and draw 1 card instead.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-046": {
+    "name": "Shakuyaku",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-046.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "types": [
+      "Amazon Lily"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a Character is removed from the field by your effect, if your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck. Then, rest this Character.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-047": {
+    "name": "Jozu",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-047.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] You may return 1 of your Characters other than this Character to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP08-048": {
+    "name": "Sweetpea",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-048.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Amazon Lily"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-049": {
+    "name": "Speed Jil",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-049.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck and place it at the top or bottom of your deck. If the revealed card's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-050": {
+    "name": "Namule",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-050.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Fish-Man",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] [On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-051": {
+    "name": "Buckin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-051.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Former Rocks Pirates"
+    ],
+    "effect": "[Your Turn] [On Play] Up to 1 of your [Edward Weevil] cards gains +2000 power during this turn.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-052": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-052.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-052_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-053": {
+    "name": "Thank You...for Loving Me!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-053.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" or [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the top or bottom of your deck in any order. [Trigger] Draw 1 card.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP08-054": {
+    "name": "You Can't Take Our King This Early in the Game.",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-054.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 3 or less. Then, place the rest at the top or bottom of your deck.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP08-055": {
+    "name": "Phoenix Brand",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-055.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Former Whitebeard Pirates"
+    ],
+    "effect": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Place up to 1 Character with a cost of 6 or less at the bottom of the owner's deck.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP08-056": {
+    "name": "Moby Dick",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-056.png",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When your Character with a type including \"Whitebeard Pirates\" is removed from the field by an effect, draw 1 card. Then, place 1 card from your hand at the top or bottom of your deck. [Trigger] Play this card.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP08-057": {
+    "name": "King",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-057.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-057_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Purple/Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -2: Choose one: If you have 5 or less cards in your hand, draw 1 card. Give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "rarity": "L",
+    "set": "OP08 Two Legends",
+    "life": 4
+  },
+  "OP08-058": {
+    "name": "Charlotte Pudding",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-058.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-058_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Purple/Yellow",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "L",
+    "set": "OP08 Two Legends",
+    "life": 4
+  },
+  "OP08-059": {
+    "name": "Alber",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-059.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Lunarian",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Animal Kingdom Pirates} type and you have 10 DON!! cards on your field, play up to 1 [King] with a cost of 7 or less from your hand.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-060": {
+    "name": "King",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-060.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 8000,
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[On Play] DON!! -1: If your opponent has 5 or more DON!! cards on their field, this Character gains [Rush] during this turn.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 7,
+    "counter": "-"
+  },
+  "OP08-061": {
+    "name": "Charlotte Oven",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-061.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[When Attacking] DON!! -1: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-062": {
+    "name": "Charlotte Katakuri",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-062.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Big Mom Pirates} type, play up to 1 [Charlotte Katakuri] from your hand with a cost of 3 or more that is equal to or less than the number of DON!! cards on your opponent's field.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP08-063": {
+    "name": "Charlotte Katakuri",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-063.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may turn 1 card from the top of your Life cards face-down: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP08-064": {
+    "name": "Charlotte Cracker",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-064.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -1: Play up to 1 [Biscuit Warrior] from your hand.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-065": {
+    "name": "Charlotte Smoothie",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-065.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 9000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP08-066": {
+    "name": "Charlotte Brulee",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-066.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 1000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Blocker] [On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-067": {
+    "name": "Charlotte Pudding",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-067.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-067_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-068": {
+    "name": "Charlotte Perospero",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-068.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it. [Trigger] DON!! -1: Play this card.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP08-069": {
+    "name": "Charlotte Linlin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-069.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-069_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 9000,
+    "types": [
+      "Former Rocks Pirates",
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] DON!! -1, you may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 of your opponent's Characters with a cost of 6 or less to the top or bottom of your opponent's Life cards face-up.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 9,
+    "counter": "-"
+  },
+  "OP08-070": {
+    "name": "Baron Tamago",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-070.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Blocker] [On K.O.] DON!! -1: Play up to 1 [Viscount Hiyoko] with a cost of 5 or less from your hand.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-071": {
+    "name": "Count Niwatori",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-071.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Opponent's Turn] [On K.O.] DON!! -1: Play up to 1 [Baron Tamago] with a cost of 4 or less from your deck. Then, shuffle your deck.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP08-072": {
+    "name": "Biscuit Warrior",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-072.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "Under the rules of this game, you may have any number of this card in your deck. [Blocker]",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-073": {
+    "name": "Viscount Hiyoko",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-073.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Opponent's Turn] [On K.O.] DON!! -1: Play up to 1 [Count Niwatori] with a cost of 6 or less from your deck. Then, shuffle your deck.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-074": {
+    "name": "Black Maria",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-074.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-074_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP08-075": {
+    "name": "Candy Maiden",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-075.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] DON!! -1: Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, turn all of your Life cards face-down. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP08-076": {
+    "name": "It's to Die For...",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-076.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP08-077": {
+    "name": "Conquest of the Sea",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-077.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Animal Kingdom Pirates",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] DON!! -2: If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, K.O. up to 2 of your opponent's Characters with a cost of 6 or less.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP08-078": {
+    "name": "Ulti",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-078.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-079": {
+    "name": "Kaido",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-079.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-079_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 9000,
+    "types": [
+      "Former Rocks Pirates",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 9,
+    "counter": "-"
+  },
+  "OP08-080": {
+    "name": "Queen",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-080.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-080_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-081": {
+    "name": "Guernica",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-081.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[When Attacking] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-082": {
+    "name": "Sasaki",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-082.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 1000,
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Activate: Main] Rest 1 of your DON!! cards and you may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP08-083": {
+    "name": "Sheepshead",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-083.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -1 cost.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP08-084": {
+    "name": "Jack",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-084.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-084_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 8000,
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "This Character gains +4 cost. [Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 7,
+    "counter": "-"
+  },
+  "OP08-085": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-085.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": "-"
+  },
+  "OP08-086": {
+    "name": "Ginrummy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-086.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "[On Play] If your opponent has a Character with a cost of 0, draw 2 cards and trash 2 cards from your hand.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP08-087": {
+    "name": "Scratchmen Apoo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-087.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "On-Air Pirates"
+    ],
+    "effect": "[Blocker] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-088": {
+    "name": "Duval",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-088.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 2000,
+    "types": [
+      "The Flying Fish Riders"
+    ],
+    "effect": "[On Play] Up to 1 of your Characters gains +1 cost until the end of your opponent's next turn.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP08-089": {
+    "name": "Basil Hawkins",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-089.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 9000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "Hawkins Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP08-090": {
+    "name": "Hamlet",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-090.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "[On Play] Play up to 1 {SMILE} type Character card with a cost of 2 or less from your trash.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-091": {
+    "name": "Who's.Who",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-091.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Animal Kingdom Pirates",
+      "Former CP9"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 2000
+  },
+  "OP08-092": {
+    "name": "Page One",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-092.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[On Play] Play up to 1 [Ulti] with a cost of 4 or less from your trash.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-093": {
+    "name": "X.Drake",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-093.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Navy",
+      "Drake Pirates",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[DON!! x1] This Character gains +2 cost.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP08-094": {
+    "name": "Imperial Flame",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-094.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Main]/[Counter] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP08-095": {
+    "name": "Iron Body Fang Flash",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-095.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Animal Kingdom Pirates",
+      "Former CP9"
+    ],
+    "effect": "[Main] If you have 10 or more cards in your trash, up to 1 of your Characters gains +2000 power until the end of your opponent's next turn. [Trigger] Up to 1 of your Leader or Character cards gains +2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP08-096": {
+    "name": "People's Dreams Don't Ever End!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-096.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Counter] Trash 1 card from the top of your deck. If the trashed card has a cost of 6 or more, up to 1 of your Leader or Character cards gains +5000 power during this battle. [Trigger] Play up to 1 black Character card with a cost of 3 or less from your trash.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP08-097": {
+    "name": "Heliceratops",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-097.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Main] If your Leader has the {Animal Kingdom Pirates} type, give up to 1 of your opponent's Characters -2 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP08-098": {
+    "name": "Kalgara",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-098.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-098_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Jaya",
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+    "rarity": "L",
+    "set": "OP08 Two Legends",
+    "life": 5
+  },
+  "OP08-099": {
+    "name": "Kalgara",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-099.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 8000,
+    "types": [
+      "Jaya",
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP08-100": {
+    "name": "South Bird",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-100.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Animal",
+      "Jaya",
+      "Sky Island"
+    ],
+    "effect": "[On Play] Look at 7 cards from the top of your deck and play up to 1 [Upper Yard]. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-101": {
+    "name": "Charlotte Angel",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-101.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from the top of your Life cards: If your Leader has the {Big Mom Pirates} type, add 1 card from the top of your deck to the top of your Life cards at the end of this turn.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP08-102": {
+    "name": "Charlotte Opera",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-102.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than your number of Life cards.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP08-103": {
+    "name": "Charlotte Custard",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-103.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Characters gains +1000 power until the end of your opponent's next turn.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP08-104": {
+    "name": "Charlotte Poire",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-104.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Trigger] You may trash 1 card from your hand: Play this card. Then, draw 1 card.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-105": {
+    "name": "Jewelry Bonney",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-105.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-105_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Egghead",
+      "Bonney Pirates"
+    ],
+    "effect": "[DON!! x1] [Your Turn] [Once Per Turn] When a card is removed from your opponent's Life cards, draw 2 cards and trash 1 card from your hand. [Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-106": {
+    "name": "Nami",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-106.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-106_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-106_p4.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card. [Trigger] Activate this card's [On Play] effect.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-107": {
+    "name": "Nitro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-107.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP08-108": {
+    "name": "Mont Blanc Cricket",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-108.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Jaya",
+      "Monkey Mountain Alliance"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-109": {
+    "name": "Mont Blanc Noland",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-109.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Jaya",
+      "Botanist"
+    ],
+    "effect": "[On Play] If your Leader has the {Shandian Warrior} type and you have a [Kalgara] Character, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-110": {
+    "name": "Wyper",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-110.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-110_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Upper Yard] from your hand.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP08-111": {
+    "name": "S-Shark",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-111.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Egghead",
+      "Seraphim"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Your opponent cannot activate [Blocker] during this battle. [Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-112": {
+    "name": "S-Snake",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-112.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-112_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Egghead",
+      "Seraphim"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn. [Trigger] Activate this card's [On Play] effect.",
+    "rarity": "SR",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP08-113": {
+    "name": "S-Bear",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-113.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Egghead",
+      "Seraphim"
+    ],
+    "effect": "[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card and K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP08-114": {
+    "name": "S-Hawk",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-114.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Egghead",
+      "Seraphim"
+    ],
+    "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle by <Slash> attribute cards and gains +2000 power. [Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP08-115": {
+    "name": "The Earth Will Not Lose!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-115.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effect": "[Counter] If your Leader has the {Shandian Warrior} type, up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 [Upper Yard] from your hand. [Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "rarity": "R",
+    "set": "OP08 Two Legends",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP08-116": {
+    "name": "Burn Bazooka",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-116.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, add up to 1 {Shandian Warrior} type card from your hand to the top of your Life cards face-up.",
+    "rarity": "C",
+    "set": "OP08 Two Legends",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP08-117": {
+    "name": "Burn Blade",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-117.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effect": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 7 or less. [Trigger] You may add 1 card from the top of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+    "rarity": "UC",
+    "set": "OP08 Two Legends",
+    "cost": 5,
+    "counter": "-"
+  },
+  "OP08-118": {
+    "name": "Silvers Rayleigh",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-118.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-118_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-118_p2.png"
+    ],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 8000,
+    "types": [
+      "Former Roger Pirates"
+    ],
+    "effect": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character -3000 power and the other -2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "rarity": "SEC",
+    "set": "OP08 Two Legends",
+    "cost": 8,
+    "counter": "-"
+  },
+  "OP08-119": {
+    "name": "Kaido & Linlin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-119.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP08-119_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike/Special",
+    "power": 12000,
+    "types": [
+      "The Four Emperors",
+      "Animal Kingdom Pirates",
+      "Big Mom Pirates"
+    ],
+    "effect": "[When Attacking] DON!! -10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
+    "rarity": "SEC",
+    "set": "OP08 Two Legends",
+    "cost": 10,
+    "counter": "-"
+  },
+  "OP09-001": {
+    "name": "Shanks",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-001.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-001_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
+    "rarity": "L",
+    "set": "OP09 Emperors in the New World",
+    "life": 5
+  },
+  "OP09-002": {
+    "name": "Uta",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-002.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-002_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "FILM"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP09-003": {
+    "name": "Shachi & Penguin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Heart Pirates"
+    ],
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-004": {
+    "name": "Shanks",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-004.png",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-004_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-004_p2.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-004_p3.png"
+    ],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 12000,
+    "types": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "Give all of your opponent's Characters -1000 power. [Rush]",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 10,
+    "counter": "-"
+  },
+  "OP09-005": {
+    "name": "Silvers Rayleigh",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Roger Pirates"
+    ],
+    "effect": "[Blocker] [On Play] If your opponent has 2 or more Characters with a base power of 5000 or more, draw 2 cards and trash 1 card from your hand.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-006": {
+    "name": "Howling Gab",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-007": {
+    "name": "Heat",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[Blocker] [On Play] Up to 1 of your Leader with 4000 power or less gains +1000 power during this turn.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-008": {
+    "name": "Building Snake",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters -3000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-009": {
+    "name": "Benn.Beckman",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-009_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 7000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Trash up to 1 of your opponent's Characters with 6000 power or less.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP09-010": {
+    "name": "Bonk Punch",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Play up to 1 [Monster] from your hand. [DON!! x1] [When Attacking] This Character gains +2000 power during this turn.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-011": {
+    "name": "Hongo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP09-012": {
+    "name": "Monster",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Animal",
+      "Red-Haired Pirates"
+    ],
+    "effect": "If your Character [Bonk Punch] would be K.O.'d by an effect, you may trash this Character instead.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-013": {
+    "name": "Yasopp",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 6000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn. [DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-014": {
+    "name": "Limejuice",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP09-015": {
+    "name": "Lucky.Roux",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Blocker] [On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-016": {
+    "name": "Rockstar",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-017": {
+    "name": "Wire",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[DON!! x1] If your Leader has 7000 power or more and the {Kid Pirates} type, this Character gains [Rush].",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP09-018": {
+    "name": "Get Out of Here!",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] K.O. up to 2 of your opponent's Characters with a total power of 4000 or less.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP09-019": {
+    "name": "Nobody Hurts a Friend of Mine!!!!",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -3000 power during this turn. Then, if your opponent has a Character with 5000 or more power, draw 1 card. [Trigger] Draw 1 card.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP09-020": {
+    "name": "Come On!! We'll Fight You!!",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Draw 1 card.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-021": {
+    "name": "Red Force",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP09-022": {
+    "name": "Lim",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-022_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Green/Purple",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "ODYSSEY"
+    ],
+    "effect": "Your Character cards are played rested. [Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and rest it, and play up to 1 {ODYSSEY} type Character card with a cost of 5 or less from your hand.",
+    "rarity": "L",
+    "set": "OP09 Emperors in the New World",
+    "life": 4
+  },
+  "OP09-023": {
+    "name": "Adio",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-023_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 9000,
+    "types": [
+      "ODYSSEY"
+    ],
+    "effect": "[On Play] If your Leader has the {ODYSSEY} type, set up to 3 of your DON!! cards as active. [On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 9,
+    "counter": "-"
+  },
+  "OP09-024": {
+    "name": "Usopp",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "ODYSSEY",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 2 or more rested Characters, draw 2 cards and trash 2 cards from your hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-025": {
+    "name": "Crocodile",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "ODYSSEY",
+      "The Seven Warlords of the Sea",
+      "Baroque Works"
+    ],
+    "effect": "If your Leader has the {ODYSSEY} type, this Character cannot be K.O.'d in battle by Leaders.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-026": {
+    "name": "Sakazuki",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "ODYSSEY",
+      "Navy"
+    ],
+    "effect": "[On Play] If you have 2 or more rested Characters, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP09-027": {
+    "name": "Sabo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "ODYSSEY",
+      "Revolutionary Army"
+    ],
+    "effect": "[When Attacking] [Once Per Turn] If you have 3 or more rested Characters, draw 1 card.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-028": {
+    "name": "Sanji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "ODYSSEY",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On K.O.] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 {ODYSSEY} or {Straw Hat Crew} type Character card with a cost of 4 or less from your trash rested.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-029": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "ODYSSEY",
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "[End of Your Turn] Set up to 1 of your {ODYSSEY} type Characters with a cost of 4 or less as active.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-030": {
+    "name": "Trafalgar Law",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "ODYSSEY",
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] You may return 1 of your Characters to the owner's hand: Play up to 1 {ODYSSEY} type Character card with a cost of 3 or less other than [Trafalgar Law] from your hand.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-031": {
+    "name": "Donquixote Doflamingo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "ODYSSEY",
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] [End of Your Turn] If you have 2 or more rested Characters, set this Character as active.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-032": {
+    "name": "Donquixote Rosinante",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "ODYSSEY",
+      "Navy",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] Set this Character as active.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-033": {
+    "name": "Nico Robin",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "ODYSSEY",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 2 or more rested Characters, none of your {ODYSSEY} or {Straw Hat Crew} type Characters can be K.O.'d by effects until the end of your opponent's next turn.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-034": {
+    "name": "Perona",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-034_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Muggy Kingdom",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Dracule Mihawk] or {Thriller Bark Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and trash 1 card from your hand.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP09-035": {
+    "name": "Portgas.D.Ace",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "ODYSSEY",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 2000
+  },
+  "OP09-036": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "ODYSSEY",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's DON!! cards or Characters with a cost of 6 or less.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-037": {
+    "name": "Lim",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-037_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "ODYSSEY"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {ODYSSEY} type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP09-038": {
+    "name": "Rob Lucci",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "ODYSSEY",
+      "CP9"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-039": {
+    "name": "Gum-Gum Cuatro Jet Cross Shock Bazooka",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "ODYSSEY",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] If your Leader has the {ODYSSEY} type and you have 2 or more rested Characters, up to 1 of your Leader or Character cards gains +2000 power during this turn. [Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-040": {
+    "name": "Thunder Lance Flip Caliber Phoenix Shot",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "ODYSSEY",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] If you have 2 or more rested Characters, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. [Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP09-041": {
+    "name": "Soul Franky Swing Arm Boxing Solid",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "ODYSSEY",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your Leader has the {ODYSSEY} type and you have 2 or more rested Characters, set up to 2 of your Characters as active. [Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-042": {
+    "name": "Buggy",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-042_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "The Four Emperors",
+      "Cross Guild"
+    ],
+    "effect": "[Activate: Main] You may rest 5 of your DON!! cards and trash 1 card from your hand: Play up to 1 {Cross Guild} type Character card from your hand.",
+    "rarity": "L",
+    "set": "OP09 Emperors in the New World",
+    "life": 5
+  },
+  "OP09-043": {
+    "name": "Alvida",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "[On K.O.] If your Leader has the {Cross Guild} type, play up to 1 Character card with a cost of 5 or less other than [Alvida] from your hand.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-044": {
+    "name": "Izo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": 4000,
+    "types": [
+      "Land of Wano",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card or card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order and trash 1 card from your hand.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-045": {
+    "name": "Cabaji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "If you have a [Buggy] or [Mohji] Character, this Character cannot be K.O.'d in battle.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 2000
+  },
+  "OP09-046": {
+    "name": "Crocodile",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-046_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effect": "[On Play] Play up to 1 {Cross Guild} type Character card or Character card with a type including \"Baroque Works\" with a cost of 5 or less from your hand.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP09-047": {
+    "name": "Kouzuki Oden",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 10000,
+    "types": [
+      "Land of Wano",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Double Attack] [On K.O.] Draw 2 cards and trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 9,
+    "counter": "-"
+  },
+  "OP09-048": {
+    "name": "Dracule Mihawk",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-048_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 7000,
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "[Blocker] [On Play] Draw 2 cards and trash 1 card from your hand.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP09-049": {
+    "name": "Jozu",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-050": {
+    "name": "Nami",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-050_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 blue Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP09-051": {
+    "name": "Buggy",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-051_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-051_p2.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-051_p3.png"
+    ],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 12000,
+    "types": [
+      "The Four Emperors",
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Place up to 1 of your opponent's Characters at the bottom of the owner's deck. Then, if you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 10,
+    "counter": "-"
+  },
+  "OP09-052": {
+    "name": "Marco",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Opponent's Turn] You may trash 1 card from your hand: When this Character is K.O.'d by your opponent's effect, play this Character card from your trash rested.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP09-053": {
+    "name": "Mohji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Richie] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Richie] from your hand.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 2000
+  },
+  "OP09-054": {
+    "name": "Richie",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Animal",
+      "Cross Guild"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP09-055": {
+    "name": "Mr.1(Daz.Bonez)",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 7000,
+    "types": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-056": {
+    "name": "Mr.3(Galdino)",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card or card with a type including \"Baroque Works\" other than [Mr.3(Galdino)] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP09-057": {
+    "name": "Cross Guild",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-058": {
+    "name": "Special Muggy Ball",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Buggy Pirates"
+    ],
+    "effect": "[Main] Return up to 1 of your opponent's Characters with a cost of 6 or less to the owner's hand. [Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP09-059": {
+    "name": "Murder at the Steam Bath",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Buggy Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, trash up to 2 cards from your hand. Trash the same number of cards from the top of your deck as you did from your hand. [Trigger] Draw 1 card.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP09-060": {
+    "name": "Emptee Bluffs Island",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "[Activate: Main] You may place 2 cards from your hand at the bottom of your deck in any order and rest this Stage: If your Leader has the {Cross Guild} type, draw 2 cards.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-061": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-061_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Purple/Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] All of your Characters gain +1 cost. [Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
+    "rarity": "L",
+    "set": "OP09 Emperors in the New World",
+    "life": 4
+  },
+  "OP09-062": {
+    "name": "Nico Robin",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-062_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Purple/Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Banish] [When Attacking] You may trash 1 card with a [Trigger] from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "L",
+    "set": "OP09 Emperors in the New World",
+    "life": 4
+  },
+  "OP09-063": {
+    "name": "Usopp",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-064": {
+    "name": "Killer",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[On Play] DON!! -1: Set up to 1 of your {Kid Pirates} type Leader as active.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-065": {
+    "name": "Sanji",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-065_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: This Character gains [Rush] during this turn. Then, rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP09-066": {
+    "name": "Jean Bart",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] If your opponent has more DON!! cards on their field than you, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP09-067": {
+    "name": "Jinbe",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 9000,
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP09-068": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "[End of Your Turn] You may return 1 or more DON!! cards from your field to your DON!! deck: Set this Character as active. Then, this Character gains [Blocker] until the end of your opponent's next turn.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-069": {
+    "name": "Trafalgar Law",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-069_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} or {Heart Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP09-070": {
+    "name": "Nami",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP09-071": {
+    "name": "Nico Robin",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP09-072": {
+    "name": "Franky",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-072_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] [On Play] DON!! -2, You may trash 1 card from your hand: Draw 2 cards.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-073": {
+    "name": "Brook",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 7000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP09-074": {
+    "name": "Bepo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Minks",
+      "Heart Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP09-075": {
+    "name": "Eustass\"Captain\"Kid",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[On Play] You may add 1 card from the top of your Life cards to your hand: If your Leader has the {Kid Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP09-076": {
+    "name": "Roronoa Zoro",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP09-077": {
+    "name": "Gum-Gum Lightning",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] DON!! -2: K.O. up to 1 of your opponent's Characters with 6000 power or less. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP09-078": {
+    "name": "Gum-Gum Giant",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] DON!! -2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-079": {
+    "name": "Gum-Gum Jump Rope",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] DON!! -2: Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP09-080": {
+    "name": "Thousand Sunny",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Opponent's Turn] You may rest this Stage: When your {Straw Hat Crew} type Character is removed from the field by your opponent's effect, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-081": {
+    "name": "Marshall.D.Teach",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-081_p1.png"
+    ],
+    "card_type": "Leader",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "The Four Emperors",
+      "Blackbeard Pirates"
+    ],
+    "effect": "Your [On Play] effects are negated. [Activate: Main] You may trash 1 card from your hand: Your opponent's [On Play] effects are negated until the end of your opponent's next turn.",
+    "rarity": "L",
+    "set": "OP09 Emperors in the New World",
+    "life": 5
+  },
+  "OP09-082": {
+    "name": "Avalo Pizarro",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-083": {
+    "name": "Van Augur",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 6000,
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters -3 cost during this turn. [On K.O.] Draw 1 card.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-084": {
+    "name": "Catarina Devon",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type, this Character gains [Double Attack], [Banish] or [Blocker] until the end of your opponent's next turn.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-085": {
+    "name": "Gecko Moria",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP09-086": {
+    "name": "Jesus Burgess",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d by your opponent's effects. If your Leader has the {Blackbeard Pirates} type, this Character gains +1000 power for every 4 cards in your trash.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-087": {
+    "name": "Charlotte Pudding",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] If your opponent has 5 or more cards in their hand, your opponent trashes 1 card from their hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP09-088": {
+    "name": "Shiryu",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] You may trash 2 cards from your hand: Draw 2 cards.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP09-089": {
+    "name": "Stronger",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Animal",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader has the {Blackbeard Pirates} type, draw 1 card. Then, give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP09-090": {
+    "name": "Doc Q",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": "-",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less. [On K.O.] Draw 1 card.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP09-091": {
+    "name": "Vasco Shot",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP09-092": {
+    "name": "Marshall.D.Teach",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If the number of cards in your hand is at least 3 less than the number in your opponent's hand, draw 2 cards and trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-093": {
+    "name": "Marshall.D.Teach",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-093_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-093_p2.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-093_p3.png"
+    ],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 12000,
+    "types": [
+      "The Four Emperors",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Blocker] [Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 10,
+    "counter": "-"
+  },
+  "OP09-094": {
+    "name": "Peachbeard",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Peachbeard Pirates",
+      "Blackbeard Pirates Allies"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-095": {
+    "name": "Laffitte",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 1000,
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP09-096": {
+    "name": "My Era...Begins!!",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-097": {
+    "name": "Black Vortex",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Counter] Negate the effect of up to 1 of your opponent's Leader or Character cards and give that card -4000 power during this turn. [Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP09-098": {
+    "name": "Black Hole",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Main] If your Leader has the {Blackbeard Pirates} type, negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has a cost of 4 or less, K.O. it. [Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP09-099": {
+    "name": "Fullalead",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-100": {
+    "name": "Karasu",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Blocker] [Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-101": {
+    "name": "Kuzan",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Place 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up: Your opponent trashes 1 card from their hand.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-102": {
+    "name": "Professor Clover",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Ohara"
+    ],
+    "effect": "[On Play] If your Leader is [Nico Robin], look at 3 cards from the top of your deck; reveal up to 1 card with a [Trigger] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Activate this card's [On Play] effect.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP09-103": {
+    "name": "Koala",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-103_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Blocker] [On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 {Revolutionary Army} type Character card with a cost of 4 or less from your hand. If you do, draw 1 card.",
+    "rarity": "SR",
+    "set": "OP09 Emperors in the New World",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP09-104": {
+    "name": "Sabo",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Add up to 1 {Revolutionary Army} type Character card from your hand to the top of your Life cards face-up. Then, if you have 2 or more Life cards, add 1 card from the top or bottom of your Life cards to your hand. [Trigger] If your Leader is multicolored, draw 2 cards.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 7,
+    "counter": 1000
+  },
+  "OP09-105": {
+    "name": "Sanji",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] If your Leader has the {Egghead} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 2 cards from your hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-106": {
+    "name": "Nico Olvia",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Ohara"
+    ],
+    "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn. [Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP09-107": {
+    "name": "Nico Robin",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-107_p1.png"
+    ],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards. [Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP09-108": {
+    "name": "Bartholomew Kuma",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Revolutionary Army"
+    ],
+    "effect": "[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP09-109": {
+    "name": "Jaguar.D.Saul",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Ohara",
+      "Giant",
+      "Navy"
+    ],
+    "effect": "[Blocker] [Trigger] If your Leader is [Nico Robin], play this card.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP09-110": {
+    "name": "Pierre",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Animal",
+      "Sky Island"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. [Trigger] Play this card.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP09-111": {
+    "name": "Brook",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] If your Leader has the {Egghead} type and your opponent has 6 or more cards in their hand, your opponent trashes 2 cards from their hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP09-112": {
+    "name": "Belo Betty",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] If you have 2 or less Life cards, draw 1 card. [Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-113": {
+    "name": "Morley",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Giant",
+      "Revolutionary Army"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP09-114": {
+    "name": "Lindbergh",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Minks",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] If you and your opponent have a total of 5 or less Life cards, K.O. up to 1 of your opponent's Characters with 2000 power or less. [Trigger] If you and your opponent have a total of 5 or less Life cards, play this card.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP09-115": {
+    "name": "Ice Block Partisan",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 3 or less and a [Trigger]. [Trigger] Draw 1 card.",
+    "rarity": "UC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-116": {
+    "name": "Never Underestimate the Power of Miracles!!",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. [Trigger] Play up to 1 {Revolutionary Army} type Character card with a cost of 4 or less from your hand.",
+    "rarity": "C",
+    "set": "OP09 Emperors in the New World",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP09-117": {
+    "name": "Dereshi!",
+    "image_url": "",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Ohara"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 2 cards with a [Trigger] other than [Dereshi!] and add them to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Draw 1 card.",
+    "rarity": "R",
+    "set": "OP09 Emperors in the New World",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP09-118": {
+    "name": "Gol.D.Roger",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-118_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-118_p2.png"
+    ],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 13000,
+    "types": [
+      "King of the Pirates",
+      "Roger Pirates"
+    ],
+    "effect": "[Rush] When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
+    "rarity": "SEC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 10,
+    "counter": "-"
+  },
+  "OP09-119": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "",
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-119_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP09-119_p2.png"
+    ],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 10000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Draw 1 card and this Character gains [Rush] during this turn.",
+    "rarity": "SEC",
+    "set": "OP09 Emperors in the New World",
+    "cost": 9,
     "counter": "-"
   }
 }
