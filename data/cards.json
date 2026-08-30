@@ -4527,7 +4527,7 @@
   "OP03-008": {
     "name": "Buggy",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-008.png",
-    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-008_p1.png"],
+    "alt_arts": [],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Slash",
@@ -6417,8 +6417,7 @@
     "name": "Charlotte Linlin",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-114.png",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-114_p1.png",
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-114_p2.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP03-114_p1.png"
     ],
     "card_type": "Character",
     "color": "Yellow",
@@ -7063,8 +7062,7 @@
     "name": "Sugar",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-024.png",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-024_p1.png",
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-024_p2.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-024_p1.png"
     ],
     "card_type": "Character",
     "color": "Green",
@@ -7775,8 +7773,7 @@
     "name": "Ms. All Sunday",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-064.png",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-064_p1.png",
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-064_p2.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-064_p1.png"
     ],
     "card_type": "Character",
     "color": "Purple",
@@ -7828,7 +7825,7 @@
   "OP04-067": {
     "name": "Miss.MerryChristmas(Drophy)",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-067.png",
-    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-024_p2.png"],
+    "alt_arts": [],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Slash",
@@ -8773,7 +8770,7 @@
   "OP05-001": {
     "name": "Sabo",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-001.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-001_p1.png"],
     "card_type": "Leader",
     "color": "Red/Black",
     "attribute": "Special",
@@ -8789,7 +8786,7 @@
   "OP05-002": {
     "name": "Belo Betty",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-002.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-002_p1.png"],
     "card_type": "Leader",
     "color": "Red/Yellow",
     "attribute": "Special",
@@ -8856,7 +8853,7 @@
   "OP05-006": {
     "name": "Koala",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-006.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-006_p1.png"],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Strike",
@@ -8873,7 +8870,7 @@
   "OP05-007": {
     "name": "Sabo",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-007.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-007_p1.png"],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Special",
@@ -9011,7 +9008,7 @@
   "OP05-015": {
     "name": "Belo Betty",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-015.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-015_p1.png"],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Special",
@@ -9133,7 +9130,7 @@
   "OP05-022": {
     "name": "Donquixote Rosinante",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-022.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-022_p1.png"],
     "card_type": "Leader",
     "color": "Green/Blue",
     "attribute": "Special",
@@ -9305,7 +9302,7 @@
   "OP05-032": {
     "name": "Pica",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-032.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-032_p1.png"],
     "card_type": "Character",
     "color": "Green",
     "attribute": "Strike",
@@ -9339,7 +9336,7 @@
   "OP05-034": {
     "name": "Baby 5",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-034.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-034_p1.png"],
     "card_type": "Character",
     "color": "Green",
     "attribute": "Special",
@@ -9458,7 +9455,7 @@
   "OP05-041": {
     "name": "Sakazuki",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-041.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-041_p1.png"],
     "card_type": "Leader",
     "color": "Blue/Black",
     "attribute": "Special",
@@ -9491,7 +9488,7 @@
   "OP05-043": {
     "name": "Ulti",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-043.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-043_p1.png"],
     "card_type": "Character",
     "color": "Blue",
     "attribute": "Strike",
@@ -9630,7 +9627,7 @@
   "OP05-051": {
     "name": "Borsalino",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-051.png",
-    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-051_p2.png"],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-051_p1.png"],
     "card_type": "Character",
     "color": "Blue",
     "attribute": "Special",
@@ -9698,7 +9695,7 @@
   "OP05-055": {
     "name": "X.Drake",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-055.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-055_p1.png"],
     "card_type": "Character",
     "color": "Blue",
     "attribute": "Slash",
@@ -9786,7 +9783,7 @@
   "OP05-060": {
     "name": "Monkey.D.Luffy",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-060.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-060_p1.png"],
     "card_type": "Leader",
     "color": "Purple",
     "attribute": "Strike",
@@ -9905,7 +9902,7 @@
   "OP05-067": {
     "name": "Zoro-Juurou",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067.png",
-    "alt_arts": [],
+    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-067_p1.png"],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Slash",
@@ -9940,7 +9937,10 @@
   "OP05-069": {
     "name": "Trafalgar Law",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-069.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-069_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-069_p2.png"  
+    ],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Slash",
@@ -10318,7 +10318,7 @@
   "OP05-091": {
     "name": "Rebecca",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP05-091.png",
-    "alt_arts": ["https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-024_p2.png"],
+    "alt_arts": [],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Wisdom",
@@ -12960,4 +12960,2089 @@
     "cost": 9,
     "counter": "-"
   },
+  "OP07-001": {
+    "name": "Monkey.D.Dragon",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 2 total of your currently given DON!! cards to 1 of your Characters.",
+    "rarity": "L",
+    "set": "OP07 500 Years in the Future",
+    "life": 5
+  },
+  "OP07-002": {
+    "name": "Ain",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "FILM",
+      "Neo Navy"
+    ],
+    "effect": "[On Play] Set the power of up to 1 of your opponent's Characters to 0 during this turn.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 7,
+    "counter": "-"
+  },
+  "OP07-003": {
+    "name": "Outlook III",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Give up to 2 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-004": {
+    "name": "Curly.Dadan",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Mountain Bandits"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: Look at 5 cards from the top of your deck; reveal up to 1 Character card with 2000 power or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-005": {
+    "name": "Carina",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effect": "[Blocker] [On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-006": {
+    "name": "Sterry",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "[On Play] You may give your 1 active Leader -5000 power during this turn: Draw 1 card and trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-007": {
+    "name": "Dice",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-008": {
+    "name": "Mr. Tanaka",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "types": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effect": "[Blocker] [Trigger] Play this card.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP07-009": {
+    "name": "Dogura & Magura",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Mountain Bandits"
+    ],
+    "effect": "[On Play] Up to 1 of your red Characters with a cost of 1 gains [Double Attack] during this turn.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-010": {
+    "name": "Baccarat",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effect": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-011": {
+    "name": "Bluejam",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Goa Kingdom",
+      "Bluejam Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-012": {
+    "name": "Porchemy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Goa Kingdom",
+      "Bluejam Pirates"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-013": {
+    "name": "Masked Deuce",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Spade Pirates"
+    ],
+    "effect": "[On Play] If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 [Portgas.D.Ace] or red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-014": {
+    "name": "Moda",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-014.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Lulucia Kingdom"
+    ],
+    "effect": "[Your Turn] [On Play] Up to 1 of your [Portgas.D.Ace] cards gains +2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP07-015": {
+    "name": "Monkey.D.Dragon",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-015.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 9000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Rush] [On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 8,
+    "counter": "-"
+  },
+  "OP07-016": {
+    "name": "Galaxy Wink",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-016.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Main] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power during this turn. Then, give up to 1 of your opponent's Characters -1000 power during this turn. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-017": {
+    "name": "Dragon Breath",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-017.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 3000 power or less and up to 1 of your opponent's Stages with a cost of 1 or less. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP07-018": {
+    "name": "KEEP OUT",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-018.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[Counter] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power until the end of your next turn. [Trigger] Activate this card's [Counter] effect.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-019": {
+    "name": "Jewelry Bonney",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-019.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Rest up to 1 of your opponent's Leader or Character cards.",
+    "rarity": "L",
+    "set": "OP07 500 Years in the Future",
+    "life": 5
+  },
+  "OP07-020": {
+    "name": "Aladine",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-020.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Merfolk",
+      "The Sun Pirates"
+    ],
+    "effect": "[Blocker] [On K.O.] If your Leader has the {Fish-Man} type, play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": "-"
+  },
+  "OP07-021": {
+    "name": "Urouge",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-021.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Supernovas",
+      "Fallen Monk Pirates"
+    ],
+    "effect": "[Blocker] [End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-022": {
+    "name": "Otama",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-022.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": "-",
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 green {Land of Wano} type card other than [Otama] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP07-023": {
+    "name": "Caribou",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-023.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Supernovas",
+      "Caribou Pirates"
+    ],
+    "effect": "If you have 6 or more rested DON!! cards, this Character gains +1000 power. [Blocker]",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-024": {
+    "name": "Koala",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-024.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Foolshout Island"
+    ],
+    "effect": "[On Your Opponent's Attack] You may rest this Character: Up to 1 of your {Fish-Man} type Characters with a cost of 5 or less gains [Blocker] during this turn.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-025": {
+    "name": "Coribou",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-025.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Supernovas",
+      "Caribou Pirates"
+    ],
+    "effect": "[On Play] Play up to 1 [Caribou] with a cost of 4 or less from your hand rested.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP07-026": {
+    "name": "Jewelry Bonney",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-026.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's rested Character or DON!! cards will not become active in your opponent's next Refresh Phase.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-027": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-027.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Fish-Man",
+      "The Sun Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-028": {
+    "name": "Scratchmen Apoo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-028.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 8000,
+    "types": [
+      "Supernovas",
+      "On-Air Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP07-029": {
+    "name": "Basil Hawkins",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-029.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 7000,
+    "types": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effect": "If your Leader has the {Supernovas} type, this Character gains [Blocker]. [Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may rest 1 of your opponent's Characters instead.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP07-030": {
+    "name": "Pappag",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-030.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Animal"
+    ],
+    "effect": "If you have a [Camie] Character, this Character gains [Blocker].",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 2000
+  },
+  "OP07-031": {
+    "name": "Bartolomeo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-031.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effect": "[Blocker] [Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-032": {
+    "name": "Fisher Tiger",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-032.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Fish-Man",
+      "The Sun Pirates"
+    ],
+    "effect": "This Character can attack Characters on the turn in which it is played. [On Play] If your Leader has the {Fish-Man} or {Merfolk} type, rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-033": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-033.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "If you have 3 or more Characters, your Characters with a cost of 3 or less other than [Monkey.D.Luffy] cannot be K.O.'d by your opponent's effects.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-034": {
+    "name": "Roronoa Zoro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-034.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] If you have 3 or more Characters, this Character gains +2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-035": {
+    "name": "Karmic Punishment",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-035.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Supernovas",
+      "Fallen Monk Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 3 or more Characters, that card gains an additional +1000 power during this battle. [Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-036": {
+    "name": "Demonic Aura Nine-Sword Style Asura Demon Nine Flash",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-036.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less. [Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP07-037": {
+    "name": "More Pizza!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-037.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Draw 1 card.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-038": {
+    "name": "Boa Hancock",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-038.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] This effect can be activated when a Character is removed from the field by your effect. If you have 5 or less cards in your hand, draw 1 card.",
+    "rarity": "L",
+    "set": "OP07 500 Years in the Future",
+    "life": 5
+  },
+  "OP07-039": {
+    "name": "Edward Weevil",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-039.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-040": {
+    "name": "Crocodile",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-040.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Baroque Works"
+    ],
+    "effect": "[On Play] DON!! -1: Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP07-041": {
+    "name": "Gloriosa (Grandma Nyon)",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-041.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Amazon Lily"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Amazon Lily} or {Kuja Pirates} type card other than [Gloriosa (Grandma Nyon)] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-042": {
+    "name": "Gecko Moria",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-042.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[Once Per Turn] If your Leader has the {The Seven Warlords of the Sea} type and this Character would be removed from the field by your opponent's effect, you may place 1 of your Characters other than [Gecko Moria] at the bottom of the owner's deck instead.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": "-"
+  },
+  "OP07-043": {
+    "name": "Salome",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-043.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Animal",
+      "Kuja Pirates"
+    ],
+    "effect": "[Your Turn] [On Play] Up to 1 of your [Boa Hancock] cards gains +2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-044": {
+    "name": "Dracule Mihawk",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-044.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 10000,
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Draw 1 card.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 8,
+    "counter": "-"
+  },
+  "OP07-045": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-045.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ],
+    "effect": "[On Play] Play up to 1 {The Seven Warlords of the Sea} type Character card with a cost of 4 or less other than [Jinbe] from your hand.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-046": {
+    "name": "Sengoku",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-046.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-047": {
+    "name": "Trafalgar Law",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-047.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Heart Pirates"
+    ],
+    "effect": "[Activate: Main] You may return this Character to the owner's hand: If your opponent has 6 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP07-048": {
+    "name": "Donquixote Doflamingo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-048.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -2: Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested. Then, place the rest at the bottom of your deck.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP07-049": {
+    "name": "Buckin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-049.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Weevil's Mother"
+    ],
+    "effect": "[On Play] Play up to 1 [Edward Weevil] with a cost of 4 or less from your hand rested.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP07-050": {
+    "name": "Boa Sandersonia",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-050.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Kuja Pirates"
+    ],
+    "effect": "[On Play] If you have 2 or more {Amazon Lily} or {Kuja Pirates} type Characters on your field, return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP07-051": {
+    "name": "Boa Hancock",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-051.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 8000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's Characters other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP07-052": {
+    "name": "Boa Marigold",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-052.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Kuja Pirates"
+    ],
+    "effect": "[On Play] If you have 2 or more {Amazon Lily} or {Kuja Pirates} type Characters on your field, place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-053": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-053.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] [On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-054": {
+    "name": "Marguerite",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-054.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Amazon Lily"
+    ],
+    "effect": "[Blocker] [On Play] Draw 1 card.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP07-055": {
+    "name": "Snake Dance",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-055.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Kuja Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 of your Characters to the owner's hand. [Trigger] You may return 1 of your Characters to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP07-056": {
+    "name": "Slave Arrow",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-056.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[Counter] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Up to 1 of your Leader or Character cards gains +4000 power during this battle. [Trigger] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-057": {
+    "name": "Perfume Femur",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-057.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[Main] Select up to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards and that card gains +2000 power during this turn. Then, if the selected card attacks during this turn, your opponent cannot activate [Blocker]. [Trigger] Draw 1 card.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP07-058": {
+    "name": "Island of Women",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-058.png",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Amazon Lily"
+    ],
+    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: If your Leader has the {Kuja Pirates} type, return up to 1 of your {Amazon Lily} or {Kuja Pirates} type Characters to the owner's hand.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-059": {
+    "name": "Foxy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-059.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[When Attacking] DON!! -3: If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
+    "rarity": "L",
+    "set": "OP07 500 Years in the Future",
+    "life": 5
+  },
+  "OP07-060": {
+    "name": "Itomimizu",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-060.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Foxy Pirates} type and you have no other [Itomimizu], add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-061": {
+    "name": "Vinsmoke Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-061.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": "-",
+    "types": [
+      "Kingdom of GERMA",
+      "The Vinsmoke Family"
+    ],
+    "effect": "[On Play] DON!! -1: If your Leader has the {The Vinsmoke Family} type, draw 1 card.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-062": {
+    "name": "Vinsmoke Reiju",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-062.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Kingdom of GERMA",
+      "The Vinsmoke Family"
+    ],
+    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, return up to 1 of your {The Vinsmoke Family} type Characters with a cost of 1 to the owner's hand.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-063": {
+    "name": "Capote",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-063.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Fish-Man",
+      "Foxy Pirates"
+    ],
+    "effect": "[On Play] DON!! -1: If your Leader has the {Foxy Pirates} type, up to 1 of your opponent's Characters with a cost of 6 or less cannot attack until the end of your opponent's next turn.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-064": {
+    "name": "Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-064.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand -3 cost. [Blocker]",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 6,
+    "counter": 2000
+  },
+  "OP07-065": {
+    "name": "Gina",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-065.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Foxy Pirates} type and the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP07-066": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-066.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": "-",
+    "types": [
+      "Animal",
+      "Foxy Pirates"
+    ],
+    "effect": "[Blocker] [On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-067": {
+    "name": "Tonjit",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-067.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Long Ring Long Land"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-068": {
+    "name": "Hamburg",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-068.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-069": {
+    "name": "Pickles",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-069.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, your {Foxy Pirates} type Characters other than [Pickles] cannot be K.O.'d by your opponent's effects.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-070": {
+    "name": "Big Bun",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-070.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Giant",
+      "Fish-Man",
+      "Foxy Pirates"
+    ],
+    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, play up to 1 {Foxy Pirates} type card with a cost of 4 or less from your hand.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP07-071": {
+    "name": "Foxy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-071.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters -1000 power. [Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 7,
+    "counter": "-"
+  },
+  "OP07-072": {
+    "name": "Porche",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-072.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[On Play] DON!! -1: Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP07-073": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-073.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -3: If your opponent has 3 or more Characters, set this Character as active.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP07-074": {
+    "name": "Monda",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-074.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Animal",
+      "Foxy Pirates"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Foxy Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-075": {
+    "name": "Slow-Slow Beam",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-075.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[Counter] DON!! -1: Give up to 1 each of your opponent's Leader and Character cards -2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-076": {
+    "name": "Slow-Slow Beam Sword",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-076.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[Counter] DON!! -1: Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, rest up to 1 of your opponent's Characters. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP07-077": {
+    "name": "We're Going to Claim the One Piece!!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-077.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Land of Wano"
+    ],
+    "effect": "[Main] If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} or {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-078": {
+    "name": "Megaton Nine-Tails Rush",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-078.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Foxy Pirates"
+    ],
+    "effect": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, set up to 1 of your [Foxy] cards as active. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP07-079": {
+    "name": "Rob Lucci",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-079.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "rarity": "L",
+    "set": "OP07 500 Years in the Future",
+    "life": 5
+  },
+  "OP07-080": {
+    "name": "Kaku",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-080.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP07-081": {
+    "name": "Kalifa",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-081.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -1 cost.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-082": {
+    "name": "Captain John",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-082.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Thriller Bark Pirates",
+      "Former Rocks Pirates"
+    ],
+    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-083": {
+    "name": "Gecko Moria",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-083.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[Activate: Main] You may place 4 {Thriller Bark Pirates} type cards from your trash at the bottom of your deck in any order: This Character gains [Banish] and +1000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-084": {
+    "name": "Gismonda",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-084.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-085": {
+    "name": "Stussy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-085.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 9000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[On Play] You may trash 1 of your Characters: K.O. up to 1 of your opponent's Characters.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 9,
+    "counter": "-"
+  },
+  "OP07-086": {
+    "name": "Spandam",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-086.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-087": {
+    "name": "Baskerville",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-087.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "World Government"
+    ],
+    "effect": "[Your Turn] If your opponent has a Character with a cost of 0, this Character gains +3000 power.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 2000
+  },
+  "OP07-088": {
+    "name": "Hattori",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-088.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": "-",
+    "types": [
+      "Animal",
+      "CP0"
+    ],
+    "effect": "[Your Turn] [On Play] Up to 1 of your [Rob Lucci] cards gains +2000 power during this turn.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP07-089": {
+    "name": "Maha",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-089.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 8000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 6,
+    "counter": 1000
+  },
+  "OP07-090": {
+    "name": "Morgans",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-090.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Journalist"
+    ],
+    "effect": "[On Play] Your opponent trashes 1 card from their hand and reveals their hand. Then, your opponent draws 1 card.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-091": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-091.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] Trash up to 1 of your opponent's Characters with a cost of 2 or less. Then, place any number of Character cards with a cost of 4 or more from your trash at the bottom of your deck in any order. This Character gains +1000 power during this turn for every 3 cards placed at the bottom of your deck.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-092": {
+    "name": "Joseph",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-092.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 1000
+  },
+  "OP07-093": {
+    "name": "Rob Lucci",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-093.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "CP0"
+    ],
+    "effect": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: Your opponent trashes 1 card from their hand. Then, you may place up to 1 card from your opponent's trash at the bottom of their deck.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-094": {
+    "name": "Shave",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-094.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 10 or more cards in your trash, return up to 1 of your Characters with a type including \"CP\" to the owner's hand. [Trigger] Return up to 1 of your Characters to the owner's hand.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-095": {
+    "name": "Iron Body",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-095.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 10 or more cards in your trash, that card gains an additional +2000 power during this battle. [Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP07-096": {
+    "name": "Tempest Kick",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-096.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Main] Draw 1 card. Then, if you have 10 or more cards in your trash, give up to 1 of your opponent's Characters -3 cost during this turn. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-097": {
+    "name": "Vegapunk",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-097.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "This Leader cannot attack. [Activate: Main] [Once Per Turn] DON!! -1: Select up to 1 {Egghead} type card with a cost of 5 or less from your hand and play it or add it to the top of your Life cards face-up.",
+    "rarity": "L",
+    "set": "OP07 500 Years in the Future",
+    "life": 2
+  },
+  "OP07-098": {
+    "name": "Atlas",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-098.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle. [Trigger] If your Leader is [Vegapunk], play this card.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-099": {
+    "name": "Usopp",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-099.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 2000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] Up to 1 of your {Egghead} type Leader or Character cards gains +2000 power until the end of your next turn.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": 2000
+  },
+  "OP07-100": {
+    "name": "Edison",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-100.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[On Play] If you have 2 or less Life cards, draw 2 cards and trash 2 card from your hand. [Trigger] If your Leader is [Vegapunk], play this card.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP07-101": {
+    "name": "Shaka",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-101.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[Blocker] [Trigger] If your Leader is [Vegapunk], play this card.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-102": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-102.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Fish-Man",
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-103": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-103.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Animal",
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] Up to 1 of your {Egghead} type Characters gains [Blocker] during this turn. Then, add this card to your hand.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": 1000
+  },
+  "OP07-104": {
+    "name": "Nico Robin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-104.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] If your Leader has the {Egghead} type, draw 2 cards.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": 1000
+  },
+  "OP07-105": {
+    "name": "Pythagoras",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-105.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[On K.O.] If you have 2 or less Life cards, play up to 1 {Egghead} type Character card with a cost of 4 or less from your trash rested. [Trigger] If your Leader is [Vegapunk], play this card.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-106": {
+    "name": "Fuza",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-106.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Animal",
+      "Sky Island"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have 1 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": "-"
+  },
+  "OP07-107": {
+    "name": "Franky",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-107.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 2000
+  },
+  "OP07-108": {
+    "name": "Vega Force 01",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-108.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Egghead"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 4,
+    "counter": 1000
+  },
+  "OP07-109": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-109.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "The Four Emperors",
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-110": {
+    "name": "York",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-110.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 2 or less. [Trigger] If your Leader is [Vegapunk], play this card.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-111": {
+    "name": "Lilith",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-111.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] If your Leader is [Vegapunk], play this card.",
+    "rarity": "SR",
+    "set": "OP07 500 Years in the Future",
+    "cost": 3,
+    "counter": "-"
+  },
+  "OP07-112": {
+    "name": "Lucy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-112.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "[When Attacking] [Once Per Turn] You may add 1 card from the top or bottom of your Life cards to your hand: You may rest up to 1 of your opponent's Characters with a cost of 4 or less. Then, if you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 6,
+    "counter": "-"
+  },
+  "OP07-113": {
+    "name": "Roronoa Zoro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-113.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 5,
+    "counter": 1000
+  },
+  "OP07-114": {
+    "name": "He Possesses the World's Most Brilliant Mind",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-114.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [He Possesses the World's Most Brilliant Mind] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Draw 1 card.",
+    "rarity": "UC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-115": {
+    "name": "I Re-Quasar Helllp!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-115.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[Counter] If you have 2 or less Life cards, up to 1 of your Leader or Character cards gains +3000 power during this battle. [Trigger] Play up to 1 of your {Egghead} type Character cards with a cost of 5 or less from your trash.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-116": {
+    "name": "Blaze Slice",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-116.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[Main]/[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, if your opponent has 2 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less. [Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "R",
+    "set": "OP07 500 Years in the Future",
+    "cost": 1,
+    "counter": "-"
+  },
+  "OP07-117": {
+    "name": "Egghead",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-117.png",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Egghead"
+    ],
+    "effect": "[End of Your Turn] If you have 3 or less Life cards, set up to 1 {Egghead} type Character with a cost of 5 or less as active. [Trigger] Play this card.",
+    "rarity": "C",
+    "set": "OP07 500 Years in the Future",
+    "cost": 2,
+    "counter": "-"
+  },
+  "OP07-118": {
+    "name": "Sabo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-118.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 9000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less and up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "SEC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 8,
+    "counter": "-"
+  },
+  "OP07-119": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP07-119.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 10000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 card from the top of your deck to the top of your Life cards. Then, if you have 2 or less Life cards, this Character gains [Rush] during this turn.",
+    "rarity": "SEC",
+    "set": "OP07 500 Years in the Future",
+    "cost": 10,
+    "counter": "-"
+  }
 }
