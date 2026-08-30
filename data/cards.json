@@ -851,7 +851,8 @@
     "counter": "-",
     "devil_fruit": "Ope Ope no Mi",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-047_p1.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-047_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-047_p2.png"
     ]
   },
   "OP01-048": {
@@ -1434,7 +1435,8 @@
     "counter": 1000,
     "devil_fruit": "Mero Mero no Mi",
     "alt_arts": [
-      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-078_p1.png"
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-078_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP01-078_p2.png"
     ]
   },
   "OP01-079": {
@@ -2275,7 +2277,9 @@
   "OP02-004": {
     "name": "Edward.Newgate",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-004.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-004_p2.png"
+    ],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Special",
@@ -3702,7 +3706,9 @@
   "OP02-085": {
     "name": "Magellan",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-085.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-085_p2.png"
+    ],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Special",
@@ -3942,7 +3948,9 @@
   "OP02-099": {
     "name": "Sakazuki",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-099.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP02-099_p2.png"
+    ],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Special",
@@ -6581,7 +6589,9 @@
   "OP04-001": {
     "name": "Nefeltari Vivi",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-001.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-001_p1.png"
+    ],
     "card_type": "Leader",
     "color": "Red/Blue",
     "attribute": "Slash",
@@ -6792,7 +6802,9 @@
   "OP04-013": {
     "name": "Pell",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-013.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-013_p1.png"
+    ],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Slash",
@@ -6898,7 +6910,9 @@
   "OP04-019": {
     "name": "Donquixote Doflamingo",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-019.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-019_p1.png"
+    ],
     "card_type": "Leader",
     "color": "Green/Purple",
     "attribute": "Special",
@@ -6915,7 +6929,9 @@
   "OP04-020": {
     "name": "Issho",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-020.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-020_p1.png"
+    ],
     "card_type": "Leader",
     "color": "Green/Black",
     "attribute": "Special",
@@ -6983,7 +6999,9 @@
   "OP04-024": {
     "name": "Sugar",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-024.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-024_p1.png"
+    ],
     "card_type": "Character",
     "color": "Green",
     "attribute": "Special",
@@ -7052,7 +7070,9 @@
   "OP04-028": {
     "name": "Diamante",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-028.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-028_p1.png"
+    ],
     "card_type": "Character",
     "color": "Green",
     "attribute": "Slash",
@@ -7086,7 +7106,9 @@
   "OP04-030": {
     "name": "Trebol",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-030.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-030_p1.png"
+    ],
     "card_type": "Character",
     "color": "Green",
     "attribute": "Special",
@@ -7103,7 +7125,9 @@
   "OP04-031": {
     "name": "Donquixote Doflamingo",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-031.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-031_p1.png"
+    ],
     "card_type": "Character",
     "color": "Green",
     "attribute": "Special",
@@ -7243,7 +7267,9 @@
   "OP04-039": {
     "name": "Rebecca",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-039.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-039_p1.png"
+    ],
     "card_type": "Leader",
     "color": "Blue/Black",
     "attribute": "Slash",
@@ -7259,7 +7285,9 @@
   "OP04-040": {
     "name": "Queen",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-040.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-040_p1.png"
+    ],
     "card_type": "Leader",
     "color": "Blue/Yellow",
     "attribute": "Ranged",
@@ -7326,7 +7354,9 @@
   "OP04-044": {
     "name": "Kaido",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-044.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-044_p1.png"
+    ],
     "card_type": "Character",
     "color": "Blue",
     "attribute": "Strike",
@@ -7447,7 +7477,9 @@
   "OP04-051": {
     "name": "Who's.Who",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-051.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-051_p1.png"
+    ],
     "card_type": "Character",
     "color": "Blue",
     "attribute": "Slash",
@@ -7568,7 +7600,9 @@
   "OP04-058": {
     "name": "Crocodile",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-058.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-058_p1.png"
+    ],
     "card_type": "Leader",
     "color": "Purple/Yellow",
     "attribute": "Special",
@@ -7603,7 +7637,9 @@
   "OP04-060": {
     "name": "Crocodile",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-060.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-060_p1.png"
+    ],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Special",
@@ -7674,7 +7710,9 @@
   "OP04-064": {
     "name": "Ms. All Sunday",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-064.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-064_p1.png"
+    ],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Wisdom",
@@ -7811,7 +7849,9 @@
   "OP04-072": {
     "name": "Mr.5(Gem)",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-072.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-072_p1.png"
+    ],
     "card_type": "Character",
     "color": "Purple",
     "attribute": "Special",
@@ -7986,7 +8026,9 @@
   "OP04-082": {
     "name": "Kyros",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-082.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-082_p1.png"
+    ],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Slash",
@@ -8003,7 +8045,10 @@
   "OP04-083": {
     "name": "Sabo",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-083.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-083_p1.png",
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-083_p2.png"
+    ],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Special",
@@ -8128,7 +8173,9 @@
   "OP04-090": {
     "name": "Monkey.D.Luffy",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-090.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-090_p1.png"
+    ],
     "card_type": "Character",
     "color": "Black",
     "attribute": "Strike",
@@ -8304,7 +8351,9 @@
   "OP04-100": {
     "name": "Capone\"Gang\"Bege",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-100.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-100_p1.png"
+    ],
     "card_type": "Character",
     "color": "Yellow",
     "attribute": "Ranged",
@@ -8373,7 +8422,9 @@
   "OP04-104": {
     "name": "Sanji",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-104.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-104_p1.png"
+    ],
     "card_type": "Character",
     "color": "Yellow",
     "attribute": "Strike",
@@ -8510,7 +8561,9 @@
   "OP04-112": {
     "name": "Yamato",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-112.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-112_p1.png"
+    ],
     "card_type": "Character",
     "color": "Yellow",
     "attribute": "Strike",
@@ -8616,7 +8669,9 @@
   "OP04-118": {
     "name": "Nefeltari Vivi",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-118.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-118_p1.png"
+    ],
     "card_type": "Character",
     "color": "Red",
     "attribute": "Wisdom",
@@ -8633,7 +8688,9 @@
   "OP04-119": {
     "name": "Donquixote Rosinante",
     "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-119.png",
-    "alt_arts": [],
+    "alt_arts": [
+      "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/OP04-119_p1.png"
+    ],
     "card_type": "Character",
     "color": "Green",
     "attribute": "Special",
