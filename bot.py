@@ -1,130 +1,108 @@
-"""
-New commands to add to bot.py: /character and /random
-(Your existing /card command — search by code — stays exactly as-is, untouched.)
+import json
+import os
+from pathlib import Path
 
-INTEGRATION NOTES — check these two things before pasting in:
-1. `cards` below should be whatever your loaded cards.json dict is called
-   (e.g. `self.cards`, `bot.cards`, `CARDS` — rename all references below).
-2. `build_card_embed(code, card)` should be your existing embed-builder
-   function used by /card. If yours has a different name/signature,
-   swap the calls below to match — everything else (color-coding,
-   alt art buttons) will keep working as-is.
-"""
-
-import random
 import discord
 from discord import app_commands
-from discord.ext import commands
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TOKEN = os.getenv("DISCORD_TOKEN")
+DATA_FILE = Path(__file__).parent / "data" / "cards.json"
+
+intents = discord.Intents.default()
+client = discord.Client(intents=intents)
+tree = app_commands.CommandTree(client)
 
 
-# ── /character — every printing of a given character, code always shown ──
+# ---------- โหลด/จัดการข้อมูลการ์ด ----------
 
-class CharacterResultsView(discord.ui.View):
-    """Paginated list of every card matching a character name."""
-
-    PAGE_SIZE = 10
-
-    def __init__(self, query: str, matches: list[tuple[str, dict]]):
-        super().__init__(timeout=180)
-        self.query = query
-        # Sort by set/code so results read in a sane order (ST01, ST02, ... OP01, ...)
-        self.matches = sorted(matches, key=lambda m: m[0])
-        self.page = 0
-        self.max_page = max(0, (len(self.matches) - 1) // self.PAGE_SIZE)
-        self._update_buttons()
-
-    def _update_buttons(self):
-        self.prev_button.disabled = self.page == 0
-        self.next_button.disabled = self.page == self.max_page
-
-    def build_embed(self) -> discord.Embed:
-        start = self.page * self.PAGE_SIZE
-        chunk = self.matches[start:start + self.PAGE_SIZE]
-
-        embed = discord.Embed(
-            title=f'Results for "{self.query}" ({len(self.matches)} card{"s" if len(self.matches) != 1 else ""})',
-            color=discord.Color.gold(),
-        )
-        lines = []
-        for code, card in chunk:
-            tag = " (Leader)" if card.get("card_type") == "Leader" else ""
-            lines.append(
-                f"**{code}** — {card['name']} · {card.get('color', '?')} · "
-                f"{card.get('set', '?')}{tag}"
-            )
-        embed.description = "\n".join(lines) if lines else "No results."
-        embed.set_footer(text=f"Page {self.page + 1}/{self.max_page + 1} — use the card code with /card for full details")
-        return embed
-
-    @discord.ui.button(label="◀ Prev", style=discord.ButtonStyle.secondary)
-    async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        self.page -= 1
-        self._update_buttons()
-        await interaction.response.edit_message(embed=self.build_embed(), view=self)
-
-    @discord.ui.button(label="Next ▶", style=discord.ButtonStyle.secondary)
-    async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        self.page += 1
-        self._update_buttons()
-        await interaction.response.edit_message(embed=self.build_embed(), view=self)
+def load_cards() -> list[dict]:
+    """โหลดข้อมูลการ์ดจากไฟล์ cards.json ใหม่ทุกครั้งที่เรียก
+    เพื่อให้แก้ไขไฟล์แล้วเห็นผลทันทีโดยไม่ต้อง restart บอท"""
+    if not DATA_FILE.exists():
+        return []
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-@app_commands.command(name="character", description="Show every printing of a character across all sets")
-@app_commands.describe(name="Character name (e.g. Luffy, Nami, Charlotte Katakuri)")
-async def character(interaction: discord.Interaction, name: str):
-    query = name.strip().lower()
-    if not query:
-        await interaction.response.send_message("Give me a name to search for.", ephemeral=True)
-        return
-
-    matches = [
-        (code, card)
-        for code, card in cards.items()  # <-- rename `cards` to your actual dict
-        if query in card["name"].lower()
-    ]
-
-    if not matches:
-        await interaction.response.send_message(
-            f'No cards found matching "{name}". Try a shorter or different spelling.',
-            ephemeral=True,
-        )
-        return
-
-    view = CharacterResultsView(name, matches)
-    await interaction.response.send_message(embed=view.build_embed(), view=view)
+def find_card(code: str) -> dict | None:
+    code = code.strip().upper()
+    for card in load_cards():
+        if card.get("card_code", "").upper() == code:
+            return card
+    return None
 
 
-@character.autocomplete("name")
-async def character_autocomplete(interaction: discord.Interaction, current: str):
-    current = current.lower()
-    seen = set()
+def build_card_embed(card: dict) -> discord.Embed:
+    manga = card.get("manga_reference", {}) or {}
+
+    embed = discord.Embed(
+        title=f"{card.get('card_name', 'ไม่ทราบชื่อ')} ({card.get('card_code', '-')})",
+        color=discord.Color.blue(),
+    )
+    embed.add_field(name="ประเภทการ์ด", value=card.get("card_type", "-"), inline=True)
+
+    arc = manga.get("arc") or "ยังไม่มีข้อมูล"
+    chapter = manga.get("chapter") or "ยังไม่มีข้อมูล"
+    description = manga.get("description") or "ยังไม่มีข้อมูล"
+
+    embed.add_field(name="Arc", value=arc, inline=True)
+    embed.add_field(name="ตอน/บทที่", value=chapter, inline=True)
+    embed.add_field(name="รายละเอียดฉาก", value=description, inline=False)
+
+    image_url = card.get("image_url", "")
+    if image_url and image_url.startswith("http"):
+        embed.set_image(url=image_url)
+
+    embed.set_footer(text="One Piece TCG Card Lookup")
+    return embed
+
+
+# ---------- Autocomplete ----------
+
+async def card_code_autocomplete(
+    interaction: discord.Interaction, current: str
+) -> list[app_commands.Choice[str]]:
+    current = current.strip().upper()
     choices = []
-    for card in cards.values():  # <-- rename `cards` to your actual dict
-        n = card["name"]
-        if n not in seen and current in n.lower():
-            seen.add(n)
-            choices.append(app_commands.Choice(name=n, value=n))
-        if len(choices) >= 25:
+    for card in load_cards():
+        code = card.get("card_code", "")
+        name = card.get("card_name", "")
+        if current in code.upper() or current in name.upper():
+            label = f"{code} - {name}"
+            choices.append(app_commands.Choice(name=label[:100], value=code))
+        if len(choices) >= 25:  # Discord จำกัดสูงสุด 25 ตัวเลือก
             break
     return choices
 
 
-# ── /random — pull a random card, reusing your existing card embed ──
+# ---------- Slash Command ----------
 
-@app_commands.command(name="random", description="Pull a random card from the database")
-async def random_card(interaction: discord.Interaction):
-    code = random.choice(list(cards.keys()))  # <-- rename `cards` to your actual dict
-    card = cards[code]
+@tree.command(name="card", description="ค้นหาข้อมูลการ์ดและที่มาจากฉากมังงะ")
+@app_commands.describe(code="รหัสการ์ด เช่น OP01-016")
+@app_commands.autocomplete(code=card_code_autocomplete)
+async def card_command(interaction: discord.Interaction, code: str):
+    result = find_card(code)
+    if not result:
+        await interaction.response.send_message(
+            f"ไม่พบการ์ดรหัส `{code}` ในฐานข้อมูลครับ", ephemeral=True
+        )
+        return
 
-    embed = build_card_embed(code, card)  # <-- swap to your existing embed builder
+    embed = build_card_embed(result)
     await interaction.response.send_message(embed=embed)
 
 
-# ── Registration ──
-# In your bot setup (wherever you currently do `tree.add_command(card)` etc.):
-#
-#   tree.add_command(character)
-#   tree.add_command(random_card)
-#
-# Don't forget to re-sync the command tree (or wait for Discord's automatic
-# sync) so the new slash commands show up.
+@client.event
+async def on_ready():
+    await tree.sync()
+    print(f"บอทออนไลน์แล้วในชื่อ {client.user}")
+    print(f"โหลดข้อมูลการ์ดทั้งหมด {len(load_cards())} ใบ")
+
+
+if __name__ == "__main__":
+    if not TOKEN:
+        raise RuntimeError("ไม่พบ DISCORD_TOKEN ใน .env กรุณาตั้งค่าก่อนรันบอท")
+    client.run(TOKEN)
