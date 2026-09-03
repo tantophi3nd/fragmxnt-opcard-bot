@@ -1,6 +1,7 @@
 import json
 import os
 import difflib
+import random
 
 import discord
 from discord import app_commands
@@ -79,7 +80,7 @@ def build_embed(code: str, card: dict, art_index: int = 0) -> discord.Embed:
             inline=False,
         )
 
-    embed.set_footer(text=f"One Piece TCG Card Lookup{'' if len(alt_arts)==0 else f' — Art {art_index+1}/{len(alt_arts)+1}'}")
+    embed.set_footer(text=f"Fragmxnt Bot | Developed by Fragmxnt{'' if len(alt_arts)==0 else f' — Art {art_index+1}/{len(alt_arts)+1}'}")
     return embed
 
 
@@ -142,6 +143,20 @@ async def card(interaction: discord.Interaction, code: str):
         await interaction.response.send_message(
             f"No card found for `{code}`.", ephemeral=True
         )
+
+
+@bot.tree.command(name="random", description="Pull a random card from the database")
+async def random_card(interaction: discord.Interaction):
+    match_code = random.choice(list(CARDS.keys()))
+    result = CARDS[match_code]
+
+    embed = build_embed(match_code, result, art_index=0)
+    has_alt_arts = len(result.get("alt_arts", [])) > 0
+    if has_alt_arts:
+        view = ArtBrowser(match_code, result, art_index=0)
+        await interaction.response.send_message(embed=embed, view=view)
+    else:
+        await interaction.response.send_message(embed=embed)
 
 
 if __name__ == "__main__":
