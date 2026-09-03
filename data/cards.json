@@ -39147,5 +39147,3594 @@
     "set": "ST09 Yamato",
     "cost": 2,
     "counter": "-"
+  },
+  "ST10-001": {
+    "name": "Trafalgar Law",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red/Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Heart Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -3: Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
+    "rarity": "L",
+    "set": "ST10 The Three Captains",
+    "life": 4
+  },
+  "ST10-002": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-002.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red/Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If you have 0 DON!! cards on your field or 8 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "L",
+    "set": "ST10 The Three Captains",
+    "life": 3
+  },
+  "ST10-003": {
+    "name": "Eustass\"Captain\"Kid",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-003.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red/Purple",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[Your Turn] If you have 4 or more Life cards, give this Leader -1000 power. [When Attacking] DON!! -1: This Leader gains +2000 power during this turn.",
+    "rarity": "L",
+    "set": "ST10 The Three Captains",
+    "life": 5
+  },
+  "ST10-004": {
+    "name": "Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If your opponent has a Character with 5000 or more power, this Character gains [Rush] during this turn.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 6,
+    "counter": 1000
+  },
+  "ST10-005": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 2,
+    "counter": 2000
+  },
+  "ST10-006": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 11000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush] [Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
+    "rarity": "SR",
+    "set": "ST10 The Three Captains",
+    "cost": 10,
+    "counter": "-"
+  },
+  "ST10-007": {
+    "name": "Killer",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST10-008": {
+    "name": "Shachi & Penguin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] If you have 3 or less DON!! cards on your field, add up to 2 DON!! cards from your DON!! deck and rest them.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 4,
+    "counter": 2000
+  },
+  "ST10-009": {
+    "name": "Jean Bart",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST10-010": {
+    "name": "Trafalgar Law",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Heart Pirates"
+    ],
+    "effect": "[Blocker] [On Play] DON!! -1: If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "rarity": "SR",
+    "set": "ST10 The Three Captains",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST10-011": {
+    "name": "Heat",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, this Character gains +2000 power until the start of your next turn.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST10-012": {
+    "name": "Bepo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Minks",
+      "Heart Pirates"
+    ],
+    "effect": "[On Play]/[When Attacking] If your opponent has more DON!! cards on their field than you, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST10-013": {
+    "name": "Eustass\"Captain\"Kid",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 8000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[On Play]/[When Attacking] DON!! -1: Up to 1 of your Leader gains +1000 power until the start of your next turn.",
+    "rarity": "SR",
+    "set": "ST10 The Three Captains",
+    "cost": 7,
+    "counter": "-"
+  },
+  "ST10-014": {
+    "name": "Wire",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-014.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[Blocker] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card and trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST10-015": {
+    "name": "Gum-Gum Giant Sumo Slap",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-015.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle, and K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST10-016": {
+    "name": "Gum-Gum Kong Gatling",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-016.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 7000 power or less. [Trigger] Up to 1 of your Leader gains +1000 power until the end of your next turn.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST10-017": {
+    "name": "Punk Vise",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST10-017.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Purple",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 2 or less, and add up to 1 DON!! card from your DON!! deck and rest it. [Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "rarity": "C",
+    "set": "ST10 The Three Captains",
+    "cost": 3,
+    "counter": "-"
+  },
+  "ST11-001": {
+    "name": "Uta",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST11-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "FILM"
+    ],
+    "effect": "[DON!! x1] [When Attacking] [Once Per Turn] Reveal 1 card from the top of your deck and add up to 1 {FILM} type card to your hand. Then, place the rest at the bottom of your deck.",
+    "rarity": "L",
+    "set": "ST11 Side Uta",
+    "life": 5
+  },
+  "ST11-002": {
+    "name": "Uta",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST11-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "FILM"
+    ],
+    "effect": "[Blocker] [End of Your Turn] You may trash 1 Event from your hand: Set up to 1 of your {FILM} type Characters as active.",
+    "rarity": "SR",
+    "set": "ST11 Side Uta",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST11-003": {
+    "name": "Backlight",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST11-003.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Music",
+      "FILM"
+    ],
+    "effect": "[Main] If your Leader is [Uta], choose one: Rest up to 1 of your opponent's Characters with a cost of 5 or less. K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.",
+    "rarity": "C",
+    "set": "ST11 Side Uta",
+    "cost": 2,
+    "counter": "-"
+  },
+  "ST11-004": {
+    "name": "New Genesis",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST11-004.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Music",
+      "FILM"
+    ],
+    "effect": "[Main] If your Leader is [Uta], look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [New Genesis] and add it to your hand. Then, place the rest at the bottom of your deck in any order and set up to 1 of your DON!! cards as active.",
+    "rarity": "SR",
+    "set": "ST11 Side Uta",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST11-005": {
+    "name": "I'm invincible",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST11-005.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Music",
+      "FILM"
+    ],
+    "effect": "[Main] Set up to 1 of your [Uta] Leader as active. [Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "rarity": "C",
+    "set": "ST11 Side Uta",
+    "cost": 3,
+    "counter": "-"
+  },
+  "ST12-001": {
+    "name": "Roronoa Zoro & Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Green/Blue",
+    "attribute": "Slash/Strike",
+    "power": 5000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] [Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.",
+    "rarity": "L",
+    "set": "ST12 Zoro and Sanji",
+    "life": 4
+  },
+  "ST12-002": {
+    "name": "Kuina",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Shimotsuki Village"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST12-003": {
+    "name": "Dracule Mihawk",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Muggy Kingdom"
+    ],
+    "effect": "[On Play] If you have 2 or less Characters, play up to 1 {Muggy Kingdom} type or <Slash> attribute Character card with a cost of 4 or less other than [Dracule Mihawk] from your hand rested.",
+    "rarity": "SR",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 3,
+    "counter": 2000
+  },
+  "ST12-004": {
+    "name": "Humandrill",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Animal",
+      "Muggy Kingdom"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST12-005": {
+    "name": "Perona",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Muggy Kingdom",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST12-006": {
+    "name": "Yosaku & Johnny",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Choose up to 1: Rest up to 1 of your opponent's Characters with a cost of 2 or less. K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST12-007": {
+    "name": "Rika",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[On Play] DON!! -2: If your opponent has 3 or more Life cards, set up to 1 of your <Slash> attribute Character cards with a cost of 4 or less as active.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 2,
+    "counter": 2000
+  },
+  "ST12-008": {
+    "name": "Roronoa Zoro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST12-009": {
+    "name": "Blue-Finned Elephant Tuna",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Animal"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST12-010": {
+    "name": "Emporio.Ivankov",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck. Play up to 1 Character card with a cost of 2 rested from the revealed card. Then, place the rest at the top or bottom of your deck. [When Attacking] [Once Per Turn] If you have 6 or less cards in your hand, draw 1 card.",
+    "rarity": "SR",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 3,
+    "counter": "-"
+  },
+  "ST12-011": {
+    "name": "Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 2,
+    "counter": "-"
+  },
+  "ST12-012": {
+    "name": "Charlotte Pudding",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Activate: Main] Return this Character to the owner's hand.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 2,
+    "counter": 2000
+  },
+  "ST12-013": {
+    "name": "Zeff",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [When Attacking] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2 rested. Then, place the rest at the top or bottom of your deck.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST12-014": {
+    "name": "Duval",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-014.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 1000,
+    "types": [
+      "The Flying Fish Riders"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST12-015": {
+    "name": "Patty & Carne",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-015.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "East Blue"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST12-016": {
+    "name": "Shishi Songson",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-016.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Green",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. [Trigger] Draw 1 card.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST12-017": {
+    "name": "Reshaping Shot",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST12-017.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. [Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "rarity": "C",
+    "set": "ST12 Zoro and Sanji",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST13-001": {
+    "name": "Sabo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red/Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 of your Characters with a cost of 3 or more with 7000 power or more to the top of your Life cards face-up: Give up to 1 of your Characters +2000 power until the start of your next turn.",
+    "rarity": "L",
+    "set": "ST13 The Three Brothers Bond",
+    "life": 4
+  },
+  "ST13-002": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-002.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red/Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "L",
+    "set": "ST13 The Three Brothers Bond",
+    "life": 4
+  },
+  "ST13-003": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-003.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red/Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "L",
+    "set": "ST13 The Three Brothers Bond",
+    "life": 5
+  },
+  "ST13-005": {
+    "name": "Emporio.Ivankov",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Blocker] [On Play] You may trash the top or bottom card of your Life cards: Reveal 1 cost 5 Character card from your hand, then place it face-down on the top of your Life cards.",
+    "rarity": "R",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST13-006": {
+    "name": "Curly.Dadan",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Mountain Bandits"
+    ],
+    "effect": "[Blocker] [On Play] Play up to 1 each of [Sabo], [Portgas.D.Ace], and [Monkey.D.Luffy] with a cost of 2 from your hand.",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST13-007": {
+    "name": "Sabo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 2,
+    "counter": "-"
+  },
+  "ST13-008": {
+    "name": "Sabo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "-",
+    "rarity": "SR",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST13-009": {
+    "name": "Shanks",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 7000,
+    "types": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 7,
+    "counter": "-"
+  },
+  "ST13-010": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Look at the top card of your Life cards; if the card is a cost-5 [Portgas.D.Ace] card, you may play it. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's turn.",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 2,
+    "counter": "-"
+  },
+  "ST13-011": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush]. [Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character -2000 power during this turn instead.",
+    "rarity": "SR",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST13-012": {
+    "name": "Makino",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": "-",
+    "types": [
+      "Windmill Village"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 1,
+    "counter": 2000
+  },
+  "ST13-013": {
+    "name": "Monkey.D.Garp",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "SR",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST13-014": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-014.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 2,
+    "counter": "-"
+  },
+  "ST13-015": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-015.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] This Character gains +2000 power until the start of your next turn. Then, if you have 1 or more Life cards, draw 1 card and trash the top card of your Life cards.",
+    "rarity": "SR",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST13-016": {
+    "name": "Yamato",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-016.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 3,
+    "counter": 2000
+  },
+  "ST13-017": {
+    "name": "Flaming Dragon King",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-017.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 2,
+    "counter": "-"
+  },
+  "ST13-018": {
+    "name": "Gum-Gum Jet Spear",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-018.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. [Trigger] Draw 1 card.",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST13-019": {
+    "name": "The Three Brothers' Bond",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST13-019.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "C",
+    "set": "ST13 The Three Brothers Bond",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST14-001": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] All of your Characters gain +1 cost. If you have a Character with a cost of 8 or more, this Leader gains +1000 power.",
+    "rarity": "L",
+    "set": "ST14 3D2Y",
+    "life": 5
+  },
+  "ST14-002": {
+    "name": "Usopp",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 4000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST14-003": {
+    "name": "Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have a Character with a cost of 6 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "SR",
+    "set": "ST14 3D2Y",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST14-004": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST14-005": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 1000,
+    "types": [
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST14-006": {
+    "name": "Nami",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 3000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [Blocker] If you have a Character with a cost of 8 or more, this Character gains +2000 power.",
+    "rarity": "SR",
+    "set": "ST14 3D2Y",
+    "cost": 4,
+    "counter": 2000
+  },
+  "ST14-007": {
+    "name": "Nico Robin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST14-008": {
+    "name": "Haredas",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Amazon Lily"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST14-009": {
+    "name": "Franky",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST14-010": {
+    "name": "Brook",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST14-011": {
+    "name": "Heracles",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Kamabakka Kingdom"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST14-012": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 10000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "If you have a Character with a cost of 10 or more, this Character gains [Rush].",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 8,
+    "counter": "-"
+  },
+  "ST14-013": {
+    "name": "Roronoa Zoro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 8000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 6,
+    "counter": 1000
+  },
+  "ST14-014": {
+    "name": "Gum-Gum Giant Rifle",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-014.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] If you have a Character with a cost of 8 or more, up to 1 of your Leader or Character cards gains +3000 power during this battle. [Trigger] Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST14-015": {
+    "name": "Gum-Gum Diable Three-Swords Style Mouten Jet Six Hundred Pound Phoenix Cannon",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-015.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 7 or less.",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST14-016": {
+    "name": "I Have My Crew!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-016.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Draw 1 card.",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST14-017": {
+    "name": "Thousand Sunny",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST14-017.png",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Black",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If you have a Character with a cost of 8 or more, up to 1 of your Characters gains +1000 power during this turn.",
+    "rarity": "C",
+    "set": "ST14 3D2Y",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST15-001": {
+    "name": "Atmos",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST15-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[When Attacking] If your Leader is [Edward.Newgate], you cannot add Life cards to your hand using your own effects during this turn.",
+    "rarity": "C",
+    "set": "ST15 Red Edward.Newgate",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST15-002": {
+    "name": "Edward.Newgate",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST15-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 8000,
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters. [Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "rarity": "SR",
+    "set": "ST15 Red Edward.Newgate",
+    "cost": 7,
+    "counter": "-"
+  },
+  "ST15-003": {
+    "name": "Kingdew",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST15-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] [Opponent's Turn] When this Character is K.O.'d by an effect, up to 1 of your Leader gains +2000 power during this turn.",
+    "rarity": "C",
+    "set": "ST15 Red Edward.Newgate",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST15-004": {
+    "name": "Thatch",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST15-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters -2000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+    "rarity": "C",
+    "set": "ST15 Red Edward.Newgate",
+    "cost": 1,
+    "counter": 2000
+  },
+  "ST15-005": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST15-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "If your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush]. [Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character -2000 power during this turn instead.",
+    "rarity": "SR",
+    "set": "ST15 Red Edward.Newgate",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST16-001": {
+    "name": "Uta",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST16-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "FILM"
+    ],
+    "effect": "[Blocker] [Activate: Main] [Once Per Turn] You may trash 1 {FILM} type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "rarity": "SR",
+    "set": "ST16 Green Uta",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST16-002": {
+    "name": "Gordon",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST16-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "FILM"
+    ],
+    "effect": "[Blocker] [On Your Opponent's Attack] You may trash any number of {Music} type cards from your hand: Up to 1 of your Leader or Characters gains +1000 power during this battle for each card trashed.",
+    "rarity": "C",
+    "set": "ST16 Green Uta",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST16-003": {
+    "name": "Charlotte Katakuri",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST16-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "FILM",
+      "Big Mom Pirates"
+    ],
+    "effect": "If your Leader has the {FILM} type and you have 6 or more rested cards, this Character gains +2000 power.",
+    "rarity": "C",
+    "set": "ST16 Green Uta",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST16-004": {
+    "name": "Shanks",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST16-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
+    "rarity": "SR",
+    "set": "ST16 Green Uta",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST16-005": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST16-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "If your [Uta] is rested, this Character gains +1000 power.",
+    "rarity": "C",
+    "set": "ST16 Green Uta",
+    "cost": 2,
+    "counter": 2000
+  },
+  "ST17-001": {
+    "name": "Crocodile",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST17-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck. If it has a type including \"The Seven Warlords of the Sea\", draw 2 cards and place 1 card from your hand on the top of your deck.",
+    "rarity": "C",
+    "set": "ST17 Blue Donquixote Doflamingo",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST17-002": {
+    "name": "Trafalgar Law",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST17-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] You may return 1 of your Characters to the owner's hand: If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "rarity": "SR",
+    "set": "ST17 Blue Donquixote Doflamingo",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST17-003": {
+    "name": "Buggy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST17-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Buggy's Delivery"
+    ],
+    "effect": "[On Play] Look at the top 3 cards of your deck, then place them in any order on the top of your deck.",
+    "rarity": "C",
+    "set": "ST17 Blue Donquixote Doflamingo",
+    "cost": 1,
+    "counter": 2000
+  },
+  "ST17-004": {
+    "name": "Boa Hancock",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST17-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[Blocker] [On Play] Look at the top 3 cards of your deck, then place them in any order on the top or bottom of your deck. Then, give up to 1 of your {The Seven Warlords of the Sea} type Leader or Characters up to 1 rested DON!! card.",
+    "rarity": "SR",
+    "set": "ST17 Blue Donquixote Doflamingo",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST17-005": {
+    "name": "Marshall.D.Teach",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST17-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 3000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Place 1 card from your hand on the top of your deck: Give up to 2 rested DON!! cards to 1 of your Leader or Characters.",
+    "rarity": "C",
+    "set": "ST17 Blue Donquixote Doflamingo",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST18-001": {
+    "name": "Usohachi",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST18-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 3000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "rarity": "C",
+    "set": "ST18 Purple Monkey.D.Luffy",
+    "cost": 3,
+    "counter": 2000
+  },
+  "ST18-002": {
+    "name": "Onami",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST18-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] [On Play] If you have 8 or more DON!! cards on your field, trash 1 card from your hand then draw 2 cards.",
+    "rarity": "C",
+    "set": "ST18 Purple Monkey.D.Luffy",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST18-003": {
+    "name": "Sangoro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST18-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] [Once Per Turn] If you have 8 or more DON!! cards on your field, draw 1 card.",
+    "rarity": "C",
+    "set": "ST18 Purple Monkey.D.Luffy",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST18-004": {
+    "name": "Zoro-Juurou",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST18-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "SR",
+    "set": "ST18 Purple Monkey.D.Luffy",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST18-005": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST18-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 8000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] DON!! -1: Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
+    "rarity": "SR",
+    "set": "ST18 Purple Monkey.D.Luffy",
+    "cost": 7,
+    "counter": "-"
+  },
+  "ST19-001": {
+    "name": "Smoker",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST19-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 8000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 black {Navy} type card from your hand: Up to 2 of your opponent's Characters with a cost of 4 or less cannot attack during your opponent's next turn.",
+    "rarity": "C",
+    "set": "ST19 Black Smoker",
+    "cost": 6,
+    "counter": "-"
+  },
+  "ST19-002": {
+    "name": "Sengoku",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST19-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 2 black {Navy} type cards from your hand: If your Leader has the {Navy} type, draw 3 cards.",
+    "rarity": "C",
+    "set": "ST19 Black Smoker",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST19-003": {
+    "name": "Tashigi",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST19-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] If your Leader is [Smoker], give up to 1 of your opponent's Characters -4 cost during this turn. [Activate: Main] [Once Per Turn] If it is the turn this Character was played, place up to 1 of your opponent's cost-0 Characters into its owner's trash.",
+    "rarity": "SR",
+    "set": "ST19 Black Smoker",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST19-004": {
+    "name": "Hina",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST19-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Opponent's Turn] This Character gains +4 cost. [Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "rarity": "SR",
+    "set": "ST19 Black Smoker",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST19-005": {
+    "name": "Monkey.D.Garp",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST19-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Blocker] [Activate: Main] [Once Per Turn] Place 1 card from your trash at the bottom of your deck: Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "rarity": "C",
+    "set": "ST19 Black Smoker",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST20-001": {
+    "name": "Charlotte Katakuri",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST20-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Blocker] [Activate: Main] [Once Per Turn] You may turn the top card of your Life cards face-up: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "rarity": "SR",
+    "set": "ST20 Yellow Charlotte Katakuri",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST20-002": {
+    "name": "Charlotte Cracker",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST20-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Once Per Turn] When this Character would be K.O.'d by an effect, you may instead trash the top card of your Life cards. [Trigger] You may trash 1 card from your hand: Play this card.",
+    "rarity": "C",
+    "set": "ST20 Yellow Charlotte Katakuri",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST20-003": {
+    "name": "Charlotte Brulee",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST20-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 3000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Trigger] Look at the top card of your or your opponent's Life cards and place it back on the top or bottom of the Life cards. Then, add this card to your hand.",
+    "rarity": "C",
+    "set": "ST20 Yellow Charlotte Katakuri",
+    "cost": 3,
+    "counter": 2000
+  },
+  "ST20-004": {
+    "name": "Charlotte Pudding",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST20-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may add the top card of your Life cards to your hand: Set up to 1 of your cost-3-or-less {Big Mom Pirates} type Characters as active. [Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "ST20 Yellow Charlotte Katakuri",
+    "cost": 3,
+    "counter": "-"
+  },
+  "ST20-005": {
+    "name": "Charlotte Linlin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST20-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: Your opponent chooses one: Your opponent trashes 2 cards from their hand. Trash 1 card from the top of your opponent's Life cards.",
+    "rarity": "SR",
+    "set": "ST20 Yellow Charlotte Katakuri",
+    "cost": 6,
+    "counter": "-"
+  },
+  "ST21-001": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
+    "rarity": "L",
+    "set": "ST21 GEAR5",
+    "life": 5
+  },
+  "ST21-002": {
+    "name": "Usopp",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 3000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 2,
+    "counter": 2000
+  },
+  "ST21-003": {
+    "name": "Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 2,
+    "counter": 2000
+  },
+  "ST21-004": {
+    "name": "Jewelry Bonney",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "types": [
+      "Egghead",
+      "Bonney Pirates"
+    ],
+    "effect": "[DON!! x2] [On K.O.] Draw 1 card.",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST21-005": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST21-006": {
+    "name": "Stussy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Egghead"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST21-007": {
+    "name": "Sentomaru",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Egghead",
+      "Navy"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST21-008": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "types": [
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST21-009": {
+    "name": "Nami",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 1000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST21-010": {
+    "name": "Nico Robin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST21-011": {
+    "name": "Franky",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST21-012": {
+    "name": "Brook",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 4000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST21-013": {
+    "name": "Vegapunk",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "types": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST21-014": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-014.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush] [When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "rarity": "SR",
+    "set": "ST21 GEAR5",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST21-015": {
+    "name": "Roronoa Zoro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-015.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] This Character gains [Rush]. [On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
+    "rarity": "SR",
+    "set": "ST21 GEAR5",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST21-016": {
+    "name": "Gum-Gum Dawn Whip",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-016.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn. [Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 2,
+    "counter": "-"
+  },
+  "ST21-017": {
+    "name": "Gum-Gum Mole Pistol",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST21-017.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Give up to 1 of your opponent's Characters -5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less. [Trigger] Activate this card's [Main] effect.",
+    "rarity": "C",
+    "set": "ST21 GEAR5",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST22-001": {
+    "name": "Ace & Newgate",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
+    "rarity": "L",
+    "set": "ST22 Ace & Newgate",
+    "life": 5
+  },
+  "ST22-002": {
+    "name": "Izo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": "-",
+    "types": [
+      "Land of Wano",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Look at the top 5 cards of your deck and reveal up to 1 card that includes \"Whitebeard Pirates\" in its types other than [Izo] and add it to your hand. Then, place the rest on the bottom of your deck in any order. [On Your Opponent's Attack] You may trash this Character: Draw 1 card, then place 1 card from your hand on the bottom of your deck.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST22-003": {
+    "name": "Edward.Newgate",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 10000,
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Double Attack] [On Play] Reveal the top card of your deck. If that card has \"Whitebeard Pirates\" included among its types, draw 2 cards.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 9,
+    "counter": "-"
+  },
+  "ST22-004": {
+    "name": "Whitey Bay",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 1000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] [On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Up to 1 of your Leader with a type including \"Whitebeard Pirates\" gains +2000 power during this turn.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 1,
+    "counter": 2000
+  },
+  "ST22-005": {
+    "name": "Kouzuki Oden",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 8000,
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan",
+      "Whitebeard Pirates"
+    ],
+    "effect": "If this Character would be removed from the field by your opponent's effects, you may instead trash 2 cards from your hand. [Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards and return 1 of your other Characters to the owner's hand: Set this Character as active.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 7,
+    "counter": "-"
+  },
+  "ST22-006": {
+    "name": "Jozu",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 8000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards and trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 7,
+    "counter": 1000
+  },
+  "ST22-007": {
+    "name": "Squard",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST22-008": {
+    "name": "Atmos",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST22-009": {
+    "name": "Kingdew",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST22-010": {
+    "name": "Thatch",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 1,
+    "counter": 2000
+  },
+  "ST22-011": {
+    "name": "Marco",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Once Per Turn] If this Character would be K.O.'d by your opponent's effects, you may trash 1 card from your hand instead. [When Attacking] Reveal the top card of your deck. If it has \"Whitebeard Pirates\" included among its types, this Character gains +1000 power until the end of your opponent's next turn.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST22-012": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST22-013": {
+    "name": "Curiel",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": 8000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 7,
+    "counter": 2000
+  },
+  "ST22-014": {
+    "name": "Namule",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-014.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Fish-Man",
+      "Whitebeard Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 1,
+    "counter": 2000
+  },
+  "ST22-015": {
+    "name": "I Am Whitebeard!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-015.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If your Leader has the {Whitebeard Pirates} type, play up to 1 [Edward.Newgate] from your hand. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 8,
+    "counter": "-"
+  },
+  "ST22-016": {
+    "name": "Take That Back!! Take Back What You Said!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-016.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Counter] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", up to 1 of your Leader or Character cards gains +4000 power during this battle. [Trigger] Draw 1 card.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST22-017": {
+    "name": "Fire Fist",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST22-017.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Blue",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card. Then, place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck. [Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "rarity": "C",
+    "set": "ST22 Ace & Newgate",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST23-001": {
+    "name": "Uta",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST23-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "FILM"
+    ],
+    "effect": "If you have a Character with 10000 power or more, give this card in your hand -4 cost. [Blocker]",
+    "rarity": "SR",
+    "set": "ST23 RED Shanks",
+    "cost": 6,
+    "counter": 2000
+  },
+  "ST23-002": {
+    "name": "Shanks",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST23-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 10000,
+    "types": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "If your opponent has a Character with 8000 base power or more, give this card in your hand -3 cost. [On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.",
+    "rarity": "SR",
+    "set": "ST23 RED Shanks",
+    "cost": 9,
+    "counter": "-"
+  },
+  "ST23-003": {
+    "name": "Benn.Beckman",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST23-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 5000,
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST23 RED Shanks",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST23-004": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST23-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "rarity": "C",
+    "set": "ST23 RED Shanks",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST23-005": {
+    "name": "Yasopp",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST23-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": "-",
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST23 RED Shanks",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST24-004": {
+    "name": "Trafalgar Law & Bepo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST24-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash/Strike",
+    "power": 11000,
+    "types": [
+      "Minks",
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters. It will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.",
+    "rarity": "SR",
+    "set": "ST24 GREEN Jewelry Bonney",
+    "cost": 10,
+    "counter": "-"
+  },
+  "ST24-005": {
+    "name": "X.Drake",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST24-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Supernovas",
+      "Navy",
+      "Drake Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, at the end of this turn, set up to 1 of your DON!! cards as active.",
+    "rarity": "C",
+    "set": "ST24 GREEN Jewelry Bonney",
+    "cost": 5,
+    "counter": 2000
+  },
+  "ST25-001": {
+    "name": "Alvida",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST25-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "If you have 2 or more Characters with an original cost of 5 or more, this Character gains +1 cost. [On Play] If your Leader is [Buggy], draw 3 cards, then trash 2 cards from your hand.",
+    "rarity": "C",
+    "set": "ST25 BLUE Buggy",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST25-002": {
+    "name": "Izo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST25-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": 1000,
+    "types": [
+      "Land of Wano",
+      "Former Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x2] This Character gains [Blocker]. [On Play] Your {Land of Wano} type Leader gains [Banish] during this turn.",
+    "rarity": "C",
+    "set": "ST25 BLUE Buggy",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST25-004": {
+    "name": "Buggy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST25-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 1000,
+    "types": [
+      "The Four Emperors",
+      "Cross Guild"
+    ],
+    "effect": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader is [Buggy], play up to 1 cost-6-or-less {Cross Guild} type Character card from your hand.",
+    "rarity": "SR",
+    "set": "ST25 BLUE Buggy",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST25-005": {
+    "name": "Yamato",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST25-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": "-",
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[DON!! x2] [Your Turn] This Character gains +3000 power. [On Play] Look at the top 5 cards of your deck, reveal up to 1 {Land of Wano} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "SR",
+    "set": "ST25 BLUE Buggy",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST26-005": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST26-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] DON!! -2: If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your {Straw Hat Crew} type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
+    "rarity": "SR",
+    "set": "ST26 PURPLE/BLACK Monkey.D.Luffy",
+    "cost": 6,
+    "counter": "-"
+  },
+  "ST27-003": {
+    "name": "Kuzan",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST27-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Blackbeard Pirates",
+      "Former Navy"
+    ],
+    "effect": "[Blocker] [On K.O.] Play up to 1 cost-5-or-less Character card with a type including \"Blackbeard Pirates\" from your trash rested.",
+    "rarity": "SR",
+    "set": "ST27 BLACK Marshall.D.Teach",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST27-005": {
+    "name": "Marshall.D.Teach",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST27-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "The Four Emperors",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 3 or less. [On K.O.] Add up to 1 black card from your trash to your hand.",
+    "rarity": "SR",
+    "set": "ST27 BLACK Marshall.D.Teach",
+    "cost": 6,
+    "counter": "-"
+  },
+  "ST28-001": {
+    "name": "Yamato",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST28-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": "-",
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[DON!! x2] [Your Turn] This Character gains +3000 power.",
+    "rarity": "C",
+    "set": "ST28 GREEN/YELLOW Yamato",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST28-003": {
+    "name": "Kaido",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST28-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "The Four Emperors",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST28 GREEN/YELLOW Yamato",
+    "cost": 6,
+    "counter": 1000
+  },
+  "ST28-004": {
+    "name": "Kouzuki Momonosuke",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST28-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST28 GREEN/YELLOW Yamato",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST29-001": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Egghead",
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] If you have 2 or less Life cards, draw 1 card then trash 1 card from your hand.",
+    "rarity": "L",
+    "set": "ST29 Egghead",
+    "life": 6
+  },
+  "ST29-002": {
+    "name": "Usopp",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 4000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST29-003": {
+    "name": "Kaku",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Egghead",
+      "CP0"
+    ],
+    "effect": "If the number of your Life cards is equal to or less than the number of your opponent's Life cards, this Character gains +1000 power. [Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST29-004": {
+    "name": "Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at the top 4 cards of your deck, reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] You may trash 1 card from your hand: Play this card.",
+    "rarity": "SR",
+    "set": "ST29 Egghead",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST29-005": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Fish-Man",
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 6,
+    "counter": 2000
+  },
+  "ST29-006": {
+    "name": "Stussy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-006.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Egghead"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 6,
+    "counter": 2000
+  },
+  "ST29-007": {
+    "name": "Tony Tony.Chopper",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "types": [
+      "Animal",
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On K.O.] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards. [Trigger] Up to 1 of your [Monkey.D.Luffy] cards gains +1000 power during this turn.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST29-008": {
+    "name": "Nami",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-008.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 1000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "If one of your Characters with the {Egghead} type would be K.O.'d by your opponent's effect, you may turn the top card of your Life cards face-up instead. [Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 3,
+    "counter": 1000
+  },
+  "ST29-009": {
+    "name": "Nico Robin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-009.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] [Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 4,
+    "counter": 2000
+  },
+  "ST29-010": {
+    "name": "Franky",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-010.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 6000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "-",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 5,
+    "counter": 2000
+  },
+  "ST29-011": {
+    "name": "Brook",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-011.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker]",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST29-012": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": "-",
+    "types": [
+      "Egghead",
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards. [Trigger] Play this card.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST29-013": {
+    "name": "Rob Lucci",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-013.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Egghead",
+      "CP0"
+    ],
+    "effect": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST29-014": {
+    "name": "Roronoa Zoro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-014.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 8000,
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush: Character] [Activate: Main] [Once Per Turn] You may trash 1 card with a [Trigger] from your hand: Draw 1 card and give up to 1 rested DON!! card to 1 of your Leader or Characters.",
+    "rarity": "SR",
+    "set": "ST29 Egghead",
+    "cost": 6,
+    "counter": "-"
+  },
+  "ST29-015": {
+    "name": "Raw Heat Strike",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-015.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your Life is 1 or less, up to 1 of your opponent's Leader or Character cards gains -2000 power during this turn. [Trigger] Draw 1 card.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST29-016": {
+    "name": "Kizaru! We're 100 Times Stronger Than We Were 2 Years Ago!!",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-016.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Egghead",
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Your Leader [Monkey.D.Luffy] gains [Unblockable] during this turn. [Counter] Give your Leader +3000 power during this battle.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST29-017": {
+    "name": "Death Lion Strike",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST29-017.png",
+    "alt_arts": [],
+    "card_type": "Event",
+    "color": "Yellow",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if your Life is 2 or less, K.O. up to 1 of your opponent's Characters with a cost of 3 or less. [Trigger] Draw 2 cards, then trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "ST29 Egghead",
+    "cost": 2,
+    "counter": "-"
+  },
+  "ST30-001": {
+    "name": "Luffy & Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST30-001.png",
+    "alt_arts": [],
+    "card_type": "Leader",
+    "color": "Red/Green",
+    "attribute": "Strike/Special",
+    "power": 7000,
+    "types": [
+      "Straw Hat Crew",
+      "Whitebeard Pirates",
+      "Impel Down"
+    ],
+    "effect": "If you have a Character with an original power of 7000 or more, this Leader gains -2000 power. [Opponent's Turn] All of your [Portgas.D.Ace] and [Monkey.D.Luffy] cards gain +3000 power.",
+    "rarity": "L",
+    "set": "ST30 Starter Deck EX Luffy & Ace",
+    "life": 4
+  },
+  "ST30-002": {
+    "name": "Inazuma",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST30-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 Character card with 6000 power and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "C",
+    "set": "ST30 Starter Deck EX Luffy & Ace",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST30-003": {
+    "name": "Edward.Newgate",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST30-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] All of your Characters with 6000 base power gain +1000 power.",
+    "rarity": "C",
+    "set": "ST30 Starter Deck EX Luffy & Ace",
+    "cost": 8,
+    "counter": 1000
+  },
+  "ST30-007": {
+    "name": "Portgas.D.Ace",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST30-007.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 6000,
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] You may rest 1 of your DON!! cards: This Character gains [Rush] during this turn. [When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "rarity": "SR",
+    "set": "ST30 Starter Deck EX Luffy & Ace",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST30-012": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST30-012.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may rest 1 of your DON!! cards: This Character gains [Rush] during this turn. [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "rarity": "SR",
+    "set": "ST30 Starter Deck EX Luffy & Ace",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST31-001": {
+    "name": "Sanji",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST31-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] This Character gains [Rush]. [On Play] Draw 1 card. Then, play up to 1 Character card with the {Straw Hat Crew} type and a cost of 5 or less other than [Sanji] from your hand.",
+    "rarity": "SR",
+    "set": "ST31 RED Monkey.D.Luffy",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST31-002": {
+    "name": "Jinbe",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST31-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] [On Play] Draw 1 card. Then, play up to 1 {Straw Hat Crew} type Character with a cost of 1 from your hand.",
+    "rarity": "C",
+    "set": "ST31 RED Monkey.D.Luffy",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST31-003": {
+    "name": "Brook",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST31-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Opponent's Turn] If you have a total of 3 or more given DON!! cards, this Character gains [Blocker] and +3000 power.",
+    "rarity": "C",
+    "set": "ST31 RED Monkey.D.Luffy",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST31-004": {
+    "name": "Monkey.D.Luffy",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST31-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 9000,
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "If you have a total of 3 or more given DON!! cards on your field, this Character gains [Rush]. [On Play] Give up to 1 of your opponent's Characters -1000 power during this turn for each {Straw Hat Crew} type card you control.",
+    "rarity": "SR",
+    "set": "ST31 RED Monkey.D.Luffy",
+    "cost": 7,
+    "counter": "-"
+  },
+  "ST31-005": {
+    "name": "Thousand Sunny",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST31-005.png",
+    "alt_arts": [],
+    "card_type": "Stage",
+    "color": "Red",
+    "attribute": "-",
+    "power": "-",
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at the top 5 cards of your deck. Reveal up to 1 card with the {Straw Hat Crew} type and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] Rest this Stage: Give up to 1 of your [Monkey.D.Luffy] up to 1 rested DON!! card.",
+    "rarity": "C",
+    "set": "ST31 RED Monkey.D.Luffy",
+    "cost": 1,
+    "counter": "-"
+  },
+  "ST32-001": {
+    "name": "Kin'emon",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST32-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[On Play] You may rest 1 of your <Slash> attribute Leaders or DON!! cards: Draw 2 cards and trash 1 card from your hand.",
+    "rarity": "C",
+    "set": "ST32 GREEN Roronoa Zoro",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST32-002": {
+    "name": "Kouzuki Oden",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST32-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[On Play] Draw 1 card. Up to 1 of your opponent's Characters with an original cost of 6 or less cannot be rested until the end of your opponent's next End Phase.",
+    "rarity": "SR",
+    "set": "ST32 GREEN Roronoa Zoro",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST32-003": {
+    "name": "Dracule Mihawk",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST32-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 7000,
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Muggy Kingdom"
+    ],
+    "effect": "[Your Turn] When this Character becomes rested, draw 1 card and trash 1 card from your hand. [On Play] If your Leader has the <Slash> attribute, play up to 1 [Perona] or <Slash> attribute Character with a cost of 5 or less from your hand.",
+    "rarity": "SR",
+    "set": "ST32 GREEN Roronoa Zoro",
+    "cost": 6,
+    "counter": "-"
+  },
+  "ST32-004": {
+    "name": "Silvers Rayleigh",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST32-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Former Roger Pirates"
+    ],
+    "effect": "If your Leader has the <Slash> attribute, this Character gains [Rush: Character]. [On Play] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+    "rarity": "C",
+    "set": "ST32 GREEN Roronoa Zoro",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST32-005": {
+    "name": "Roronoa Zoro",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST32-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush: Character] [On Play] If your Leader has the <Slash> attribute, rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "rarity": "C",
+    "set": "ST32 GREEN Roronoa Zoro",
+    "cost": 1,
+    "counter": 2000
+  },
+  "ST33-001": {
+    "name": "Koby",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST33-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 1000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Blocker] [On Play] You may trash 1 card from your hand: Draw 1 card.",
+    "rarity": "C",
+    "set": "ST33 BLUE Kuzan",
+    "cost": 2,
+    "counter": 1000
+  },
+  "ST33-002": {
+    "name": "Sakazuki",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST33-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] You may trash 1 card from your hand: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand. [On K.O.] Play up to 1 {Navy} type Character with a cost of 4 or less from your hand.",
+    "rarity": "C",
+    "set": "ST33 BLUE Kuzan",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST33-003": {
+    "name": "Smoker",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST33-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 3000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: Place up to 2 of your opponent's Characters with a cost of 2 or less at the bottom of the owner's deck.",
+    "rarity": "C",
+    "set": "ST33 BLUE Kuzan",
+    "cost": 2,
+    "counter": 2000
+  },
+  "ST33-005": {
+    "name": "Monkey.D.Garp",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST33-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Navy"
+    ],
+    "effect": "If your Leader has the {Navy} type, play up to 1 {Navy} type Character with 8000 power or less other than [Monkey.D.Garp] from your hand.",
+    "rarity": "SR",
+    "set": "ST33 BLUE Kuzan",
+    "cost": 6,
+    "counter": 1000
+  },
+  "ST34-001": {
+    "name": "Charlotte Katakuri",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST34-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, if your Leader has the {Big Mom Pirates} type, add up to 2 DON!! cards from your DON!! deck and rest them. [On K.O.] Play up to 1 Character card with 8000 power or less from your hand.",
+    "rarity": "SR",
+    "set": "ST34 PURPLE Charlotte Katakuri",
+    "cost": 5,
+    "counter": "-"
+  },
+  "ST34-002": {
+    "name": "Charlotte Cracker",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST34-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "rarity": "C",
+    "set": "ST34 PURPLE Charlotte Katakuri",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST34-003": {
+    "name": "Charlotte Brulee",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST34-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "rarity": "C",
+    "set": "ST34 PURPLE Charlotte Katakuri",
+    "cost": 1,
+    "counter": 2000
+  },
+  "ST34-004": {
+    "name": "Charlotte Linlin",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST34-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 12000,
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] DON!! -4: You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, up to 1 of your opponent's Character's base power becomes 0 during this turn.",
+    "rarity": "SR",
+    "set": "ST34 PURPLE Charlotte Katakuri",
+    "cost": 10,
+    "counter": "-"
+  },
+  "ST34-005": {
+    "name": "Baron Tamago & Pekoms",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST34-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Minks",
+      "Big Mom Pirates"
+    ],
+    "effect": "[When Attacking] DON!! -1: K.O. up to 1 of your opponent's Characters with 2000 base power or less.",
+    "rarity": "C",
+    "set": "ST34 PURPLE Charlotte Katakuri",
+    "cost": 3,
+    "counter": 2000
+  },
+  "ST35-001": {
+    "name": "Hack",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST35-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "types": [
+      "Fish-Man",
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "[Blocker] [On Play] K.O. up to 1 of your opponent's Characters with 2000 base power or less.",
+    "rarity": "C",
+    "set": "ST35 RED/BLACK Sabo",
+    "cost": 4,
+    "counter": 1000
+  },
+  "ST35-002": {
+    "name": "Lindbergh",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST35-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Minks",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -3000 power during this turn.",
+    "rarity": "C",
+    "set": "ST35 RED/BLACK Sabo",
+    "cost": 4,
+    "counter": 2000
+  },
+  "ST35-003": {
+    "name": "Karasu",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST35-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 4000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: If your opponent has 7 or more cards in their hand, your opponent trashes 1 card from their hand.",
+    "rarity": "C",
+    "set": "ST35 RED/BLACK Sabo",
+    "cost": 3,
+    "counter": 2000
+  },
+  "ST35-004": {
+    "name": "Koala",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST35-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "types": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "This Character gains [Blocker] and +1 cost. [On Play] Give up to 1 rested DON!! card to your Leader. Then, play up to 1 {Revolutionary Army} type Character card with 4000 power or less from your hand or trash.",
+    "rarity": "SR",
+    "set": "ST35 RED/BLACK Sabo",
+    "cost": 7,
+    "counter": 1000
+  },
+  "ST35-005": {
+    "name": "Bartholomew Kuma",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST35-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "This Character gains +3 cost. [On Play] Give up to 1 rested DON!! card to your Leader. Then, play up to 1 {Revolutionary Army} type Character card with 4000 power or less from your hand or trash.",
+    "rarity": "SR",
+    "set": "ST35 RED/BLACK Sabo",
+    "cost": 5,
+    "counter": 1000
+  },
+  "ST36-001": {
+    "name": "Cavendish",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST36-001.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 3000,
+    "types": [
+      "Dressrosa",
+      "Supernovas",
+      "Beautiful Pirates"
+    ],
+    "effect": "[On K.O.] You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "rarity": "C",
+    "set": "ST36 YELLOW Eustass\"Captain\"Kid",
+    "cost": 3,
+    "counter": 2000
+  },
+  "ST36-002": {
+    "name": "Killer",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST36-002.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 6000,
+    "types": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "[Your Turn]/[On Play] If your Leader has the {Kid Pirates} type, you may add up to 1 card from the top of your deck to the top of your Life cards. [Trigger] If your opponent has 3 or less Life cards, play this card.",
+    "rarity": "SR",
+    "set": "ST36 YELLOW Eustass\"Captain\"Kid",
+    "cost": 4,
+    "counter": "-"
+  },
+  "ST36-003": {
+    "name": "Scratchmen Apoo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST36-003.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 4000,
+    "types": [
+      "Supernovas",
+      "On-Air Pirates"
+    ],
+    "effect": "[Trigger] Draw 1 card. Then, your Leader with the {Supernovas} type becomes 7000 base power during this turn.",
+    "rarity": "C",
+    "set": "ST36 YELLOW Eustass\"Captain\"Kid",
+    "cost": 4,
+    "counter": 2000
+  },
+  "ST36-004": {
+    "name": "Bartolomeo",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST36-004.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 2000,
+    "types": [
+      "Dressrosa",
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effect": "[On Play] You may trash 1 {Supernovas} type card from your hand: Draw 2 cards.",
+    "rarity": "C",
+    "set": "ST36 YELLOW Eustass\"Captain\"Kid",
+    "cost": 1,
+    "counter": 1000
+  },
+  "ST36-005": {
+    "name": "Eustass\"Captain\"Kid",
+    "image_url": "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/ST36-005.png",
+    "alt_arts": [],
+    "card_type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "types": [
+      "Kid Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] You may turn the top or bottom card of your Life cards face-down: Change the target of that attack to 1 of your [Eustass\"Captain\"Kid] cards with base power of 5000 or more. [Activate: Main] [Once Per Turn] You may turn the top or bottom card of your Life cards face-up: Give up to 1 rested DON!! card to your Leader.",
+    "rarity": "SR",
+    "set": "ST36 YELLOW Eustass\"Captain\"Kid",
+    "cost": 6,
+    "counter": "-"
   }
 }
