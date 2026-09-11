@@ -44,24 +44,42 @@ def _parse_dg(dg: str):
 
 async def _fetch_deck_rows(session: aiohttp.ClientSession, url: str):
     """Fetch one deck-list page and parse its table into a list of deck dicts."""
-    async with session.get(url, timeout=aiohttp.ClientTimeout(total=15)) as resp:
-        if resp.status != 200:
-            return []
-        html = await resp.text()
-
-    soup = BeautifulSoup(html, "html.parser")
-    table = soup.find("table")
-    if table is None:
+    try:
+        async with session.get(url, timeout=aiohttp.ClientTimeout(total=15)) as resp:
+            print(f"[decklist] GET {url} -> status {resp.status}")
+            if resp.status != 200:
+                body_preview = (await resp.text())[:200]
+                print(f"[decklist] non-200 body preview: {body_preview!r}")
+                return []
+            html = await resp.text()
+    except Exception as e:
+        print(f"[decklist] fetch exception for {url}: {e!r}")
         return []
 
+    print(f"[decklist] fetched {len(html)} chars from {url}")
+
+    soup = BeautifulSoup(html, "html.parser")
+    tables = soup.find_all("table")
+    print(f"[decklist] found {len(tables)} <table> element(s) on page")
+    if not tables:
+        return []
+    table = tables[0]
+
+    all_trs = table.find_all("tr")
+    print(f"[decklist] table has {len(all_trs)} <tr> rows (including header)")
+
     rows = []
-    for tr in table.find_all("tr")[1:]:  # skip header row
+    skipped_short = 0
+    skipped_empty = 0
+    for tr in all_trs[1:]:  # skip header row
         cells = tr.find_all("td")
         if len(cells) < 11:
+            skipped_short += 1
             continue
 
         dg_cell_text = cells[0].get_text(strip=True)
         if not dg_cell_text:
+            skipped_empty += 1
             continue
 
         # Column order: Deck Composition | Details | Deck Color | Deck Profile |
@@ -96,6 +114,7 @@ async def _fetch_deck_rows(session: aiohttp.ClientSession, url: str):
                 "site": "onepiecetopdecks.com",
             },
         })
+    print(f"[decklist] parsed {len(rows)} valid decks (skipped {skipped_short} short rows, {skipped_empty} empty dg)")
     return rows
 
 COLOR_MAP = {
@@ -290,7 +309,11 @@ async def random_deck(interaction: discord.Interaction, color: app_commands.Choi
     matches = []
     urls_to_try = random.sample(DECK_LIST_PAGES, k=min(4, len(DECK_LIST_PAGES)))
 
-    async with aiohttp.ClientSession(headers={"User-Agent": "Mozilla/5.0"}) as session:
+    async with aiohttp.ClientSession(headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }) as session:
         for url in urls_to_try:
             try:
                 rows = await _fetch_deck_rows(session, url)
@@ -319,7 +342,11 @@ async def deck_by_leader(interaction: discord.Interaction, leader: str):
     await interaction.response.defer()  # live scraping can take a few seconds
 
     matches = []
-    async with aiohttp.ClientSession(headers={"User-Agent": "Mozilla/5.0"}) as session:
+    async with aiohttp.ClientSession(headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }) as session:
         for url in DECK_LIST_PAGES:
             try:
                 rows = await _fetch_deck_rows(session, url)
