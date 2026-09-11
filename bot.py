@@ -10,7 +10,12 @@ from discord.ext import commands
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "cards.json")
 
 with open(DATA_PATH, "r", encoding="utf-8") as f:
-    CARDS = json.load(f)  # keys are normalized to UPPERCASE at lookup time
+    _DATA = json.load(f)
+
+CARDS = _DATA["cards"]  # keys are normalized to UPPERCASE at lookup time
+DECKS = _DATA["decks"]
+
+COLOR_CHOICES = ["Red", "Green", "Blue", "Purple", "Black", "Yellow"]
 
 COLOR_MAP = {
     "Red": 0xE3352E,
@@ -118,7 +123,7 @@ class ArtBrowser(discord.ui.View):
 @bot.event
 async def on_ready():
     await bot.tree.sync()
-    print(f"Logged in as {bot.user} | {len(CARDS)} cards loaded")
+    print(f"Logged in as {bot.user} | {len(CARDS)} cards loaded | {len(DECKS)} decks loaded")
 
 
 @bot.tree.command(name="card", description="Look up a One Piece TCG card by its code (e.g. OP01-016)")
@@ -157,6 +162,105 @@ async def random_card(interaction: discord.Interaction):
         await interaction.response.send_message(embed=embed, view=view)
     else:
         await interaction.response.send_message(embed=embed)
+
+
+def build_deck_embed(deck: dict) -> discord.Embed:
+    _, leader_card = find_card(deck["leader_code"])
+    leader_name = leader_card["name"] if isinstance(leader_card, dict) else deck["leader_code"]
+
+    embed = discord.Embed(
+        title=f'{deck["name"]} ({deck["color"]})',
+        description=f'Leader: **{leader_name}** (`{deck["leader_code"]}`)',
+        color=COLOR_MAP.get(deck["color"], 0x888888),
+    )
+
+    if isinstance(leader_card, dict) and leader_card.get("image_url"):
+        embed.set_thumbnail(url=leader_card["image_url"])
+
+    lines = []
+    for entry in deck["cards"]:
+        code = entry["code"]
+        qty = entry["qty"]
+        _, card = find_card(code)
+        name = card["name"] if isinstance(card, dict) else "?"
+        lines.append(f"`{qty}x` **{code}** — {name}")
+
+    chunk = []
+    length = 0
+    field_index = 1
+    for line in lines:
+        if length + len(line) + 1 > 1000:
+            embed.add_field(name=f"Decklist ({field_index})", value="\n".join(chunk), inline=False)
+            chunk = []
+            length = 0
+            field_index += 1
+        chunk.append(line)
+        length += len(line) + 1
+    if chunk:
+        embed.add_field(
+            name=f"Decklist ({field_index})" if field_index > 1 else "Decklist",
+            value="\n".join(chunk),
+            inline=False,
+        )
+
+    src = deck["source"]
+    embed.set_footer(
+        text=f"{deck['total_cards']} cards | {src['placement']} by {src['author']} | {src['set']} | via {src['site']}"
+    )
+    return embed
+
+
+@bot.tree.command(name="randomdeck", description="Pull a random tournament decklist by color")
+@app_commands.describe(color="Deck color to pick from")
+@app_commands.choices(color=[app_commands.Choice(name=c, value=c) for c in COLOR_CHOICES])
+async def random_deck(interaction: discord.Interaction, color: app_commands.Choice[str]):
+    matches = [d for d in DECKS if d["color"] == color.value]
+
+    if not matches:
+        await interaction.response.send_message(
+            f"No {color.value} decks in the database yet.", ephemeral=True
+        )
+        return
+
+    deck = random.choice(matches)
+    embed = build_deck_embed(deck)
+    await interaction.response.send_message(embed=embed)
+
+
+@bot.tree.command(name="deckbyleader", description="Pull a random tournament decklist for a specific leader")
+@app_commands.describe(leader="Leader to search decks for")
+async def deck_by_leader(interaction: discord.Interaction, leader: str):
+    matches = [d for d in DECKS if d["leader_code"] == leader]
+
+    if not matches:
+        await interaction.response.send_message(
+            "No decks found for that leader.", ephemeral=True
+        )
+        return
+
+    deck = random.choice(matches)
+    embed = build_deck_embed(deck)
+    await interaction.response.send_message(embed=embed)
+
+
+@deck_by_leader.autocomplete("leader")
+async def deck_by_leader_autocomplete(interaction: discord.Interaction, current: str):
+    current = current.lower()
+    seen_codes = set()
+    choices = []
+    for deck in DECKS:
+        code = deck["leader_code"]
+        if code in seen_codes:
+            continue
+        _, card = find_card(code)
+        leader_name = card["name"] if isinstance(card, dict) else code
+        label = f"{leader_name} ({code}) — {deck['name']}"
+        if current in leader_name.lower() or current in code.lower() or current in deck["name"].lower():
+            seen_codes.add(code)
+            choices.append(app_commands.Choice(name=label[:100], value=code))
+        if len(choices) >= 25:
+            break
+    return choices
 
 
 if __name__ == "__main__":
