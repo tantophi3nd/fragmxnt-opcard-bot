@@ -249,16 +249,7 @@ def build_deck_embed(deck: dict) -> discord.Embed:
     _, leader_card = find_card(deck["leader_code"])
     leader_name = leader_card["name"] if isinstance(leader_card, dict) else deck["leader_code"]
 
-    embed = discord.Embed(
-        title=f'{deck["name"]} ({deck["color"]})',
-        description=f'Leader: **{leader_name}** (`{deck["leader_code"]}`)',
-        color=COLOR_MAP.get(deck["color"], 0x888888),
-    )
-
-    if isinstance(leader_card, dict) and leader_card.get("image_url"):
-        embed.set_thumbnail(url=leader_card["image_url"])
-
-    lines = []
+    lines = [f'Leader: **{leader_name}** (`{deck["leader_code"]}`)', "", "**Decklist**"]
     for entry in deck["cards"]:
         code = entry["code"]
         qty = entry["qty"]
@@ -266,23 +257,18 @@ def build_deck_embed(deck: dict) -> discord.Embed:
         name = card["name"] if isinstance(card, dict) else "?"
         lines.append(f"`{qty}x` **{code}** — {name}")
 
-    chunk = []
-    length = 0
-    field_index = 1
-    for line in lines:
-        if length + len(line) + 1 > 1000:
-            embed.add_field(name=f"Decklist ({field_index})", value="\n".join(chunk), inline=False)
-            chunk = []
-            length = 0
-            field_index += 1
-        chunk.append(line)
-        length += len(line) + 1
-    if chunk:
-        embed.add_field(
-            name=f"Decklist ({field_index})" if field_index > 1 else "Decklist",
-            value="\n".join(chunk),
-            inline=False,
-        )
+    full_text = "\n".join(lines)
+    if len(full_text) > 4000:  # Discord embed description hard limit is 4096
+        full_text = full_text[:3950] + "\n...(list truncated)"
+
+    embed = discord.Embed(
+        title=f'{deck["name"]} ({deck["color"]})',
+        description=full_text,  # single continuous list, no field splitting
+        color=COLOR_MAP.get(deck["color"], 0x888888),
+    )
+
+    if isinstance(leader_card, dict) and leader_card.get("image_url"):
+        embed.set_thumbnail(url=leader_card["image_url"])
 
     src = deck["source"]
     embed.set_footer(
