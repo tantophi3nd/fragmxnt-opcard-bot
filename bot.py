@@ -2,11 +2,8 @@ import json
 import os
 import difflib
 import random
-import re
 
 import discord
-import aiohttp
-from bs4 import BeautifulSoup
 from discord import app_commands
 from discord.ext import commands
 
@@ -16,106 +13,6 @@ with open(DATA_PATH, "r", encoding="utf-8") as f:
     _DATA = json.load(f)
 
 CARDS = _DATA["cards"]  # keys are normalized to UPPERCASE at lookup time
-DECKS = _DATA["decks"]
-
-COLOR_CHOICES = ["Red", "Green", "Blue", "Purple", "Black", "Yellow"]
-
-# English-format deck-list pages, pulled from onepiecetopdecks.com/deck-list/
-# Current meta first (weighted more likely to be picked), older formats after.
-DECK_LIST_PAGES = [
-    "https://onepiecetopdecks.com/deck-list/english-op17-deck-list-the-worlds-strongest-warriors/",
-    "https://onepiecetopdecks.com/deck-list/english-op16-deck-list-the-time-of-battle/",
-    "https://onepiecetopdecks.com/deck-list/english-op15-eb04-deck-list-adventure-on-kamis-island/",
-    "https://onepiecetopdecks.com/deck-list/english-eb-03-deck-list-one-piece-heroines-edition/",
-    "https://onepiecetopdecks.com/deck-list/english-op-14-eb-04-deck-list-the-azure-sea-seven/",
-    "https://onepiecetopdecks.com/deck-list/english-op-13-deck-list-carrying-on-his-will/",
-    "https://onepiecetopdecks.com/deck-list/english-op-12-deck-list-legacy-of-the-master/",
-    "https://onepiecetopdecks.com/deck-list/english-eb-02-deck-list-anime-25th-collection/",
-    "https://onepiecetopdecks.com/deck-list/english-op-10-the-royal-bloodline-decks/",
-    "https://onepiecetopdecks.com/deck-list/english-op-09-the-new-emperor-decks/",
-]
-
-
-def _parse_dg(dg: str):
-    """Parse a 'dg' composition string like '1nOP05-060a4nOP11-070a...' into [{code, qty}]."""
-    parts = re.findall(r"(\d+)n([A-Za-z0-9\-]+?)a(?=\d+n|$)", dg + "a")
-    return [{"code": code, "qty": int(qty)} for qty, code in parts]
-
-
-async def _fetch_deck_rows(session: aiohttp.ClientSession, url: str):
-    """Fetch one deck-list page and parse its table into a list of deck dicts."""
-    try:
-        async with session.get(url, timeout=aiohttp.ClientTimeout(total=15)) as resp:
-            print(f"[decklist] GET {url} -> status {resp.status}")
-            if resp.status != 200:
-                body_preview = (await resp.text())[:200]
-                print(f"[decklist] non-200 body preview: {body_preview!r}")
-                return []
-            html = await resp.text()
-    except Exception as e:
-        print(f"[decklist] fetch exception for {url}: {e!r}")
-        return []
-
-    print(f"[decklist] fetched {len(html)} chars from {url}")
-
-    soup = BeautifulSoup(html, "html.parser")
-    tables = soup.find_all("table")
-    print(f"[decklist] found {len(tables)} <table> element(s) on page")
-    if not tables:
-        return []
-    table = tables[0]
-
-    all_trs = table.find_all("tr")
-    print(f"[decklist] table has {len(all_trs)} <tr> rows (including header)")
-
-    rows = []
-    skipped_short = 0
-    skipped_empty = 0
-    for tr in all_trs[1:]:  # skip header row
-        cells = tr.find_all("td")
-        if len(cells) < 11:
-            skipped_short += 1
-            continue
-
-        dg_cell_text = cells[0].get_text(strip=True)
-        if not dg_cell_text:
-            skipped_empty += 1
-            continue
-
-        # Column order: Deck Composition | Details | Deck Color | Deck Profile |
-        #               Deck Name | Date | Country | Author | Placement | Tournament | Host
-        color = cells[2].get_text(strip=True)
-        deck_name = cells[4].get_text(strip=True)
-        date = cells[5].get_text(strip=True)
-        country = cells[6].get_text(strip=True)
-        author = cells[7].get_text(strip=True)
-        placement = cells[8].get_text(strip=True)
-        tournament = cells[9].get_text(strip=True)
-        host = cells[10].get_text(strip=True)
-
-        cards = _parse_dg(dg_cell_text)
-        if not cards or not color:
-            continue
-
-        rows.append({
-            "name": deck_name,
-            "color": color,
-            "leader_code": cards[0]["code"],
-            "cards": cards,
-            "total_cards": sum(c["qty"] for c in cards),
-            "source": {
-                "author": author,
-                "placement": placement,
-                "date": date,
-                "country": country,
-                "tournament": tournament,
-                "host": host,
-                "page": url,
-                "site": "onepiecetopdecks.com",
-            },
-        })
-    print(f"[decklist] parsed {len(rows)} valid decks (skipped {skipped_short} short rows, {skipped_empty} empty dg)")
-    return rows
 
 COLOR_MAP = {
     "Red": 0xE3352E,
@@ -223,7 +120,7 @@ class ArtBrowser(discord.ui.View):
 @bot.event
 async def on_ready():
     await bot.tree.sync()
-    print(f"Logged in as {bot.user} | {len(CARDS)} cards loaded | {len(DECKS)} decks loaded")
+    print(f"Logged in as {bot.user} | {len(CARDS)} cards loaded")
 
 
 @bot.tree.command(name="card", description="Look up a One Piece TCG card by its code (e.g. OP01-016)")
@@ -263,128 +160,52 @@ async def random_card(interaction: discord.Interaction):
     else:
         await interaction.response.send_message(embed=embed)
 
+RULES_BASE_URL = "https://pub-d626914b5218469c9ec76a9dcdeaec0b.r2.dev/rules"
+RULES_TOTAL_PAGES = 17
 
-def build_deck_embed(deck: dict) -> discord.Embed:
-    _, leader_card = find_card(deck["leader_code"])
-    leader_name = leader_card["name"] if isinstance(leader_card, dict) else deck["leader_code"]
 
-    lines = [f'Leader: **{leader_name}** (`{deck["leader_code"]}`)', "", "**Decklist**"]
-    for entry in deck["cards"]:
-        code = entry["code"]
-        qty = entry["qty"]
-        _, card = find_card(code)
-        name = card["name"] if isinstance(card, dict) else "?"
-        lines.append(f"`{qty}x` **{code}** — {name}")
-
-    full_text = "\n".join(lines)
-    if len(full_text) > 4000:  # Discord embed description hard limit is 4096
-        full_text = full_text[:3950] + "\n...(list truncated)"
-
+def build_rules_embed(page: int) -> discord.Embed:
     embed = discord.Embed(
-        title=f'{deck["name"]} ({deck["color"]})',
-        description=full_text,  # single continuous list, no field splitting
-        color=COLOR_MAP.get(deck["color"], 0x888888),
+        title="One Piece Card Game — Official Rule Manual (Thai) v1.11",
+        color=0xC0272D,
     )
-
-    if isinstance(leader_card, dict) and leader_card.get("image_url"):
-        embed.set_thumbnail(url=leader_card["image_url"])
-
-    src = deck["source"]
-    embed.set_footer(
-        text=(
-            f"{deck['total_cards']} cards | {src['placement']} by {src['author']} "
-            f"({src.get('country', '?')}) | {src.get('tournament', '?')} @ {src.get('host', '?')} "
-            f"| {src.get('date', '')} | via {src['site']}"
-        )
-    )
+    embed.set_image(url=f"{RULES_BASE_URL}/page_{page:02d}.png")
+    embed.set_footer(text=f"Page {page}/{RULES_TOTAL_PAGES}")
     return embed
 
 
-@bot.tree.command(name="randomdeck", description="Pull a random tournament decklist from onepiecetopdecks.com by color")
-@app_commands.describe(color="Deck color to pick from")
-@app_commands.choices(color=[app_commands.Choice(name=c, value=c) for c in COLOR_CHOICES])
-async def random_deck(interaction: discord.Interaction, color: app_commands.Choice[str]):
-    await interaction.response.defer()  # live scraping can take a few seconds
+class RuleBrowser(discord.ui.View):
+    """Prev/Next buttons to page through the rule manual, same pattern as ArtBrowser."""
 
-    matches = []
-    urls_to_try = random.sample(DECK_LIST_PAGES, k=min(4, len(DECK_LIST_PAGES)))
+    def __init__(self, page: int = 1):
+        super().__init__(timeout=180)
+        self.page = page
+        self._update_button_state()
 
-    async with aiohttp.ClientSession(headers={
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-    }) as session:
-        for url in urls_to_try:
-            try:
-                rows = await _fetch_deck_rows(session, url)
-            except Exception:
-                continue
-            matches.extend([r for r in rows if r["color"] == color.value])
-            if matches:
-                break  # got hits, no need to check more pages
+    def _update_button_state(self):
+        self.prev_button.disabled = self.page <= 1
+        self.next_button.disabled = self.page >= RULES_TOTAL_PAGES
 
-    if not matches:
-        await interaction.followup.send(
-            f"Couldn't find any {color.value} decks on the pages I checked just now. "
-            f"Try again — it samples a few random pages each time.",
-            ephemeral=True,
-        )
-        return
+    @discord.ui.button(label="◀ Prev", style=discord.ButtonStyle.secondary)
+    async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        self.page = max(1, self.page - 1)
+        self._update_button_state()
+        await interaction.response.edit_message(embed=build_rules_embed(self.page), view=self)
 
-    deck = random.choice(matches)
-    embed = build_deck_embed(deck)
-    await interaction.followup.send(embed=embed)
+    @discord.ui.button(label="Next ▶", style=discord.ButtonStyle.secondary)
+    async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        self.page = min(RULES_TOTAL_PAGES, self.page + 1)
+        self._update_button_state()
+        await interaction.response.edit_message(embed=build_rules_embed(self.page), view=self)
 
 
-@bot.tree.command(name="deckbyleader", description="Pull a random tournament decklist for a specific leader")
-@app_commands.describe(leader="Leader to search decks for")
-async def deck_by_leader(interaction: discord.Interaction, leader: str):
-    await interaction.response.defer()  # live scraping can take a few seconds
-
-    matches = []
-    async with aiohttp.ClientSession(headers={
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-    }) as session:
-        for url in DECK_LIST_PAGES:
-            try:
-                rows = await _fetch_deck_rows(session, url)
-            except Exception:
-                continue
-            matches.extend([r for r in rows if r["leader_code"] == leader])
-            if len(matches) >= 5:  # enough variety, stop early
-                break
-
-    if not matches:
-        await interaction.followup.send(
-            "No decks found for that leader on the pages I checked.", ephemeral=True
-        )
-        return
-
-    deck = random.choice(matches)
-    embed = build_deck_embed(deck)
-    await interaction.followup.send(embed=embed)
-
-
-@deck_by_leader.autocomplete("leader")
-async def deck_by_leader_autocomplete(interaction: discord.Interaction, current: str):
-    current = current.lower()
-    seen_codes = set()
-    choices = []
-    for deck in DECKS:
-        code = deck["leader_code"]
-        if code in seen_codes:
-            continue
-        _, card = find_card(code)
-        leader_name = card["name"] if isinstance(card, dict) else code
-        label = f"{leader_name} ({code}) — {deck['name']}"
-        if current in leader_name.lower() or current in code.lower() or current in deck["name"].lower():
-            seen_codes.add(code)
-            choices.append(app_commands.Choice(name=label[:100], value=code))
-        if len(choices) >= 25:
-            break
-    return choices
+@bot.tree.command(name="rules", description="Browse the official One Piece Card Game rule manual page by page")
+@app_commands.describe(page="Page number to start at (default 1)")
+async def rules(interaction: discord.Interaction, page: int = 1):
+    page = max(1, min(RULES_TOTAL_PAGES, page))
+    embed = build_rules_embed(page)
+    view = RuleBrowser(page)
+    await interaction.response.send_message(embed=embed, view=view)
 
 
 if __name__ == "__main__":
