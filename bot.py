@@ -2,8 +2,11 @@ import json
 import os
 import difflib
 import random
+import re
 
 import discord
+import aiohttp
+from bs4 import BeautifulSoup
 from discord import app_commands
 from discord.ext import commands
 
@@ -16,6 +19,84 @@ CARDS = _DATA["cards"]  # keys are normalized to UPPERCASE at lookup time
 DECKS = _DATA["decks"]
 
 COLOR_CHOICES = ["Red", "Green", "Blue", "Purple", "Black", "Yellow"]
+
+# English-format deck-list pages, pulled from onepiecetopdecks.com/deck-list/
+# Current meta first (weighted more likely to be picked), older formats after.
+DECK_LIST_PAGES = [
+    "https://onepiecetopdecks.com/deck-list/english-op17-deck-list-the-worlds-strongest-warriors/",
+    "https://onepiecetopdecks.com/deck-list/english-op16-deck-list-the-time-of-battle/",
+    "https://onepiecetopdecks.com/deck-list/english-op15-eb04-deck-list-adventure-on-kamis-island/",
+    "https://onepiecetopdecks.com/deck-list/english-eb-03-deck-list-one-piece-heroines-edition/",
+    "https://onepiecetopdecks.com/deck-list/english-op-14-eb-04-deck-list-the-azure-sea-seven/",
+    "https://onepiecetopdecks.com/deck-list/english-op-13-deck-list-carrying-on-his-will/",
+    "https://onepiecetopdecks.com/deck-list/english-op-12-deck-list-legacy-of-the-master/",
+    "https://onepiecetopdecks.com/deck-list/english-eb-02-deck-list-anime-25th-collection/",
+    "https://onepiecetopdecks.com/deck-list/english-op-10-the-royal-bloodline-decks/",
+    "https://onepiecetopdecks.com/deck-list/english-op-09-the-new-emperor-decks/",
+]
+
+
+def _parse_dg(dg: str):
+    """Parse a 'dg' composition string like '1nOP05-060a4nOP11-070a...' into [{code, qty}]."""
+    parts = re.findall(r"(\d+)n([A-Za-z0-9\-]+?)a(?=\d+n|$)", dg + "a")
+    return [{"code": code, "qty": int(qty)} for qty, code in parts]
+
+
+async def _fetch_deck_rows(session: aiohttp.ClientSession, url: str):
+    """Fetch one deck-list page and parse its table into a list of deck dicts."""
+    async with session.get(url, timeout=aiohttp.ClientTimeout(total=15)) as resp:
+        if resp.status != 200:
+            return []
+        html = await resp.text()
+
+    soup = BeautifulSoup(html, "html.parser")
+    table = soup.find("table")
+    if table is None:
+        return []
+
+    rows = []
+    for tr in table.find_all("tr")[1:]:  # skip header row
+        cells = tr.find_all("td")
+        if len(cells) < 11:
+            continue
+
+        dg_cell_text = cells[0].get_text(strip=True)
+        if not dg_cell_text:
+            continue
+
+        # Column order: Deck Composition | Details | Deck Color | Deck Profile |
+        #               Deck Name | Date | Country | Author | Placement | Tournament | Host
+        color = cells[2].get_text(strip=True)
+        deck_name = cells[4].get_text(strip=True)
+        date = cells[5].get_text(strip=True)
+        country = cells[6].get_text(strip=True)
+        author = cells[7].get_text(strip=True)
+        placement = cells[8].get_text(strip=True)
+        tournament = cells[9].get_text(strip=True)
+        host = cells[10].get_text(strip=True)
+
+        cards = _parse_dg(dg_cell_text)
+        if not cards or not color:
+            continue
+
+        rows.append({
+            "name": deck_name,
+            "color": color,
+            "leader_code": cards[0]["code"],
+            "cards": cards,
+            "total_cards": sum(c["qty"] for c in cards),
+            "source": {
+                "author": author,
+                "placement": placement,
+                "date": date,
+                "country": country,
+                "tournament": tournament,
+                "host": host,
+                "page": url,
+                "site": "onepiecetopdecks.com",
+            },
+        })
+    return rows
 
 COLOR_MAP = {
     "Red": 0xE3352E,
@@ -205,42 +286,72 @@ def build_deck_embed(deck: dict) -> discord.Embed:
 
     src = deck["source"]
     embed.set_footer(
-        text=f"{deck['total_cards']} cards | {src['placement']} by {src['author']} | {src['set']} | via {src['site']}"
+        text=(
+            f"{deck['total_cards']} cards | {src['placement']} by {src['author']} "
+            f"({src.get('country', '?')}) | {src.get('tournament', '?')} @ {src.get('host', '?')} "
+            f"| {src.get('date', '')} | via {src['site']}"
+        )
     )
     return embed
 
 
-@bot.tree.command(name="randomdeck", description="Pull a random tournament decklist by color")
+@bot.tree.command(name="randomdeck", description="Pull a random tournament decklist from onepiecetopdecks.com by color")
 @app_commands.describe(color="Deck color to pick from")
 @app_commands.choices(color=[app_commands.Choice(name=c, value=c) for c in COLOR_CHOICES])
 async def random_deck(interaction: discord.Interaction, color: app_commands.Choice[str]):
-    matches = [d for d in DECKS if d["color"] == color.value]
+    await interaction.response.defer()  # live scraping can take a few seconds
+
+    matches = []
+    urls_to_try = random.sample(DECK_LIST_PAGES, k=min(4, len(DECK_LIST_PAGES)))
+
+    async with aiohttp.ClientSession(headers={"User-Agent": "Mozilla/5.0"}) as session:
+        for url in urls_to_try:
+            try:
+                rows = await _fetch_deck_rows(session, url)
+            except Exception:
+                continue
+            matches.extend([r for r in rows if r["color"] == color.value])
+            if matches:
+                break  # got hits, no need to check more pages
 
     if not matches:
-        await interaction.response.send_message(
-            f"No {color.value} decks in the database yet.", ephemeral=True
+        await interaction.followup.send(
+            f"Couldn't find any {color.value} decks on the pages I checked just now. "
+            f"Try again — it samples a few random pages each time.",
+            ephemeral=True,
         )
         return
 
     deck = random.choice(matches)
     embed = build_deck_embed(deck)
-    await interaction.response.send_message(embed=embed)
+    await interaction.followup.send(embed=embed)
 
 
 @bot.tree.command(name="deckbyleader", description="Pull a random tournament decklist for a specific leader")
 @app_commands.describe(leader="Leader to search decks for")
 async def deck_by_leader(interaction: discord.Interaction, leader: str):
-    matches = [d for d in DECKS if d["leader_code"] == leader]
+    await interaction.response.defer()  # live scraping can take a few seconds
+
+    matches = []
+    async with aiohttp.ClientSession(headers={"User-Agent": "Mozilla/5.0"}) as session:
+        for url in DECK_LIST_PAGES:
+            try:
+                rows = await _fetch_deck_rows(session, url)
+            except Exception:
+                continue
+            matches.extend([r for r in rows if r["leader_code"] == leader])
+            if len(matches) >= 5:  # enough variety, stop early
+                break
 
     if not matches:
-        await interaction.response.send_message(
-            "No decks found for that leader.", ephemeral=True
+        await interaction.followup.send(
+            "No decks found for that leader on the pages I checked.", ephemeral=True
         )
         return
 
     deck = random.choice(matches)
     embed = build_deck_embed(deck)
-    await interaction.response.send_message(embed=embed)
+    await interaction.followup.send(embed=embed)
 
 
 @deck_by_leader.autocomplete("leader")
