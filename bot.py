@@ -346,7 +346,35 @@ async def random_deck(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed)
 
 
-dailydeck_group = app_commands.Group(name="dailydeck", description="Manage the automatic daily deck post")
+class AdminOnlyGroup(app_commands.Group):
+    """Restricts every command in this group to the server owner or members with Administrator.
+    Works per-guild automatically, so this stays correct even if the bot joins other servers."""
+
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        if interaction.guild is None:
+            await interaction.response.send_message(
+                "This command only works inside a server.", ephemeral=True
+            )
+            return False
+
+        member = interaction.user
+        is_owner = interaction.guild.owner_id == member.id
+        is_admin = isinstance(member, discord.Member) and member.guild_permissions.administrator
+
+        if not (is_owner or is_admin):
+            await interaction.response.send_message(
+                "🚫 Only the server owner or admins can manage the daily deck schedule.",
+                ephemeral=True,
+            )
+            return False
+        return True
+
+
+dailydeck_group = AdminOnlyGroup(
+    name="dailydeck",
+    description="Manage the automatic daily deck post",
+    default_permissions=discord.Permissions(administrator=True),
+)
 
 
 @dailydeck_group.command(name="enable", description="Turn on the automatic daily deck post")
