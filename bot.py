@@ -5,6 +5,7 @@ import random
 import datetime
 
 import discord
+import instaloader
 from discord import app_commands
 from discord.ext import commands, tasks
 
@@ -51,6 +52,48 @@ def save_schedule(state: dict):
 
 
 SCHEDULE_STATE = load_schedule()
+
+# --- Instagram update notifications (locked to a single account) ---
+IG_ACCOUNT = "op.tcg"
+IG_CHECK_INTERVAL_MINUTES = 10  # how often to poll for a new post
+IG_SCHEDULE_PATH = os.path.join(os.path.dirname(__file__), "data", "ig_schedule_state.json")
+
+_DEFAULT_IG_SCHEDULE = {
+    "enabled": True,
+    "channel_id": None,
+    "last_post_shortcode": None,
+}
+
+
+def load_ig_schedule() -> dict:
+    if os.path.exists(IG_SCHEDULE_PATH):
+        with open(IG_SCHEDULE_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        for k, v in _DEFAULT_IG_SCHEDULE.items():
+            data.setdefault(k, v)
+        return data
+    return dict(_DEFAULT_IG_SCHEDULE)
+
+
+def save_ig_schedule(state: dict):
+    os.makedirs(os.path.dirname(IG_SCHEDULE_PATH), exist_ok=True)
+    with open(IG_SCHEDULE_PATH, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+
+
+IG_SCHEDULE_STATE = load_ig_schedule()
+
+# Anonymous, read-only loader — no login, matches "public profile" scraping approach.
+_ig_loader = instaloader.Instaloader(
+    download_pictures=False,
+    download_videos=False,
+    download_video_thumbnails=False,
+    download_geotags=False,
+    download_comments=False,
+    save_metadata=False,
+    compress_json=False,
+    quiet=True,
+)
 
 COLOR_MAP = {
     "Red": 0xE3352E,
@@ -241,13 +284,71 @@ async def daily_deck_scheduler():
         save_schedule(SCHEDULE_STATE)
 
 
+async def _check_instagram_for_new_post():
+    channel_id = IG_SCHEDULE_STATE.get("channel_id")
+    if not channel_id:
+        print("[ig_update] no channel_id set, skipping check — use /opnews setchannel")
+        return
+
+    try:
+        profile = instaloader.Profile.from_username(_ig_loader.context, IG_ACCOUNT)
+        latest_post = next(profile.get_posts())
+    except Exception as e:
+        print(f"[ig_update] failed to fetch @{IG_ACCOUNT} posts: {e!r}")
+        return
+
+    if latest_post.shortcode == IG_SCHEDULE_STATE.get("last_post_shortcode"):
+        print("[ig_update] no new post since last check")
+        return
+
+    channel = bot.get_channel(channel_id)
+    if channel is None:
+        try:
+            channel = await bot.fetch_channel(channel_id)
+        except Exception as e:
+            print(f"[ig_update] could not fetch channel {channel_id}: {e!r}")
+            return
+
+    caption = (latest_post.caption or "")[:400]
+    post_url = f"https://www.instagram.com/p/{latest_post.shortcode}/"
+
+    embed = discord.Embed(
+        title=f"New post from @{IG_ACCOUNT}",
+        description=caption,
+        url=post_url,
+        color=0xE1306C,  # Instagram-ish pink
+    )
+    embed.set_image(url=latest_post.url)
+    embed.set_footer(text=f"Posted {latest_post.date_utc.strftime('%Y-%m-%d %H:%M UTC')} | via Instagram")
+
+    await channel.send(
+        content="@everyone 📸 New OnePieceTCG Instagram update!",
+        embed=embed,
+        allowed_mentions=discord.AllowedMentions(everyone=True),
+    )
+    IG_SCHEDULE_STATE["last_post_shortcode"] = latest_post.shortcode
+    save_ig_schedule(IG_SCHEDULE_STATE)
+    print(f"[ig_update] posted new IG update: {latest_post.shortcode}")
+
+
+@tasks.loop(minutes=IG_CHECK_INTERVAL_MINUTES)
+async def ig_update_scheduler():
+    """Polls every IG_CHECK_INTERVAL_MINUTES for a new post from the tracked account."""
+    if not IG_SCHEDULE_STATE.get("enabled", False):
+        return
+    await _check_instagram_for_new_post()
+
+
 @bot.event
 async def on_ready():
     await bot.tree.sync()
     print(f"Logged in as {bot.user} | {len(CARDS)} cards loaded | {len(DECKS)} decks loaded")
     print(f"[daily_deck] schedule: {SCHEDULE_STATE}")
+    print(f"[ig_update] schedule: {IG_SCHEDULE_STATE}")
     if not daily_deck_scheduler.is_running():
         daily_deck_scheduler.start()
+    if not ig_update_scheduler.is_running():
+        ig_update_scheduler.start()
 
 
 @bot.tree.command(name="card", description="Look up a One Piece TCG card by its code (e.g. OP01-016)")
@@ -459,6 +560,61 @@ async def dailydeck_status(interaction: discord.Interaction):
 
 
 bot.tree.add_command(dailydeck_group)
+
+
+opnews_group = AdminOnlyGroup(
+    name="opnews",
+    description=f"Manage @{IG_ACCOUNT} Instagram update notifications",
+    default_permissions=discord.Permissions(administrator=True),
+)
+
+
+@opnews_group.command(name="enable", description="Turn on daily Instagram update checks")
+async def opnews_enable(interaction: discord.Interaction):
+    IG_SCHEDULE_STATE["enabled"] = True
+    save_ig_schedule(IG_SCHEDULE_STATE)
+    await interaction.response.send_message(
+        f"✅ Instagram update checks enabled — checking @{IG_ACCOUNT} every "
+        f"{IG_CHECK_INTERVAL_MINUTES} minutes.",
+        ephemeral=True,
+    )
+
+
+@opnews_group.command(name="disable", description="Turn off Instagram update checks")
+async def opnews_disable(interaction: discord.Interaction):
+    IG_SCHEDULE_STATE["enabled"] = False
+    save_ig_schedule(IG_SCHEDULE_STATE)
+    await interaction.response.send_message("🛑 Instagram update checks disabled.", ephemeral=True)
+
+
+@opnews_group.command(name="setchannel", description="Set which channel Instagram update notifications go to")
+@app_commands.describe(channel="Channel to post Instagram updates in")
+async def opnews_setchannel(interaction: discord.Interaction, channel: discord.TextChannel):
+    IG_SCHEDULE_STATE["channel_id"] = channel.id
+    save_ig_schedule(IG_SCHEDULE_STATE)
+    await interaction.response.send_message(
+        f"📌 Instagram update channel set to {channel.mention}.",
+        ephemeral=True,
+    )
+
+
+@opnews_group.command(name="status", description="Show the current Instagram update check status")
+async def opnews_status(interaction: discord.Interaction):
+    enabled = IG_SCHEDULE_STATE.get("enabled", False)
+    channel_id = IG_SCHEDULE_STATE.get("channel_id")
+    channel_mention = f"<#{channel_id}>" if channel_id else "⚠️ not set"
+
+    await interaction.response.send_message(
+        f"**Instagram update status (@{IG_ACCOUNT})**\n"
+        f"- Enabled: {'✅ Yes' if enabled else '🛑 No'}\n"
+        f"- Check interval: every {IG_CHECK_INTERVAL_MINUTES} minutes\n"
+        f"- Channel: {channel_mention}\n"
+        f"- Last posted shortcode: {IG_SCHEDULE_STATE.get('last_post_shortcode') or 'none yet'}",
+        ephemeral=True,
+    )
+
+
+bot.tree.add_command(opnews_group)
 
 
 if __name__ == "__main__":
