@@ -22,10 +22,15 @@ else:
     DECKS = []
 
 # Daily deck-of-the-day config
-DAILY_DECK_CHANNEL_ID = 1545851775003922543
 BANGKOK_TZ = datetime.timezone(datetime.timedelta(hours=7))
 
-_DEFAULT_SCHEDULE = {"enabled": True, "hour": 9, "minute": 0, "last_posted_date": None}
+_DEFAULT_SCHEDULE = {
+    "enabled": True,
+    "hour": 9,
+    "minute": 0,
+    "last_posted_date": None,
+    "channel_id": 1545851775003922543,  # fallback default; change with /dailydeck setchannel
+}
 
 
 def load_schedule() -> dict:
@@ -192,12 +197,17 @@ async def _post_daily_deck():
         print("[daily_deck] no decks available, skipping post")
         return
 
-    channel = bot.get_channel(DAILY_DECK_CHANNEL_ID)
+    channel_id = SCHEDULE_STATE.get("channel_id")
+    if not channel_id:
+        print("[daily_deck] no channel_id set, skipping post — use /dailydeck setchannel")
+        return
+
+    channel = bot.get_channel(channel_id)
     if channel is None:
         try:
-            channel = await bot.fetch_channel(DAILY_DECK_CHANNEL_ID)
+            channel = await bot.fetch_channel(channel_id)
         except Exception as e:
-            print(f"[daily_deck] could not fetch channel {DAILY_DECK_CHANNEL_ID}: {e!r}")
+            print(f"[daily_deck] could not fetch channel {channel_id}: {e!r}")
             return
 
     deck = random.choice(DECKS)
@@ -385,6 +395,17 @@ async def dailydeck_settime(
     )
 
 
+@dailydeck_group.command(name="setchannel", description="Set which channel the daily deck post goes to")
+@app_commands.describe(channel="Channel to post the daily deck in")
+async def dailydeck_setchannel(interaction: discord.Interaction, channel: discord.TextChannel):
+    SCHEDULE_STATE["channel_id"] = channel.id
+    save_schedule(SCHEDULE_STATE)
+    await interaction.response.send_message(
+        f"📌 Daily deck post channel set to {channel.mention}.",
+        ephemeral=True,
+    )
+
+
 @dailydeck_group.command(name="status", description="Show the current daily deck post schedule")
 async def dailydeck_status(interaction: discord.Interaction):
     h24 = SCHEDULE_STATE["hour"]
@@ -395,11 +416,14 @@ async def dailydeck_status(interaction: discord.Interaction):
         h12 = 12
     enabled = SCHEDULE_STATE.get("enabled", False)
     last_posted = SCHEDULE_STATE.get("last_posted_date") or "never"
+    channel_id = SCHEDULE_STATE.get("channel_id")
+    channel_mention = f"<#{channel_id}>" if channel_id else "⚠️ not set"
 
     await interaction.response.send_message(
         f"**Daily deck post status**\n"
         f"- Enabled: {'✅ Yes' if enabled else '🛑 No'}\n"
         f"- Time: {h12:02d}:{m:02d} {ampm} (GMT+7)\n"
+        f"- Channel: {channel_mention}\n"
         f"- Last posted: {last_posted}\n"
         f"- Decks in pool: {len(DECKS)}",
         ephemeral=True,
