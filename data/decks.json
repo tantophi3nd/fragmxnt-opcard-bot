@@ -1,0 +1,10464 @@
+[
+  {
+    "name": "P Enel",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP15-058",
+    "cards": [
+      {
+        "code": "OP15-058",
+        "qty": 1
+      },
+      {
+        "code": "OP12-071",
+        "qty": 2
+      },
+      {
+        "code": "OP15-061",
+        "qty": 4
+      },
+      {
+        "code": "OP15-066",
+        "qty": 4
+      },
+      {
+        "code": "OP15-067",
+        "qty": 4
+      },
+      {
+        "code": "ST10-010",
+        "qty": 3
+      },
+      {
+        "code": "OP09-072",
+        "qty": 1
+      },
+      {
+        "code": "OP10-067",
+        "qty": 2
+      },
+      {
+        "code": "OP15-118",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 1
+      },
+      {
+        "code": "OP15-074",
+        "qty": 4
+      },
+      {
+        "code": "OP15-075",
+        "qty": 4
+      },
+      {
+        "code": "OP15-076",
+        "qty": 4
+      },
+      {
+        "code": "OP15-077",
+        "qty": 4
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP05-077",
+        "qty": 3
+      },
+      {
+        "code": "OP09-077",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Ryu",
+      "placement": "1st (5-0)",
+      "date": "9/11/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP17-075",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "EB04-030",
+        "qty": 2
+      },
+      {
+        "code": "OP17-061",
+        "qty": 4
+      },
+      {
+        "code": "ST34-004",
+        "qty": 3
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP17-063",
+        "qty": 2
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "EB04-040",
+        "qty": 3
+      },
+      {
+        "code": "OP07-076",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Hideyoshi",
+      "placement": "1st (4-0)",
+      "date": "9/11/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "BINKS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Black Yamato",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP16-079",
+    "cards": [
+      {
+        "code": "OP16-079",
+        "qty": 1
+      },
+      {
+        "code": "OP16-091",
+        "qty": 4
+      },
+      {
+        "code": "OP16-092",
+        "qty": 4
+      },
+      {
+        "code": "OP16-081",
+        "qty": 2
+      },
+      {
+        "code": "OP16-087",
+        "qty": 4
+      },
+      {
+        "code": "OP16-088",
+        "qty": 1
+      },
+      {
+        "code": "OP16-095",
+        "qty": 1
+      },
+      {
+        "code": "OP06-093",
+        "qty": 3
+      },
+      {
+        "code": "OP16-082",
+        "qty": 4
+      },
+      {
+        "code": "OP16-094",
+        "qty": 1
+      },
+      {
+        "code": "OP16-084",
+        "qty": 4
+      },
+      {
+        "code": "OP16-098",
+        "qty": 4
+      },
+      {
+        "code": "OP16-096",
+        "qty": 3
+      },
+      {
+        "code": "OP16-097",
+        "qty": 4
+      },
+      {
+        "code": "OP07-085",
+        "qty": 1
+      },
+      {
+        "code": "OP16-085",
+        "qty": 3
+      },
+      {
+        "code": "OP14-096",
+        "qty": 3
+      },
+      {
+        "code": "OP16-099",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "3zu",
+      "placement": "1st Place",
+      "date": "9/11/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "CARDBOX",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 2
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "ST17-004",
+        "qty": 1
+      },
+      {
+        "code": "OP11-054",
+        "qty": 4
+      },
+      {
+        "code": "OP06-115",
+        "qty": 2
+      },
+      {
+        "code": "OP14-118",
+        "qty": 1
+      },
+      {
+        "code": "OP07-057",
+        "qty": 1
+      },
+      {
+        "code": "OP06-058",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "jtjt_1083",
+      "placement": "1st (5-0)",
+      "date": "9/11/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "OneHappy",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-108",
+        "qty": 2
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "ST17-004",
+        "qty": 4
+      },
+      {
+        "code": "OP06-115",
+        "qty": 4
+      },
+      {
+        "code": "OP06-058",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "tsk00104",
+      "placement": "1st (5-0)",
+      "date": "9/11/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "TorecaShop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 3
+      },
+      {
+        "code": "OP07-026",
+        "qty": 2
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "OP14-033",
+        "qty": 1
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 3
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "ST32-003",
+        "qty": 1
+      },
+      {
+        "code": "OP06-035",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 4
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Mitsu",
+      "placement": "1st (5-0)",
+      "date": "9/11/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP08-074",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-061",
+        "qty": 3
+      },
+      {
+        "code": "OP17-065",
+        "qty": 3
+      },
+      {
+        "code": "ST34-004",
+        "qty": 3
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP17-063",
+        "qty": 2
+      },
+      {
+        "code": "OP15-077",
+        "qty": 2
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP17-076",
+        "qty": 2
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "OP07-076",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kyon",
+      "placement": "1st (4-0)",
+      "date": "9/9/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshops",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Koala",
+    "color": "Black",
+    "color_display": "Black/Yellow",
+    "leader_code": "OP12-081",
+    "cards": [
+      {
+        "code": "OP12-081",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 4
+      },
+      {
+        "code": "OP17-086",
+        "qty": 3
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-083",
+        "qty": 2
+      },
+      {
+        "code": "OP17-087",
+        "qty": 2
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 3
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP12-119",
+        "qty": 2
+      },
+      {
+        "code": "OP17-098",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Jack Jun",
+      "placement": "NA (4-1)",
+      "date": "9/9/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Robin ( 6cost Kid)",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP17-106",
+        "qty": 2
+      },
+      {
+        "code": "ST36-005",
+        "qty": 3
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 2
+      },
+      {
+        "code": "OP16-119",
+        "qty": 3
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "ST34-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Soumen",
+      "placement": "1st (4-0)",
+      "date": "9/9/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP12-112",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 2
+      },
+      {
+        "code": "EB04-058",
+        "qty": 3
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 3
+      },
+      {
+        "code": "OP16-119",
+        "qty": 1
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "OP11-070",
+        "qty": 2
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP05-073",
+        "qty": 2
+      },
+      {
+        "code": "OP09-078",
+        "qty": 3
+      },
+      {
+        "code": "OP08-076",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "C9",
+      "placement": "1st (5-0)",
+      "date": "9/9/2026",
+      "country": "PH",
+      "tournament": "FS",
+      "host": "Unbox",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-111",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 2
+      },
+      {
+        "code": "OP16-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "OP11-070",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Umabanko",
+      "placement": "1st (5-0)",
+      "date": "9/9/2026",
+      "country": "JP",
+      "tournament": "EGB",
+      "host": "Preyz",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP07-026",
+        "qty": 3
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 3
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP14-027",
+        "qty": 1
+      },
+      {
+        "code": "ST24-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 3
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Araki",
+      "placement": "1st Place",
+      "date": "9/9/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "TCG Center",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP07-026",
+        "qty": 2
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP06-035",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 1
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Sake",
+      "placement": "1st (5-0)",
+      "date": "9/9/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "OP14-023",
+        "qty": 1
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP10-030",
+        "qty": 1
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "OP14-033",
+        "qty": 2
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 2
+      },
+      {
+        "code": "ST32-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kanachoo",
+      "placement": "1st Place",
+      "date": "9/9/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Corgi",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP02-106",
+        "qty": 3
+      },
+      {
+        "code": "OP17-084",
+        "qty": 4
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 2
+      },
+      {
+        "code": "OP17-091",
+        "qty": 3
+      },
+      {
+        "code": "OP17-095",
+        "qty": 3
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "OP02-117",
+        "qty": 4
+      },
+      {
+        "code": "OP07-096",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "NoReJe",
+      "placement": "1st (5-0)",
+      "date": "9/9/2026",
+      "country": "JP",
+      "tournament": "EGB",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-108",
+        "qty": 4
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "OP08-050",
+        "qty": 4
+      },
+      {
+        "code": "OP14-118",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "K",
+      "placement": "1st Place",
+      "date": "9/8/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Tsutaya",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "GB luffy",
+    "color": "Green",
+    "color_display": "Green/Blue",
+    "leader_code": "OP16-022",
+    "cards": [
+      {
+        "code": "OP16-022",
+        "qty": 1
+      },
+      {
+        "code": "OP16-034",
+        "qty": 4
+      },
+      {
+        "code": "ST30-014",
+        "qty": 4
+      },
+      {
+        "code": "OP15-032",
+        "qty": 1
+      },
+      {
+        "code": "OP16-032",
+        "qty": 2
+      },
+      {
+        "code": "OP02-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-054",
+        "qty": 4
+      },
+      {
+        "code": "OP16-055",
+        "qty": 4
+      },
+      {
+        "code": "OP16-045",
+        "qty": 4
+      },
+      {
+        "code": "OP16-056",
+        "qty": 4
+      },
+      {
+        "code": "OP16-048",
+        "qty": 4
+      },
+      {
+        "code": "OP16-042",
+        "qty": 4
+      },
+      {
+        "code": "OP16-042",
+        "qty": 4
+      },
+      {
+        "code": "OP12-037",
+        "qty": 1
+      },
+      {
+        "code": "OP16-038",
+        "qty": 3
+      },
+      {
+        "code": "OP02-068",
+        "qty": 1
+      },
+      {
+        "code": "EB02-030",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kou",
+      "placement": "1st (5-0)",
+      "date": "9/8/2026",
+      "country": "JP",
+      "tournament": "EGB",
+      "host": "Bookoff",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "RG Luffy",
+    "color": "Red",
+    "color_display": "Red/Green",
+    "leader_code": "OP13-001",
+    "cards": [
+      {
+        "code": "OP13-001",
+        "qty": 1
+      },
+      {
+        "code": "OP01-016",
+        "qty": 4
+      },
+      {
+        "code": "EB04-002",
+        "qty": 2
+      },
+      {
+        "code": "ST21-003",
+        "qty": 2
+      },
+      {
+        "code": "EB04-007",
+        "qty": 4
+      },
+      {
+        "code": "ST31-004",
+        "qty": 3
+      },
+      {
+        "code": "EB02-017",
+        "qty": 4
+      },
+      {
+        "code": "OP17-023",
+        "qty": 4
+      },
+      {
+        "code": "OP13-037",
+        "qty": 2
+      },
+      {
+        "code": "OP14-022",
+        "qty": 4
+      },
+      {
+        "code": "OP14-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-027",
+        "qty": 4
+      },
+      {
+        "code": "OP13-118",
+        "qty": 3
+      },
+      {
+        "code": "OP15-032",
+        "qty": 2
+      },
+      {
+        "code": "ST31-005",
+        "qty": 4
+      },
+      {
+        "code": "OP05-038",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Gokuu",
+      "placement": "1st (5-0)",
+      "date": "9/7/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Black Yamato",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP16-079",
+    "cards": [
+      {
+        "code": "OP16-079",
+        "qty": 1
+      },
+      {
+        "code": "OP16-091",
+        "qty": 4
+      },
+      {
+        "code": "OP16-092",
+        "qty": 4
+      },
+      {
+        "code": "OP16-081",
+        "qty": 3
+      },
+      {
+        "code": "OP16-087",
+        "qty": 4
+      },
+      {
+        "code": "OP16-088",
+        "qty": 1
+      },
+      {
+        "code": "OP16-095",
+        "qty": 1
+      },
+      {
+        "code": "OP06-093",
+        "qty": 2
+      },
+      {
+        "code": "OP16-082",
+        "qty": 4
+      },
+      {
+        "code": "OP16-084",
+        "qty": 4
+      },
+      {
+        "code": "OP16-098",
+        "qty": 4
+      },
+      {
+        "code": "OP16-096",
+        "qty": 4
+      },
+      {
+        "code": "OP16-097",
+        "qty": 4
+      },
+      {
+        "code": "OP16-085",
+        "qty": 4
+      },
+      {
+        "code": "OP14-096",
+        "qty": 3
+      },
+      {
+        "code": "OP16-099",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "kiyppi",
+      "placement": "1st (5-0)",
+      "date": "9/7/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Takao Book",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-050",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-042",
+        "qty": 3
+      },
+      {
+        "code": "OP17-044",
+        "qty": 3
+      },
+      {
+        "code": "OP17-046",
+        "qty": 3
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Ciuzen",
+      "placement": "1st (5-0)",
+      "date": "9/6/2026",
+      "country": "Indonesia",
+      "tournament": "FS",
+      "host": "Alex Hobby Shop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Enel",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP15-058",
+    "cards": [
+      {
+        "code": "OP15-058",
+        "qty": 1
+      },
+      {
+        "code": "OP12-071",
+        "qty": 2
+      },
+      {
+        "code": "OP15-061",
+        "qty": 4
+      },
+      {
+        "code": "OP15-066",
+        "qty": 4
+      },
+      {
+        "code": "OP15-067",
+        "qty": 4
+      },
+      {
+        "code": "ST10-010",
+        "qty": 2
+      },
+      {
+        "code": "OP12-063",
+        "qty": 2
+      },
+      {
+        "code": "OP10-067",
+        "qty": 2
+      },
+      {
+        "code": "OP15-118",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 2
+      },
+      {
+        "code": "OP15-074",
+        "qty": 4
+      },
+      {
+        "code": "OP15-075",
+        "qty": 4
+      },
+      {
+        "code": "OP15-076",
+        "qty": 4
+      },
+      {
+        "code": "OP15-077",
+        "qty": 3
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP05-077",
+        "qty": 3
+      },
+      {
+        "code": "OP09-077",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kobayashi",
+      "placement": "1st (9-0)",
+      "date": "9/6/2026",
+      "country": "JP",
+      "tournament": "FS StorePrelims",
+      "host": "Cardshops",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Black Sabo",
+    "color": "Black",
+    "color_display": "Black/Red",
+    "leader_code": "OP13-004",
+    "cards": [
+      {
+        "code": "OP13-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 4
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-083",
+        "qty": 2
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "OP01-016",
+        "qty": 3
+      },
+      {
+        "code": "ST01-011",
+        "qty": 4
+      },
+      {
+        "code": "OP04-016",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Niginigi",
+      "placement": "1st (10-0)",
+      "date": "9/6/2026",
+      "country": "JP",
+      "tournament": "FS EGB",
+      "host": "Cardshops",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "BY Moria",
+    "color": "Black",
+    "color_display": "Black/Yellow",
+    "leader_code": "OP14-080",
+    "cards": [
+      {
+        "code": "OP14-080",
+        "qty": 1
+      },
+      {
+        "code": "OP06-091",
+        "qty": 4
+      },
+      {
+        "code": "OP15-084",
+        "qty": 4
+      },
+      {
+        "code": "OP06-090",
+        "qty": 2
+      },
+      {
+        "code": "PRB02-013",
+        "qty": 2
+      },
+      {
+        "code": "OP07-085",
+        "qty": 3
+      },
+      {
+        "code": "OP14-102",
+        "qty": 4
+      },
+      {
+        "code": "OP14-100",
+        "qty": 2
+      },
+      {
+        "code": "OP14-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-110",
+        "qty": 4
+      },
+      {
+        "code": "OP14-111",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 2
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP14-112",
+        "qty": 2
+      },
+      {
+        "code": "OP17-112",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "TGumi545",
+      "placement": "1st (5-0)",
+      "date": "9/6/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Crocodile",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP14-079",
+    "cards": [
+      {
+        "code": "OP14-079",
+        "qty": 1
+      },
+      {
+        "code": "OP14-083",
+        "qty": 4
+      },
+      {
+        "code": "OP14-087",
+        "qty": 4
+      },
+      {
+        "code": "OP14-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 2
+      },
+      {
+        "code": "OP14-091",
+        "qty": 4
+      },
+      {
+        "code": "OP14-093",
+        "qty": 2
+      },
+      {
+        "code": "P-149",
+        "qty": 3
+      },
+      {
+        "code": "OP14-090",
+        "qty": 4
+      },
+      {
+        "code": "OP14-094",
+        "qty": 2
+      },
+      {
+        "code": "OP14-084",
+        "qty": 4
+      },
+      {
+        "code": "OP15-092",
+        "qty": 3
+      },
+      {
+        "code": "OP14-120",
+        "qty": 4
+      },
+      {
+        "code": "OP05-094",
+        "qty": 2
+      },
+      {
+        "code": "OP14-096",
+        "qty": 4
+      },
+      {
+        "code": "OP14-099",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Tomu",
+      "placement": "1st Place",
+      "date": "9/6/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "OneTiesmie(29)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Black Teach",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP09-081",
+    "cards": [
+      {
+        "code": "OP09-081",
+        "qty": 1
+      },
+      {
+        "code": "OP09-089",
+        "qty": 4
+      },
+      {
+        "code": "OP09-095",
+        "qty": 4
+      },
+      {
+        "code": "OP11-083",
+        "qty": 4
+      },
+      {
+        "code": "OP09-090",
+        "qty": 4
+      },
+      {
+        "code": "OP09-086",
+        "qty": 4
+      },
+      {
+        "code": "OP09-083",
+        "qty": 4
+      },
+      {
+        "code": "OP09-084",
+        "qty": 1
+      },
+      {
+        "code": "OP10-082",
+        "qty": 4
+      },
+      {
+        "code": "ST27-003",
+        "qty": 3
+      },
+      {
+        "code": "ST27-005",
+        "qty": 1
+      },
+      {
+        "code": "OP09-093",
+        "qty": 4
+      },
+      {
+        "code": "OP07-096",
+        "qty": 3
+      },
+      {
+        "code": "OP09-096",
+        "qty": 4
+      },
+      {
+        "code": "OP09-099",
+        "qty": 4
+      },
+      {
+        "code": "OP09-098",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "hchs410019",
+      "placement": "2nd (6-2)",
+      "date": "9/6/2026",
+      "country": "Taiwan",
+      "tournament": "TW Final",
+      "host": "Bandai",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP12-037",
+        "qty": 1
+      },
+      {
+        "code": "OP13-040",
+        "qty": 1
+      },
+      {
+        "code": "OP14-039",
+        "qty": 3
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "LJ",
+      "placement": "1st (9-0)",
+      "date": "9/6/2026",
+      "country": "PH",
+      "tournament": "FS EGB",
+      "host": "ACG Cavite",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "GB luffy",
+    "color": "Green",
+    "color_display": "Green/Blue",
+    "leader_code": "OP16-022",
+    "cards": [
+      {
+        "code": "OP16-022",
+        "qty": 1
+      },
+      {
+        "code": "OP16-034",
+        "qty": 4
+      },
+      {
+        "code": "ST30-014",
+        "qty": 3
+      },
+      {
+        "code": "OP16-026",
+        "qty": 1
+      },
+      {
+        "code": "OP15-032",
+        "qty": 1
+      },
+      {
+        "code": "OP16-032",
+        "qty": 3
+      },
+      {
+        "code": "OP16-054",
+        "qty": 4
+      },
+      {
+        "code": "OP16-055",
+        "qty": 4
+      },
+      {
+        "code": "ST12-010",
+        "qty": 1
+      },
+      {
+        "code": "OP16-045",
+        "qty": 4
+      },
+      {
+        "code": "OP16-056",
+        "qty": 4
+      },
+      {
+        "code": "OP16-048",
+        "qty": 4
+      },
+      {
+        "code": "OP16-042",
+        "qty": 4
+      },
+      {
+        "code": "OP16-042",
+        "qty": 4
+      },
+      {
+        "code": "OP16-042",
+        "qty": 1
+      },
+      {
+        "code": "OP12-037",
+        "qty": 1
+      },
+      {
+        "code": "OP16-038",
+        "qty": 3
+      },
+      {
+        "code": "OP02-068",
+        "qty": 1
+      },
+      {
+        "code": "OP06-058",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Nankyo",
+      "placement": "1st(4-0)",
+      "date": "9/6/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-042",
+        "qty": 4
+      },
+      {
+        "code": "OP17-044",
+        "qty": 4
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Damake",
+      "placement": "1st (5-0)",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Shanks",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP17-020",
+    "cards": [
+      {
+        "code": "OP17-020",
+        "qty": 1
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "OP15-035",
+        "qty": 4
+      },
+      {
+        "code": "OP17-021",
+        "qty": 2
+      },
+      {
+        "code": "OP17-032",
+        "qty": 4
+      },
+      {
+        "code": "OP17-029",
+        "qty": 4
+      },
+      {
+        "code": "OP17-033",
+        "qty": 4
+      },
+      {
+        "code": "OP10-030",
+        "qty": 2
+      },
+      {
+        "code": "ST32-002",
+        "qty": 3
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 3
+      },
+      {
+        "code": "OP17-027",
+        "qty": 4
+      },
+      {
+        "code": "ST16-004",
+        "qty": 3
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP17-038",
+        "qty": 2
+      },
+      {
+        "code": "OP17-036",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Pon",
+      "placement": "1st Place",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "EGB",
+      "host": "Preyz(30)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 3
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-111",
+        "qty": 1
+      },
+      {
+        "code": "OP12-112",
+        "qty": 2
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 2
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 3
+      },
+      {
+        "code": "OP16-119",
+        "qty": 3
+      },
+      {
+        "code": "OP17-112",
+        "qty": 3
+      },
+      {
+        "code": "ST34-003",
+        "qty": 3
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP05-073",
+        "qty": 2
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Oric",
+      "placement": "T4 (11-1)",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "EGB CS",
+      "host": "Bandai",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 3
+      },
+      {
+        "code": "OP07-026",
+        "qty": 2
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "ST24-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 3
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP01-057",
+        "qty": 1
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 1
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Arlen",
+      "placement": "T4 (10-2)",
+      "date": "9/5/2026",
+      "country": "Taiwan",
+      "tournament": "EGB CS",
+      "host": "Bandai",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Black Sabo",
+    "color": "Black",
+    "color_display": "Black/Red",
+    "leader_code": "OP13-004",
+    "cards": [
+      {
+        "code": "OP13-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 4
+      },
+      {
+        "code": "OP17-086",
+        "qty": 3
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-083",
+        "qty": 2
+      },
+      {
+        "code": "OP17-087",
+        "qty": 3
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "OP01-016",
+        "qty": 3
+      },
+      {
+        "code": "ST01-011",
+        "qty": 4
+      },
+      {
+        "code": "OP17-096",
+        "qty": 1
+      },
+      {
+        "code": "OP04-016",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "KongRedrabbit",
+      "placement": "T8 (8-3)",
+      "date": "9/5/2026",
+      "country": "Taiwan",
+      "tournament": "EGB CS",
+      "host": "Bandai",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 3
+      },
+      {
+        "code": "OP07-026",
+        "qty": 1
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "OP14-033",
+        "qty": 1
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "ST24-004",
+        "qty": 2
+      },
+      {
+        "code": "OP17-022",
+        "qty": 3
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 4
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "SungJinKim",
+      "placement": "T16",
+      "date": "9/5/2026",
+      "country": "Taiwan",
+      "tournament": "EGB CS",
+      "host": "Bandai",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Yellow Bonney",
+    "color": "Yellow",
+    "color_display": "Yellow",
+    "leader_code": "OP13-100",
+    "cards": [
+      {
+        "code": "OP13-100",
+        "qty": 1
+      },
+      {
+        "code": "OP13-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "PRB02-016",
+        "qty": 2
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "PRB02-017",
+        "qty": 3
+      },
+      {
+        "code": "EB04-058",
+        "qty": 2
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP09-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 4
+      },
+      {
+        "code": "OP13-108",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "alphodie",
+      "placement": "1st (4-0)",
+      "date": "9/5/2026",
+      "country": "Indonesia",
+      "tournament": "FS",
+      "host": "hobbystation",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Yellow Linlin",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP17-099",
+    "cards": [
+      {
+        "code": "OP17-099",
+        "qty": 1
+      },
+      {
+        "code": "OP14-102",
+        "qty": 4
+      },
+      {
+        "code": "OP17-104",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-110",
+        "qty": 4
+      },
+      {
+        "code": "OP14-111",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 3
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP17-103",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 3
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Hikaru",
+      "placement": "1st (5-0)",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 1
+      },
+      {
+        "code": "OP17-086",
+        "qty": 3
+      },
+      {
+        "code": "OP17-094",
+        "qty": 3
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 3
+      },
+      {
+        "code": "OP17-087",
+        "qty": 3
+      },
+      {
+        "code": "OP17-091",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "OP14-096",
+        "qty": 3
+      },
+      {
+        "code": "OP17-096",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Ginnan",
+      "placement": "1st (5-0)",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP05-082",
+        "qty": 2
+      },
+      {
+        "code": "OP17-084",
+        "qty": 1
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 3
+      },
+      {
+        "code": "OP17-091",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "ST14-017",
+        "qty": 2
+      },
+      {
+        "code": "OP14-096",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Shena",
+      "placement": "1st (5-0)",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Shanks",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP17-020",
+    "cards": [
+      {
+        "code": "OP17-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP07-026",
+        "qty": 2
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-027",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-036",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "pironekogift",
+      "placement": "1st (5-0)",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Black Sabo",
+    "color": "Black",
+    "color_display": "Black/Red",
+    "leader_code": "OP13-004",
+    "cards": [
+      {
+        "code": "OP13-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 2
+      },
+      {
+        "code": "OP17-086",
+        "qty": 1
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-083",
+        "qty": 2
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP04-083",
+        "qty": 2
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "OP01-016",
+        "qty": 2
+      },
+      {
+        "code": "OP13-007",
+        "qty": 3
+      },
+      {
+        "code": "ST01-011",
+        "qty": 2
+      },
+      {
+        "code": "OP07-002",
+        "qty": 2
+      },
+      {
+        "code": "OP14-096",
+        "qty": 2
+      },
+      {
+        "code": "OP04-016",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Nue",
+      "placement": "1st Place",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "DragonStar(32)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "BY Nami",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP11-041",
+    "cards": [
+      {
+        "code": "OP11-041",
+        "qty": 1
+      },
+      {
+        "code": "OP14-102",
+        "qty": 4
+      },
+      {
+        "code": "OP06-106",
+        "qty": 1
+      },
+      {
+        "code": "OP11-106",
+        "qty": 3
+      },
+      {
+        "code": "OP12-112",
+        "qty": 1
+      },
+      {
+        "code": "OP14-110",
+        "qty": 4
+      },
+      {
+        "code": "OP14-111",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 2
+      },
+      {
+        "code": "OP16-104",
+        "qty": 1
+      },
+      {
+        "code": "EB03-053",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP14-108",
+        "qty": 4
+      },
+      {
+        "code": "EB03-055",
+        "qty": 4
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 2
+      },
+      {
+        "code": "PRB02-008",
+        "qty": 2
+      },
+      {
+        "code": "OP16-056",
+        "qty": 3
+      },
+      {
+        "code": "OP13-042",
+        "qty": 2
+      },
+      {
+        "code": "OP14-118",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kamui",
+      "placement": "1st (5-0)",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Jirafuru",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP16-111",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-108",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 4
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "OP06-115",
+        "qty": 2
+      },
+      {
+        "code": "OP14-118",
+        "qty": 3
+      },
+      {
+        "code": "OP07-056",
+        "qty": 1
+      },
+      {
+        "code": "OP07-057",
+        "qty": 1
+      },
+      {
+        "code": "OP06-058",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "remoneoripa",
+      "placement": "1st (4-0)",
+      "date": "9/5/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 3
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 3
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "ST34-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 1
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      },
+      {
+        "code": "OP08-076",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "_Az_",
+      "placement": "2nd (4-0)",
+      "date": "9/5/2026",
+      "country": "PH",
+      "tournament": "FS",
+      "host": "Hobby Stadium(39)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Black Sabo",
+    "color": "Black",
+    "color_display": "Black/Red",
+    "leader_code": "OP13-004",
+    "cards": [
+      {
+        "code": "OP13-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 3
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-083",
+        "qty": 2
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "OP13-007",
+        "qty": 3
+      },
+      {
+        "code": "ST01-011",
+        "qty": 3
+      },
+      {
+        "code": "OP04-016",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Totsuo",
+      "placement": "1st (4-0)",
+      "date": "9/4/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Black Teach",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP09-081",
+    "cards": [
+      {
+        "code": "OP09-081",
+        "qty": 1
+      },
+      {
+        "code": "OP09-089",
+        "qty": 4
+      },
+      {
+        "code": "OP09-095",
+        "qty": 4
+      },
+      {
+        "code": "OP11-083",
+        "qty": 4
+      },
+      {
+        "code": "OP09-090",
+        "qty": 4
+      },
+      {
+        "code": "OP09-086",
+        "qty": 4
+      },
+      {
+        "code": "OP10-086",
+        "qty": 1
+      },
+      {
+        "code": "OP09-083",
+        "qty": 4
+      },
+      {
+        "code": "OP09-084",
+        "qty": 1
+      },
+      {
+        "code": "OP10-082",
+        "qty": 4
+      },
+      {
+        "code": "ST27-003",
+        "qty": 2
+      },
+      {
+        "code": "ST27-005",
+        "qty": 1
+      },
+      {
+        "code": "OP09-093",
+        "qty": 3
+      },
+      {
+        "code": "OP07-096",
+        "qty": 4
+      },
+      {
+        "code": "OP09-096",
+        "qty": 4
+      },
+      {
+        "code": "OP09-099",
+        "qty": 4
+      },
+      {
+        "code": "OP09-098",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "K",
+      "placement": "1st (4-0)",
+      "date": "9/4/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "ST34-003",
+        "qty": 2
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP05-073",
+        "qty": 4
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Asami",
+      "placement": "1st (5-0)",
+      "date": "9/4/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Cardshop(64)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Ace",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP16-001",
+    "cards": [
+      {
+        "code": "OP16-001",
+        "qty": 1
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      },
+      {
+        "code": "OP10-005",
+        "qty": 2
+      },
+      {
+        "code": "OP16-015",
+        "qty": 4
+      },
+      {
+        "code": "OP16-017",
+        "qty": 4
+      },
+      {
+        "code": "OP16-118",
+        "qty": 3
+      },
+      {
+        "code": "ST23-001",
+        "qty": 2
+      },
+      {
+        "code": "OP16-011",
+        "qty": 2
+      },
+      {
+        "code": "OP16-014",
+        "qty": 4
+      },
+      {
+        "code": "OP16-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP16-003",
+        "qty": 4
+      },
+      {
+        "code": "OP16-005",
+        "qty": 2
+      },
+      {
+        "code": "OP17-005",
+        "qty": 4
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      },
+      {
+        "code": "OP17-017",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Teimio",
+      "placement": "1st (5-0)",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "UP Luffy",
+    "color": "Purple",
+    "color_display": "Purple/Blue",
+    "leader_code": "OP11-040",
+    "cards": [
+      {
+        "code": "OP11-040",
+        "qty": 1
+      },
+      {
+        "code": "ST18-001",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "EB01-061",
+        "qty": 4
+      },
+      {
+        "code": "OP07-064",
+        "qty": 2
+      },
+      {
+        "code": "OP16-065",
+        "qty": 3
+      },
+      {
+        "code": "P-107",
+        "qty": 4
+      },
+      {
+        "code": "OP13-043",
+        "qty": 2
+      },
+      {
+        "code": "OP17-054",
+        "qty": 2
+      },
+      {
+        "code": "OP16-056",
+        "qty": 1
+      },
+      {
+        "code": "OP17-046",
+        "qty": 3
+      },
+      {
+        "code": "OP11-053",
+        "qty": 3
+      },
+      {
+        "code": "OP11-054",
+        "qty": 2
+      },
+      {
+        "code": "OP06-119",
+        "qty": 4
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      },
+      {
+        "code": "OP11-080",
+        "qty": 4
+      },
+      {
+        "code": "OP07-076",
+        "qty": 2
+      },
+      {
+        "code": "OP06-059",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Amami",
+      "placement": "1st Place",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Corgi",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP17-075",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "ST10-010",
+        "qty": 2
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-070",
+        "qty": 2
+      },
+      {
+        "code": "EB04-030",
+        "qty": 2
+      },
+      {
+        "code": "OP17-061",
+        "qty": 2
+      },
+      {
+        "code": "OP17-065",
+        "qty": 1
+      },
+      {
+        "code": "ST34-004",
+        "qty": 3
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP17-063",
+        "qty": 1
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "EB04-040",
+        "qty": 1
+      },
+      {
+        "code": "OP07-076",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Ulza",
+      "placement": "1st (5-0)",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Black Yamato",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP16-079",
+    "cards": [
+      {
+        "code": "OP16-079",
+        "qty": 1
+      },
+      {
+        "code": "OP16-091",
+        "qty": 4
+      },
+      {
+        "code": "OP16-092",
+        "qty": 4
+      },
+      {
+        "code": "OP16-081",
+        "qty": 3
+      },
+      {
+        "code": "OP16-087",
+        "qty": 4
+      },
+      {
+        "code": "OP16-095",
+        "qty": 1
+      },
+      {
+        "code": "OP06-093",
+        "qty": 4
+      },
+      {
+        "code": "OP16-082",
+        "qty": 4
+      },
+      {
+        "code": "OP16-084",
+        "qty": 4
+      },
+      {
+        "code": "OP16-098",
+        "qty": 4
+      },
+      {
+        "code": "OP16-096",
+        "qty": 3
+      },
+      {
+        "code": "OP16-097",
+        "qty": 4
+      },
+      {
+        "code": "OP16-085",
+        "qty": 4
+      },
+      {
+        "code": "OP14-096",
+        "qty": 3
+      },
+      {
+        "code": "OP16-099",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Shiomona",
+      "placement": "1st (5-0)",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP05-082",
+        "qty": 2
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 3
+      },
+      {
+        "code": "OP17-091",
+        "qty": 3
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 2
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "ST14-017",
+        "qty": 2
+      },
+      {
+        "code": "OP17-098",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Luffy Enthusiast",
+      "placement": "1st Place",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Bee",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Black Sabo",
+    "color": "Black",
+    "color_display": "Black/Red",
+    "leader_code": "OP13-004",
+    "cards": [
+      {
+        "code": "OP13-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 4
+      },
+      {
+        "code": "OP17-086",
+        "qty": 3
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "OP01-016",
+        "qty": 3
+      },
+      {
+        "code": "OP13-007",
+        "qty": 2
+      },
+      {
+        "code": "ST01-011",
+        "qty": 2
+      },
+      {
+        "code": "OP14-096",
+        "qty": 2
+      },
+      {
+        "code": "OP04-016",
+        "qty": 1
+      },
+      {
+        "code": "OP11-018",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "STARK",
+      "placement": "1st (5-0)",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "EGB",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP07-026",
+        "qty": 2
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "OP14-033",
+        "qty": 2
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 3
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 3
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Akagami",
+      "placement": "1st (5-0)",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "OP11-070",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP05-073",
+        "qty": 4
+      },
+      {
+        "code": "OP16-117",
+        "qty": 2
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kitaba",
+      "placement": "1st (8-0)",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "FS StorePrelims",
+      "host": "Clovebase",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 2
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "OP11-054",
+        "qty": 4
+      },
+      {
+        "code": "OP06-115",
+        "qty": 2
+      },
+      {
+        "code": "OP07-056",
+        "qty": 1
+      },
+      {
+        "code": "OP07-057",
+        "qty": 1
+      },
+      {
+        "code": "OP06-058",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "tm",
+      "placement": "1st (5-0)",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 2
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-108",
+        "qty": 1
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 2
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "OP08-050",
+        "qty": 1
+      },
+      {
+        "code": "ST17-004",
+        "qty": 2
+      },
+      {
+        "code": "OP17-046",
+        "qty": 1
+      },
+      {
+        "code": "OP11-054",
+        "qty": 3
+      },
+      {
+        "code": "OP06-115",
+        "qty": 3
+      },
+      {
+        "code": "OP06-058",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Tanke",
+      "placement": "1st Place",
+      "date": "9/3/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Corgi(28)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Ace",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP16-001",
+    "cards": [
+      {
+        "code": "OP16-001",
+        "qty": 1
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      },
+      {
+        "code": "OP16-015",
+        "qty": 3
+      },
+      {
+        "code": "OP16-017",
+        "qty": 4
+      },
+      {
+        "code": "OP16-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-015",
+        "qty": 1
+      },
+      {
+        "code": "ST23-001",
+        "qty": 3
+      },
+      {
+        "code": "OP16-011",
+        "qty": 2
+      },
+      {
+        "code": "OP16-014",
+        "qty": 4
+      },
+      {
+        "code": "OP16-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP16-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-005",
+        "qty": 4
+      },
+      {
+        "code": "OP16-020",
+        "qty": 2
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      },
+      {
+        "code": "OP17-017",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Wakayama",
+      "placement": "1st Place",
+      "date": "9/2/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "TCG Center",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 2
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 3
+      },
+      {
+        "code": "OP17-091",
+        "qty": 3
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 2
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 2
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "ST14-017",
+        "qty": 3
+      },
+      {
+        "code": "OP17-096",
+        "qty": 2
+      },
+      {
+        "code": "OP17-098",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Lia",
+      "placement": "1st (4-0)",
+      "date": "9/2/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "OP14-023",
+        "qty": 1
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "OP14-033",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 2
+      },
+      {
+        "code": "ST32-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 4
+      },
+      {
+        "code": "OP12-037",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 3
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kuro",
+      "placement": "1st Place",
+      "date": "9/2/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Girafull(53)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "EB03-055",
+        "qty": 2
+      },
+      {
+        "code": "OP17-110",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "OP11-070",
+        "qty": 4
+      },
+      {
+        "code": "ST34-003",
+        "qty": 4
+      },
+      {
+        "code": "OP05-073",
+        "qty": 2
+      },
+      {
+        "code": "OP06-115",
+        "qty": 1
+      },
+      {
+        "code": "OP09-078",
+        "qty": 3
+      },
+      {
+        "code": "OP08-076",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Rudy",
+      "placement": "2nd (5-0)",
+      "date": "9/2/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Girafull(53)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "OP11-070",
+        "qty": 4
+      },
+      {
+        "code": "ST34-003",
+        "qty": 4
+      },
+      {
+        "code": "OP05-073",
+        "qty": 4
+      },
+      {
+        "code": "OP08-069",
+        "qty": 2
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      },
+      {
+        "code": "OP08-076",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Miya",
+      "placement": "1st Place",
+      "date": "9/2/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Cardbox(28)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa (49 cards)",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-108",
+        "qty": 1
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 1
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "ST17-004",
+        "qty": 1
+      },
+      {
+        "code": "OP11-054",
+        "qty": 4
+      },
+      {
+        "code": "OP06-115",
+        "qty": 2
+      },
+      {
+        "code": "OP07-057",
+        "qty": 1
+      },
+      {
+        "code": "OP06-058",
+        "qty": 1
+      }
+    ],
+    "total_cards": 50,
+    "source": {
+      "author": "Ayakana",
+      "placement": "1st (6-1)",
+      "date": "9/2/2026",
+      "country": "JP",
+      "tournament": "ShopEvent",
+      "host": "SodaCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Black Yamato",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP16-079",
+    "cards": [
+      {
+        "code": "OP16-079",
+        "qty": 1
+      },
+      {
+        "code": "OP16-091",
+        "qty": 4
+      },
+      {
+        "code": "OP16-092",
+        "qty": 3
+      },
+      {
+        "code": "OP16-081",
+        "qty": 3
+      },
+      {
+        "code": "OP16-087",
+        "qty": 4
+      },
+      {
+        "code": "OP16-088",
+        "qty": 2
+      },
+      {
+        "code": "OP16-090",
+        "qty": 2
+      },
+      {
+        "code": "OP16-082",
+        "qty": 4
+      },
+      {
+        "code": "OP16-084",
+        "qty": 4
+      },
+      {
+        "code": "OP16-098",
+        "qty": 4
+      },
+      {
+        "code": "OP16-096",
+        "qty": 4
+      },
+      {
+        "code": "OP16-097",
+        "qty": 4
+      },
+      {
+        "code": "OP07-085",
+        "qty": 1
+      },
+      {
+        "code": "OP16-085",
+        "qty": 3
+      },
+      {
+        "code": "OP14-096",
+        "qty": 4
+      },
+      {
+        "code": "OP16-099",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "babibabipohe",
+      "placement": "1st (5-0)",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "EGB",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-050",
+        "qty": 2
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-041",
+        "qty": 2
+      },
+      {
+        "code": "OP17-042",
+        "qty": 2
+      },
+      {
+        "code": "OP17-044",
+        "qty": 3
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Udon",
+      "placement": "1st Place",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "pocop_tcg(16)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Ace",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP16-001",
+    "cards": [
+      {
+        "code": "OP16-001",
+        "qty": 1
+      },
+      {
+        "code": "OP03-003",
+        "qty": 4
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      },
+      {
+        "code": "OP16-015",
+        "qty": 4
+      },
+      {
+        "code": "OP16-017",
+        "qty": 2
+      },
+      {
+        "code": "OP16-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-015",
+        "qty": 1
+      },
+      {
+        "code": "OP16-011",
+        "qty": 3
+      },
+      {
+        "code": "OP16-014",
+        "qty": 4
+      },
+      {
+        "code": "ST15-002",
+        "qty": 1
+      },
+      {
+        "code": "OP16-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP16-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-005",
+        "qty": 3
+      },
+      {
+        "code": "OP16-020",
+        "qty": 2
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      },
+      {
+        "code": "OP17-017",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Zetto",
+      "placement": "1st (4-0)",
+      "date": "9/1/2026",
+      "country": "Indonesia",
+      "tournament": "EGB",
+      "host": "Meeple Board Game Cafe",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Enel",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP15-058",
+    "cards": [
+      {
+        "code": "OP15-058",
+        "qty": 1
+      },
+      {
+        "code": "OP12-071",
+        "qty": 2
+      },
+      {
+        "code": "OP15-061",
+        "qty": 4
+      },
+      {
+        "code": "OP15-063",
+        "qty": 2
+      },
+      {
+        "code": "OP15-066",
+        "qty": 4
+      },
+      {
+        "code": "OP15-067",
+        "qty": 4
+      },
+      {
+        "code": "ST10-010",
+        "qty": 3
+      },
+      {
+        "code": "OP10-067",
+        "qty": 3
+      },
+      {
+        "code": "OP15-118",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 1
+      },
+      {
+        "code": "OP15-074",
+        "qty": 4
+      },
+      {
+        "code": "OP15-075",
+        "qty": 4
+      },
+      {
+        "code": "OP15-076",
+        "qty": 4
+      },
+      {
+        "code": "OP15-077",
+        "qty": 4
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP05-077",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Farufaru",
+      "placement": "1st Place",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "GrandPandaCanyon",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Ace",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP16-001",
+    "cards": [
+      {
+        "code": "OP16-001",
+        "qty": 1
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      },
+      {
+        "code": "OP16-015",
+        "qty": 4
+      },
+      {
+        "code": "OP16-017",
+        "qty": 4
+      },
+      {
+        "code": "OP16-118",
+        "qty": 4
+      },
+      {
+        "code": "ST23-001",
+        "qty": 2
+      },
+      {
+        "code": "OP16-011",
+        "qty": 2
+      },
+      {
+        "code": "OP16-014",
+        "qty": 4
+      },
+      {
+        "code": "OP16-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP08-118",
+        "qty": 2
+      },
+      {
+        "code": "OP16-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-005",
+        "qty": 4
+      },
+      {
+        "code": "OP16-020",
+        "qty": 2
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      },
+      {
+        "code": "OP17-017",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Dontakosu",
+      "placement": "NA (4-1)",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Black Sabo",
+    "color": "Black",
+    "color_display": "Black/Red",
+    "leader_code": "OP13-004",
+    "cards": [
+      {
+        "code": "OP13-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 2
+      },
+      {
+        "code": "OP17-086",
+        "qty": 2
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 2
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-083",
+        "qty": 1
+      },
+      {
+        "code": "OP17-087",
+        "qty": 3
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "OP01-016",
+        "qty": 2
+      },
+      {
+        "code": "ST01-011",
+        "qty": 4
+      },
+      {
+        "code": "OP07-096",
+        "qty": 4
+      },
+      {
+        "code": "OP17-096",
+        "qty": 2
+      },
+      {
+        "code": "OP17-098",
+        "qty": 2
+      },
+      {
+        "code": "OP04-016",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Sakakura",
+      "placement": "1st (5-0)",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 1
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP05-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 2
+      },
+      {
+        "code": "OP17-091",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 3
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "ST14-017",
+        "qty": 3
+      },
+      {
+        "code": "OP14-096",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Katsuo",
+      "placement": "1st Place",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "TCG Center(25)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP15-119",
+        "qty": 1
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 3
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "ST17-004",
+        "qty": 1
+      },
+      {
+        "code": "OP11-054",
+        "qty": 2
+      },
+      {
+        "code": "OP06-115",
+        "qty": 2
+      },
+      {
+        "code": "OP14-118",
+        "qty": 1
+      },
+      {
+        "code": "OP07-057",
+        "qty": 1
+      },
+      {
+        "code": "OP06-058",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "BOA",
+      "placement": "1st (5-0)",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cherumo",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP11-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "ST34-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      },
+      {
+        "code": "OP08-076",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "pokecaojisan",
+      "placement": "1st (5-0)",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Tsutaya",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP17-075",
+        "qty": 2
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-070",
+        "qty": 2
+      },
+      {
+        "code": "OP08-069",
+        "qty": 2
+      },
+      {
+        "code": "OP17-061",
+        "qty": 2
+      },
+      {
+        "code": "OP17-065",
+        "qty": 2
+      },
+      {
+        "code": "ST34-004",
+        "qty": 3
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP17-063",
+        "qty": 1
+      },
+      {
+        "code": "OP13-076",
+        "qty": 2
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "OP07-076",
+        "qty": 4
+      },
+      {
+        "code": "OP09-077",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Da",
+      "placement": "1st (4-0)",
+      "date": "9/1/2026",
+      "country": "JP",
+      "tournament": "StorePrelims",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-050",
+        "qty": 2
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-041",
+        "qty": 2
+      },
+      {
+        "code": "OP17-042",
+        "qty": 2
+      },
+      {
+        "code": "OP17-044",
+        "qty": 3
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "OnlyBellTCG",
+      "placement": "1st (5-0)",
+      "date": "8/31/2026",
+      "country": "Indonesia",
+      "tournament": "FS",
+      "host": "Bali Awakening Zone",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Black Sabo",
+    "color": "Black",
+    "color_display": "Black/Red",
+    "leader_code": "OP13-004",
+    "cards": [
+      {
+        "code": "OP13-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 1
+      },
+      {
+        "code": "OP17-086",
+        "qty": 3
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 1
+      },
+      {
+        "code": "OP17-082",
+        "qty": 3
+      },
+      {
+        "code": "OP17-083",
+        "qty": 2
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP04-083",
+        "qty": 2
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "OP13-007",
+        "qty": 3
+      },
+      {
+        "code": "ST01-011",
+        "qty": 2
+      },
+      {
+        "code": "OP14-096",
+        "qty": 2
+      },
+      {
+        "code": "OP04-016",
+        "qty": 2
+      },
+      {
+        "code": "ST21-017",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Oono",
+      "placement": "1st (5-0)",
+      "date": "8/31/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "Nagaoka Pit Night",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Yellow Linlin",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP17-099",
+    "cards": [
+      {
+        "code": "OP17-099",
+        "qty": 1
+      },
+      {
+        "code": "OP14-102",
+        "qty": 4
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP11-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-104",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-110",
+        "qty": 4
+      },
+      {
+        "code": "OP14-111",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "OP17-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-103",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Ryo",
+      "placement": "NA (5-2)",
+      "date": "8/31/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP06-035",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 1
+      },
+      {
+        "code": "OP14-037",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "asagi",
+      "placement": "1st (5-0)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Tsutaya(32)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "OP14-023",
+        "qty": 1
+      },
+      {
+        "code": "ST32-001",
+        "qty": 2
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "EB04-018",
+        "qty": 1
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "OP14-033",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "ST32-003",
+        "qty": 4
+      },
+      {
+        "code": "ST24-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 4
+      },
+      {
+        "code": "OP13-040",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Rose Velvet",
+      "placement": "1st (4-0)",
+      "date": "8/30/2026",
+      "country": "Singapore",
+      "tournament": "FS",
+      "host": "AGC",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Black Imu",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP13-079",
+    "cards": [
+      {
+        "code": "OP13-079",
+        "qty": 1
+      },
+      {
+        "code": "OP05-082",
+        "qty": 4
+      },
+      {
+        "code": "OP13-086",
+        "qty": 4
+      },
+      {
+        "code": "OP13-095",
+        "qty": 2
+      },
+      {
+        "code": "OP13-083",
+        "qty": 4
+      },
+      {
+        "code": "OP13-089",
+        "qty": 4
+      },
+      {
+        "code": "OP13-080",
+        "qty": 4
+      },
+      {
+        "code": "OP13-091",
+        "qty": 4
+      },
+      {
+        "code": "OP13-084",
+        "qty": 4
+      },
+      {
+        "code": "OP13-082",
+        "qty": 4
+      },
+      {
+        "code": "OP11-097",
+        "qty": 2
+      },
+      {
+        "code": "OP13-096",
+        "qty": 4
+      },
+      {
+        "code": "OP13-098",
+        "qty": 4
+      },
+      {
+        "code": "OP14-096",
+        "qty": 4
+      },
+      {
+        "code": "OP05-097",
+        "qty": 1
+      },
+      {
+        "code": "OP13-099",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "K K",
+      "placement": "2nd (6-2)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "AmethystCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-108",
+        "qty": 1
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 2
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "ST17-004",
+        "qty": 1
+      },
+      {
+        "code": "OP11-054",
+        "qty": 3
+      },
+      {
+        "code": "OP06-115",
+        "qty": 2
+      },
+      {
+        "code": "OP07-056",
+        "qty": 1
+      },
+      {
+        "code": "OP07-057",
+        "qty": 1
+      },
+      {
+        "code": "OP06-058",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Arc",
+      "placement": "1st Place",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "JABURO",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "GB Luffy",
+    "color": "Green",
+    "color_display": "Green/Blue",
+    "leader_code": "OP16-022",
+    "cards": [
+      {
+        "code": "OP16-022",
+        "qty": 1
+      },
+      {
+        "code": "OP16-034",
+        "qty": 4
+      },
+      {
+        "code": "ST30-014",
+        "qty": 4
+      },
+      {
+        "code": "OP16-026",
+        "qty": 2
+      },
+      {
+        "code": "OP15-032",
+        "qty": 1
+      },
+      {
+        "code": "OP17-027",
+        "qty": 2
+      },
+      {
+        "code": "OP16-054",
+        "qty": 4
+      },
+      {
+        "code": "OP16-055",
+        "qty": 4
+      },
+      {
+        "code": "OP16-045",
+        "qty": 4
+      },
+      {
+        "code": "OP16-056",
+        "qty": 4
+      },
+      {
+        "code": "OP16-048",
+        "qty": 4
+      },
+      {
+        "code": "OP16-042",
+        "qty": 4
+      },
+      {
+        "code": "OP16-042",
+        "qty": 4
+      },
+      {
+        "code": "OP16-042",
+        "qty": 1
+      },
+      {
+        "code": "OP12-037",
+        "qty": 1
+      },
+      {
+        "code": "OP16-038",
+        "qty": 4
+      },
+      {
+        "code": "OP02-068",
+        "qty": 1
+      },
+      {
+        "code": "EB02-030",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kuru",
+      "placement": "1st (7-0)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP17-050",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-042",
+        "qty": 4
+      },
+      {
+        "code": "OP17-044",
+        "qty": 4
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Furutean",
+      "placement": "1st (8-1)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "ShopEvent",
+      "host": "SaikyoCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Black Sabo",
+    "color": "Black",
+    "color_display": "Black/Red",
+    "leader_code": "OP13-004",
+    "cards": [
+      {
+        "code": "OP13-004",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 4
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-083",
+        "qty": 2
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "OP01-016",
+        "qty": 4
+      },
+      {
+        "code": "ST01-011",
+        "qty": 2
+      },
+      {
+        "code": "P-159",
+        "qty": 2
+      },
+      {
+        "code": "OP04-016",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Rippy",
+      "placement": "1st (7-0)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "BanquetCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-052",
+        "qty": 3
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-042",
+        "qty": 2
+      },
+      {
+        "code": "OP17-044",
+        "qty": 4
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Yamachan",
+      "placement": "2nd (7-1)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "BanquetCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-050",
+        "qty": 2
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-042",
+        "qty": 2
+      },
+      {
+        "code": "OP17-044",
+        "qty": 4
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Tattsu",
+      "placement": "1st (7-2)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "AsuCS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 3
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-091",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "ST14-017",
+        "qty": 4
+      },
+      {
+        "code": "OP14-096",
+        "qty": 2
+      },
+      {
+        "code": "OP17-096",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kawahara",
+      "placement": "2nd (8-1)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "AsuCS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "RG Luffy",
+    "color": "Red",
+    "color_display": "Red/Green",
+    "leader_code": "OP13-001",
+    "cards": [
+      {
+        "code": "OP13-001",
+        "qty": 1
+      },
+      {
+        "code": "OP01-016",
+        "qty": 4
+      },
+      {
+        "code": "EB04-002",
+        "qty": 4
+      },
+      {
+        "code": "EB04-007",
+        "qty": 4
+      },
+      {
+        "code": "ST31-004",
+        "qty": 3
+      },
+      {
+        "code": "EB02-017",
+        "qty": 4
+      },
+      {
+        "code": "OP15-035",
+        "qty": 4
+      },
+      {
+        "code": "OP17-023",
+        "qty": 2
+      },
+      {
+        "code": "OP13-037",
+        "qty": 3
+      },
+      {
+        "code": "OP14-022",
+        "qty": 4
+      },
+      {
+        "code": "OP13-027",
+        "qty": 4
+      },
+      {
+        "code": "OP13-118",
+        "qty": 3
+      },
+      {
+        "code": "OP15-032",
+        "qty": 3
+      },
+      {
+        "code": "ST31-005",
+        "qty": 4
+      },
+      {
+        "code": "OP05-038",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "tamagoegg",
+      "placement": "NA (10-0)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3 side",
+      "host": "AsuCS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Enel",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP15-058",
+    "cards": [
+      {
+        "code": "OP15-058",
+        "qty": 1
+      },
+      {
+        "code": "OP12-071",
+        "qty": 4
+      },
+      {
+        "code": "OP15-061",
+        "qty": 4
+      },
+      {
+        "code": "OP15-067",
+        "qty": 4
+      },
+      {
+        "code": "OP15-071",
+        "qty": 2
+      },
+      {
+        "code": "ST10-010",
+        "qty": 1
+      },
+      {
+        "code": "OP09-072",
+        "qty": 2
+      },
+      {
+        "code": "OP12-063",
+        "qty": 3
+      },
+      {
+        "code": "OP10-067",
+        "qty": 1
+      },
+      {
+        "code": "OP15-118",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 2
+      },
+      {
+        "code": "OP15-074",
+        "qty": 3
+      },
+      {
+        "code": "OP15-075",
+        "qty": 4
+      },
+      {
+        "code": "OP15-076",
+        "qty": 4
+      },
+      {
+        "code": "OP15-077",
+        "qty": 4
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP05-077",
+        "qty": 3
+      },
+      {
+        "code": "OP09-077",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "NA",
+      "placement": "1st Place",
+      "date": "8/30/2026",
+      "country": "China",
+      "tournament": "EGB",
+      "host": "Bandai(300 )",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Ace",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP16-001",
+    "cards": [
+      {
+        "code": "OP16-001",
+        "qty": 1
+      },
+      {
+        "code": "OP03-003",
+        "qty": 4
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      },
+      {
+        "code": "OP10-005",
+        "qty": 4
+      },
+      {
+        "code": "OP16-017",
+        "qty": 4
+      },
+      {
+        "code": "EB01-002",
+        "qty": 4
+      },
+      {
+        "code": "OP16-011",
+        "qty": 2
+      },
+      {
+        "code": "OP16-014",
+        "qty": 4
+      },
+      {
+        "code": "OP16-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP16-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-005",
+        "qty": 4
+      },
+      {
+        "code": "OP04-016",
+        "qty": 2
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      },
+      {
+        "code": "OP17-017",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "NA",
+      "placement": "2nd Place",
+      "date": "8/30/2026",
+      "country": "China",
+      "tournament": "EGB",
+      "host": "Bandai(300 )",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP06-035",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Chokochan",
+      "placement": "1st (6-2)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "KanekiCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 1
+      },
+      {
+        "code": "ST32-003",
+        "qty": 4
+      },
+      {
+        "code": "ST16-004",
+        "qty": 1
+      },
+      {
+        "code": "ST24-004",
+        "qty": 2
+      },
+      {
+        "code": "OP17-022",
+        "qty": 3
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 2
+      },
+      {
+        "code": "OP12-037",
+        "qty": 2
+      },
+      {
+        "code": "OP13-040",
+        "qty": 1
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "KC",
+      "placement": "2nd (7-1)",
+      "date": "8/30/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "DemonChildCS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Enel",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP15-058",
+    "cards": [
+      {
+        "code": "OP15-058",
+        "qty": 1
+      },
+      {
+        "code": "OP12-071",
+        "qty": 4
+      },
+      {
+        "code": "OP15-061",
+        "qty": 4
+      },
+      {
+        "code": "OP15-066",
+        "qty": 4
+      },
+      {
+        "code": "OP15-067",
+        "qty": 4
+      },
+      {
+        "code": "OP17-075",
+        "qty": 4
+      },
+      {
+        "code": "ST10-010",
+        "qty": 4
+      },
+      {
+        "code": "OP10-067",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 1
+      },
+      {
+        "code": "OP15-075",
+        "qty": 4
+      },
+      {
+        "code": "OP15-076",
+        "qty": 4
+      },
+      {
+        "code": "OP15-077",
+        "qty": 4
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP05-077",
+        "qty": 3
+      },
+      {
+        "code": "OP09-077",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Ruu",
+      "placement": "1st (5-0)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Card Delia",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 4
+      },
+      {
+        "code": "OP13-040",
+        "qty": 3
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "chanpon",
+      "placement": "1st Place",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "EGB",
+      "host": "Cardbox(25)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP10-030",
+        "qty": 1
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP12-037",
+        "qty": 1
+      },
+      {
+        "code": "OP13-040",
+        "qty": 3
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kana",
+      "placement": "1st (6-1)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "5v5",
+      "host": "cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-050",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-044",
+        "qty": 4
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Koinu",
+      "placement": "1st (5-0)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-050",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 3
+      },
+      {
+        "code": "OP17-042",
+        "qty": 2
+      },
+      {
+        "code": "OP17-044",
+        "qty": 3
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "goto_nekopero",
+      "placement": "1st (9-1)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "2Events",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP08-074",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "OP11-067",
+        "qty": 4
+      },
+      {
+        "code": "OP08-069",
+        "qty": 2
+      },
+      {
+        "code": "ST34-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP17-076",
+        "qty": 2
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "OP07-076",
+        "qty": 4
+      },
+      {
+        "code": "EB04-041",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "baketu_miffy",
+      "placement": "1st (5-0)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "P-046",
+        "qty": 2
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP17-075",
+        "qty": 2
+      },
+      {
+        "code": "OP08-067",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "OP14-069",
+        "qty": 3
+      },
+      {
+        "code": "ST34-004",
+        "qty": 3
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP17-063",
+        "qty": 2
+      },
+      {
+        "code": "OP13-076",
+        "qty": 1
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "OP07-076",
+        "qty": 3
+      },
+      {
+        "code": "OP09-077",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "manabu",
+      "placement": "1st (5-0)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP17-084",
+        "qty": 1
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 3
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 2
+      },
+      {
+        "code": "OP17-091",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "ST14-017",
+        "qty": 4
+      },
+      {
+        "code": "OP14-096",
+        "qty": 2
+      },
+      {
+        "code": "OP17-098",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "U",
+      "placement": "1st (5-0)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP05-082",
+        "qty": 3
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-091",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "ST14-017",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kazuaki",
+      "placement": "1st (5-0)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "LimitedCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP05-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-091",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 3
+      },
+      {
+        "code": "OP15-088",
+        "qty": 3
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "yuu",
+      "placement": "1st (5-0)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "ST18-001",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "EB04-030",
+        "qty": 4
+      },
+      {
+        "code": "OP17-065",
+        "qty": 2
+      },
+      {
+        "code": "ST34-004",
+        "qty": 2
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 2
+      },
+      {
+        "code": "OP15-077",
+        "qty": 4
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "OP07-076",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "KAme",
+      "placement": "1st Place",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "FS",
+      "host": "HS_bokkemon",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP06-076",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "EB04-030",
+        "qty": 2
+      },
+      {
+        "code": "OP08-069",
+        "qty": 2
+      },
+      {
+        "code": "ST34-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP17-063",
+        "qty": 2
+      },
+      {
+        "code": "OP13-076",
+        "qty": 2
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "OP07-076",
+        "qty": 4
+      },
+      {
+        "code": "OP09-077",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Chiiyabo",
+      "placement": "1st Place",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "CK_mizonokuchi",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Enel",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP15-058",
+    "cards": [
+      {
+        "code": "OP15-058",
+        "qty": 1
+      },
+      {
+        "code": "OP15-061",
+        "qty": 4
+      },
+      {
+        "code": "OP15-063",
+        "qty": 2
+      },
+      {
+        "code": "OP15-066",
+        "qty": 4
+      },
+      {
+        "code": "OP15-067",
+        "qty": 4
+      },
+      {
+        "code": "ST10-010",
+        "qty": 1
+      },
+      {
+        "code": "OP09-072",
+        "qty": 2
+      },
+      {
+        "code": "OP12-063",
+        "qty": 1
+      },
+      {
+        "code": "OP10-067",
+        "qty": 3
+      },
+      {
+        "code": "OP15-118",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 2
+      },
+      {
+        "code": "OP15-074",
+        "qty": 4
+      },
+      {
+        "code": "OP15-075",
+        "qty": 4
+      },
+      {
+        "code": "OP15-076",
+        "qty": 4
+      },
+      {
+        "code": "OP15-077",
+        "qty": 2
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP05-077",
+        "qty": 3
+      },
+      {
+        "code": "OP09-077",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Hane",
+      "placement": "1st (7-2)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "ShumaiCup(120)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "ST32-003",
+        "qty": 1
+      },
+      {
+        "code": "ST24-004",
+        "qty": 2
+      },
+      {
+        "code": "OP17-022",
+        "qty": 3
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 3
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Torasu",
+      "placement": "1st (8-1)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "ShumaiCup(120)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP15-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP15-085",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 2
+      },
+      {
+        "code": "OP17-095",
+        "qty": 2
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP15-092",
+        "qty": 1
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "OP07-096",
+        "qty": 4
+      },
+      {
+        "code": "ST14-017",
+        "qty": 4
+      },
+      {
+        "code": "OP17-096",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Ikura Chan",
+      "placement": "2nd (6-3)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "ShumaiCup(120)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-052",
+        "qty": 3
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-042",
+        "qty": 3
+      },
+      {
+        "code": "OP17-044",
+        "qty": 3
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "EB02-030",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Shohei",
+      "placement": "T4 (6-2)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "ShumaiCup(120)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP05-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 4
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-090",
+        "qty": 3
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "ST06-008",
+        "qty": 2
+      },
+      {
+        "code": "OP17-089",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 3
+      },
+      {
+        "code": "OP07-096",
+        "qty": 4
+      },
+      {
+        "code": "OP17-098",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Muratobi",
+      "placement": "NA (5-2)",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "3v3",
+      "host": "ShumaiCup(120)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 3
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP12-112",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 2
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 2
+      },
+      {
+        "code": "OP16-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "ST34-003",
+        "qty": 3
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "NA",
+      "placement": "1st Place",
+      "date": "8/29/2026",
+      "country": "China",
+      "tournament": "Regional",
+      "host": "Bandai(360)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "OP14-023",
+        "qty": 1
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP06-035",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 4
+      },
+      {
+        "code": "OP12-037",
+        "qty": 1
+      },
+      {
+        "code": "OP13-040",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "NA",
+      "placement": "2nd Place",
+      "date": "8/29/2026",
+      "country": "China",
+      "tournament": "Regional",
+      "host": "Bandai(360)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP07-026",
+        "qty": 1
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP14-037",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 50,
+    "source": {
+      "author": "ItzMeikei",
+      "placement": "1st (6-0)",
+      "date": "8/29/2026",
+      "country": "USA",
+      "tournament": "SB",
+      "host": "LGS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Nico Robin",
+    "color": "Yellow",
+    "color_display": "Yellow/Purple",
+    "leader_code": "OP09-062",
+    "cards": [
+      {
+        "code": "OP09-062",
+        "qty": 1
+      },
+      {
+        "code": "OP17-113",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 4
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP17-102",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 3
+      },
+      {
+        "code": "OP17-106",
+        "qty": 4
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP17-110",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 3
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "ST34-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "OP09-078",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Umeko",
+      "placement": "1st Place",
+      "date": "8/29/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "HBST(16)",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-050",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-041",
+        "qty": 2
+      },
+      {
+        "code": "OP17-044",
+        "qty": 4
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Tsunayoshi",
+      "placement": "1st Place",
+      "date": "8/28/2026",
+      "country": "JP",
+      "tournament": "ShopEvent",
+      "host": "ShumaiCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP17-068",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "EB04-030",
+        "qty": 2
+      },
+      {
+        "code": "ST34-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP17-063",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 2
+      },
+      {
+        "code": "OP15-078",
+        "qty": 4
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "EB04-040",
+        "qty": 2
+      },
+      {
+        "code": "OP07-076",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Donoi",
+      "placement": "1st Place",
+      "date": "8/28/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "BINKS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 3
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 3
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "ST24-004",
+        "qty": 2
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 4
+      },
+      {
+        "code": "OP13-040",
+        "qty": 2
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "junkyee",
+      "placement": "1st (4-0)",
+      "date": "8/28/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "Kaakin",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "OP14-023",
+        "qty": 2
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 4
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP13-040",
+        "qty": 3
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "aseriman",
+      "placement": "1st (4-0)",
+      "date": "8/28/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "DragonStar",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Ace",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP16-001",
+    "cards": [
+      {
+        "code": "OP16-001",
+        "qty": 1
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      },
+      {
+        "code": "OP16-015",
+        "qty": 4
+      },
+      {
+        "code": "OP16-017",
+        "qty": 4
+      },
+      {
+        "code": "OP16-118",
+        "qty": 4
+      },
+      {
+        "code": "ST23-001",
+        "qty": 3
+      },
+      {
+        "code": "OP16-011",
+        "qty": 3
+      },
+      {
+        "code": "OP16-014",
+        "qty": 4
+      },
+      {
+        "code": "ST15-002",
+        "qty": 2
+      },
+      {
+        "code": "OP16-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP16-003",
+        "qty": 3
+      },
+      {
+        "code": "OP17-005",
+        "qty": 4
+      },
+      {
+        "code": "OP16-020",
+        "qty": 1
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      },
+      {
+        "code": "OP17-017",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Sugicchi",
+      "placement": "1st (4-0)",
+      "date": "8/27/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "Iwaya",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Ace",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP16-001",
+    "cards": [
+      {
+        "code": "OP16-001",
+        "qty": 1
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      },
+      {
+        "code": "OP10-005",
+        "qty": 4
+      },
+      {
+        "code": "OP16-015",
+        "qty": 4
+      },
+      {
+        "code": "OP16-017",
+        "qty": 4
+      },
+      {
+        "code": "OP16-118",
+        "qty": 4
+      },
+      {
+        "code": "ST23-001",
+        "qty": 4
+      },
+      {
+        "code": "OP16-011",
+        "qty": 2
+      },
+      {
+        "code": "OP16-014",
+        "qty": 4
+      },
+      {
+        "code": "OP16-004",
+        "qty": 2
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP08-118",
+        "qty": 2
+      },
+      {
+        "code": "OP16-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-005",
+        "qty": 4
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Noa",
+      "placement": "NA (6-1)",
+      "date": "8/27/2026",
+      "country": "JP",
+      "tournament": "ShopEvent",
+      "host": "Box Raid",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Boa",
+    "color": "Yellow",
+    "color_display": "Yellow/Blue",
+    "leader_code": "OP14-041",
+    "cards": [
+      {
+        "code": "OP14-041",
+        "qty": 1
+      },
+      {
+        "code": "OP06-106",
+        "qty": 2
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP14-114",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 4
+      },
+      {
+        "code": "EB04-058",
+        "qty": 4
+      },
+      {
+        "code": "OP16-113",
+        "qty": 4
+      },
+      {
+        "code": "OP14-105",
+        "qty": 4
+      },
+      {
+        "code": "OP14-107",
+        "qty": 4
+      },
+      {
+        "code": "OP14-104",
+        "qty": 4
+      },
+      {
+        "code": "OP16-119",
+        "qty": 2
+      },
+      {
+        "code": "OP14-112",
+        "qty": 4
+      },
+      {
+        "code": "ST17-004",
+        "qty": 1
+      },
+      {
+        "code": "OP11-054",
+        "qty": 2
+      },
+      {
+        "code": "OP06-115",
+        "qty": 2
+      },
+      {
+        "code": "OP07-056",
+        "qty": 1
+      },
+      {
+        "code": "OP07-057",
+        "qty": 1
+      },
+      {
+        "code": "OP06-058",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "mug_nxn",
+      "placement": "NA (6-1)",
+      "date": "8/27/2026",
+      "country": "JP",
+      "tournament": "ShopEvent",
+      "host": "AkanagiCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "YR Sabo",
+    "color": "Yellow",
+    "color_display": "Yellow/Red",
+    "leader_code": "ST13-001",
+    "cards": [
+      {
+        "code": "ST13-001",
+        "qty": 1
+      },
+      {
+        "code": "OP14-102",
+        "qty": 4
+      },
+      {
+        "code": "OP17-107",
+        "qty": 3
+      },
+      {
+        "code": "OP17-109",
+        "qty": 4
+      },
+      {
+        "code": "OP12-112",
+        "qty": 3
+      },
+      {
+        "code": "OP14-110",
+        "qty": 4
+      },
+      {
+        "code": "OP14-111",
+        "qty": 4
+      },
+      {
+        "code": "OP15-113",
+        "qty": 2
+      },
+      {
+        "code": "OP17-102",
+        "qty": 3
+      },
+      {
+        "code": "EB04-058",
+        "qty": 3
+      },
+      {
+        "code": "OP17-106",
+        "qty": 3
+      },
+      {
+        "code": "ST36-005",
+        "qty": 3
+      },
+      {
+        "code": "OP17-114",
+        "qty": 4
+      },
+      {
+        "code": "OP14-104",
+        "qty": 2
+      },
+      {
+        "code": "OP17-112",
+        "qty": 4
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Waritchi",
+      "placement": "1st (4-0)",
+      "date": "8/27/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "BINKS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-050",
+        "qty": 2
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-041",
+        "qty": 2
+      },
+      {
+        "code": "OP17-042",
+        "qty": 2
+      },
+      {
+        "code": "OP17-044",
+        "qty": 2
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      },
+      {
+        "code": "OP17-057",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "wjw4y",
+      "placement": "1st (5-0)",
+      "date": "8/26/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Newgate",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP17-001",
+    "cards": [
+      {
+        "code": "OP17-001",
+        "qty": 1
+      },
+      {
+        "code": "OP17-004",
+        "qty": 2
+      },
+      {
+        "code": "OP17-003",
+        "qty": 4
+      },
+      {
+        "code": "OP17-009",
+        "qty": 3
+      },
+      {
+        "code": "OP16-118",
+        "qty": 2
+      },
+      {
+        "code": "OP17-015",
+        "qty": 4
+      },
+      {
+        "code": "OP17-008",
+        "qty": 4
+      },
+      {
+        "code": "OP16-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP17-007",
+        "qty": 4
+      },
+      {
+        "code": "OP16-003",
+        "qty": 3
+      },
+      {
+        "code": "OP17-005",
+        "qty": 4
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      },
+      {
+        "code": "OP17-017",
+        "qty": 4
+      },
+      {
+        "code": "OP17-019",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Peter",
+      "placement": "NA (4-1)",
+      "date": "8/26/2026",
+      "country": "Singapore",
+      "tournament": "FS (OP17)",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Elbaph Luffy",
+    "color": "Black",
+    "color_display": "Black",
+    "leader_code": "OP17-079",
+    "cards": [
+      {
+        "code": "OP17-079",
+        "qty": 1
+      },
+      {
+        "code": "OP17-086",
+        "qty": 4
+      },
+      {
+        "code": "OP17-094",
+        "qty": 4
+      },
+      {
+        "code": "OP17-080",
+        "qty": 4
+      },
+      {
+        "code": "OP17-081",
+        "qty": 4
+      },
+      {
+        "code": "OP17-082",
+        "qty": 3
+      },
+      {
+        "code": "OP17-087",
+        "qty": 4
+      },
+      {
+        "code": "OP17-091",
+        "qty": 4
+      },
+      {
+        "code": "OP17-095",
+        "qty": 4
+      },
+      {
+        "code": "OP17-089",
+        "qty": 2
+      },
+      {
+        "code": "OP15-088",
+        "qty": 4
+      },
+      {
+        "code": "OP17-119",
+        "qty": 4
+      },
+      {
+        "code": "OP17-093",
+        "qty": 4
+      },
+      {
+        "code": "ST14-017",
+        "qty": 3
+      },
+      {
+        "code": "OP17-098",
+        "qty": 2
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Pokke",
+      "placement": "1st Place",
+      "date": "8/26/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "FiveCards",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP17-050",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 2
+      },
+      {
+        "code": "OP17-052",
+        "qty": 2
+      },
+      {
+        "code": "OP17-054",
+        "qty": 2
+      },
+      {
+        "code": "OP17-042",
+        "qty": 4
+      },
+      {
+        "code": "OP17-044",
+        "qty": 2
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "ST33-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP09-051",
+        "qty": 2
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Matthew",
+      "placement": "1st (4-0)",
+      "date": "8/25/2026",
+      "country": "Indonesia",
+      "tournament": "SB",
+      "host": "Kuma",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Blue Rocks",
+    "color": "Blue",
+    "color_display": "Blue",
+    "leader_code": "OP17-039",
+    "cards": [
+      {
+        "code": "OP17-039",
+        "qty": 1
+      },
+      {
+        "code": "OP08-051",
+        "qty": 4
+      },
+      {
+        "code": "OP17-045",
+        "qty": 4
+      },
+      {
+        "code": "OP17-052",
+        "qty": 2
+      },
+      {
+        "code": "OP17-054",
+        "qty": 4
+      },
+      {
+        "code": "OP17-042",
+        "qty": 4
+      },
+      {
+        "code": "OP17-044",
+        "qty": 4
+      },
+      {
+        "code": "OP17-046",
+        "qty": 4
+      },
+      {
+        "code": "OP17-049",
+        "qty": 4
+      },
+      {
+        "code": "OP17-040",
+        "qty": 4
+      },
+      {
+        "code": "OP17-048",
+        "qty": 4
+      },
+      {
+        "code": "OP17-118",
+        "qty": 4
+      },
+      {
+        "code": "OP17-055",
+        "qty": 4
+      },
+      {
+        "code": "OP17-056",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Hide",
+      "placement": "1st Place",
+      "date": "8/25/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "BINKS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "P Kaido",
+    "color": "Purple",
+    "color_display": "Purple",
+    "leader_code": "OP17-058",
+    "cards": [
+      {
+        "code": "OP17-058",
+        "qty": 1
+      },
+      {
+        "code": "EB04-032",
+        "qty": 4
+      },
+      {
+        "code": "OP17-073",
+        "qty": 4
+      },
+      {
+        "code": "OP17-074",
+        "qty": 4
+      },
+      {
+        "code": "ST18-002",
+        "qty": 4
+      },
+      {
+        "code": "EB04-031",
+        "qty": 4
+      },
+      {
+        "code": "OP17-060",
+        "qty": 4
+      },
+      {
+        "code": "EB04-030",
+        "qty": 3
+      },
+      {
+        "code": "OP08-069",
+        "qty": 2
+      },
+      {
+        "code": "ST34-004",
+        "qty": 3
+      },
+      {
+        "code": "OP17-062",
+        "qty": 4
+      },
+      {
+        "code": "OP13-076",
+        "qty": 2
+      },
+      {
+        "code": "OP17-076",
+        "qty": 2
+      },
+      {
+        "code": "OP07-077",
+        "qty": 4
+      },
+      {
+        "code": "EB04-040",
+        "qty": 2
+      },
+      {
+        "code": "OP07-076",
+        "qty": 4
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "OPCGmirokuama",
+      "placement": "1st (4-0)",
+      "date": "8/25/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "Cardshop",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "Red Ace",
+    "color": "Red",
+    "color_display": "Red",
+    "leader_code": "OP16-001",
+    "cards": [
+      {
+        "code": "OP16-001",
+        "qty": 1
+      },
+      {
+        "code": "OP13-016",
+        "qty": 4
+      },
+      {
+        "code": "OP10-015",
+        "qty": 4
+      },
+      {
+        "code": "OP16-015",
+        "qty": 4
+      },
+      {
+        "code": "OP16-118",
+        "qty": 4
+      },
+      {
+        "code": "ST23-001",
+        "qty": 4
+      },
+      {
+        "code": "OP16-011",
+        "qty": 2
+      },
+      {
+        "code": "OP16-014",
+        "qty": 4
+      },
+      {
+        "code": "OP16-004",
+        "qty": 4
+      },
+      {
+        "code": "OP17-006",
+        "qty": 4
+      },
+      {
+        "code": "OP16-003",
+        "qty": 3
+      },
+      {
+        "code": "OP17-005",
+        "qty": 4
+      },
+      {
+        "code": "ST30-016",
+        "qty": 2
+      },
+      {
+        "code": "OP16-021",
+        "qty": 4
+      },
+      {
+        "code": "OP17-017",
+        "qty": 3
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Hekate",
+      "placement": "1st Place",
+      "date": "8/25/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "TorecanoMori",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "OP14-023",
+        "qty": 1
+      },
+      {
+        "code": "ST32-001",
+        "qty": 3
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "ST32-003",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 4
+      },
+      {
+        "code": "OP13-040",
+        "qty": 3
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Kesu",
+      "placement": "1st Place",
+      "date": "8/25/2026",
+      "country": "JP",
+      "tournament": "SB",
+      "host": "BINKS",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  },
+  {
+    "name": "G Mihawk",
+    "color": "Green",
+    "color_display": "Green",
+    "leader_code": "OP14-020",
+    "cards": [
+      {
+        "code": "OP14-020",
+        "qty": 1
+      },
+      {
+        "code": "OP07-022",
+        "qty": 4
+      },
+      {
+        "code": "OP12-034",
+        "qty": 4
+      },
+      {
+        "code": "ST32-001",
+        "qty": 4
+      },
+      {
+        "code": "OP06-033",
+        "qty": 4
+      },
+      {
+        "code": "OP12-023",
+        "qty": 4
+      },
+      {
+        "code": "ST32-002",
+        "qty": 4
+      },
+      {
+        "code": "OP17-031",
+        "qty": 4
+      },
+      {
+        "code": "OP13-031",
+        "qty": 4
+      },
+      {
+        "code": "ST32-003",
+        "qty": 1
+      },
+      {
+        "code": "OP17-022",
+        "qty": 4
+      },
+      {
+        "code": "OP01-055",
+        "qty": 3
+      },
+      {
+        "code": "OP06-038",
+        "qty": 3
+      },
+      {
+        "code": "OP12-037",
+        "qty": 1
+      },
+      {
+        "code": "OP13-040",
+        "qty": 3
+      },
+      {
+        "code": "OP14-039",
+        "qty": 2
+      },
+      {
+        "code": "OP08-036",
+        "qty": 1
+      }
+    ],
+    "total_cards": 51,
+    "source": {
+      "author": "Naosan",
+      "placement": "1st (4-0)",
+      "date": "8/25/2026",
+      "country": "JP",
+      "tournament": "ShopEvent",
+      "host": "ZokurekoCup",
+      "site": "onepiecetopdecks.com (Japan OP17)"
+    }
+  }
+]
