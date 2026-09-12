@@ -1,1 +1,2 @@
 discord.py>=2.3.2
+instaloader>=4.11
