@@ -2,17 +2,50 @@ import json
 import os
 import difflib
 import random
+import datetime
 
 import discord
 from discord import app_commands
-from discord.ext import commands
+from discord.ext import commands, tasks
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "cards.json")
+DECKS_PATH = os.path.join(os.path.dirname(__file__), "data", "decks.json")
+SCHEDULE_PATH = os.path.join(os.path.dirname(__file__), "data", "schedule_state.json")
 
 with open(DATA_PATH, "r", encoding="utf-8") as f:
-    _DATA = json.load(f)
+    CARDS = json.load(f)  # keys are normalized to UPPERCASE at lookup time
 
-CARDS = _DATA["cards"]  # keys are normalized to UPPERCASE at lookup time
+if os.path.exists(DECKS_PATH):
+    with open(DECKS_PATH, "r", encoding="utf-8") as f:
+        DECKS = json.load(f)
+else:
+    DECKS = []
+
+# Daily deck-of-the-day config
+DAILY_DECK_CHANNEL_ID = 1545851775003922543
+BANGKOK_TZ = datetime.timezone(datetime.timedelta(hours=7))
+
+_DEFAULT_SCHEDULE = {"enabled": True, "hour": 9, "minute": 0, "last_posted_date": None}
+
+
+def load_schedule() -> dict:
+    if os.path.exists(SCHEDULE_PATH):
+        with open(SCHEDULE_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        # fill in any missing keys with defaults (e.g. after an update)
+        for k, v in _DEFAULT_SCHEDULE.items():
+            data.setdefault(k, v)
+        return data
+    return dict(_DEFAULT_SCHEDULE)
+
+
+def save_schedule(state: dict):
+    os.makedirs(os.path.dirname(SCHEDULE_PATH), exist_ok=True)
+    with open(SCHEDULE_PATH, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+
+
+SCHEDULE_STATE = load_schedule()
 
 COLOR_MAP = {
     "Red": 0xE3352E,
@@ -117,10 +150,94 @@ class ArtBrowser(discord.ui.View):
         await interaction.response.edit_message(embed=embed, view=self)
 
 
+def build_deck_embed(deck: dict) -> discord.Embed:
+    _, leader_card = find_card(deck["leader_code"])
+    leader_name = leader_card["name"] if isinstance(leader_card, dict) else deck["leader_code"]
+    primary_color = deck.get("color", "?")
+
+    lines = [f'Leader: **{leader_name}** (`{deck["leader_code"]}`)', "", "**Decklist**"]
+    for entry in deck["cards"]:
+        code = entry["code"]
+        qty = entry["qty"]
+        _, card = find_card(code)
+        name = card["name"] if isinstance(card, dict) else "?"
+        lines.append(f"`{qty}x` **{code}** — {name}")
+
+    full_text = "\n".join(lines)
+    if len(full_text) > 4000:
+        full_text = full_text[:3950] + "\n...(list truncated)"
+
+    embed = discord.Embed(
+        title=f'{deck["name"]} ({deck.get("color_display", primary_color)})',
+        description=full_text,
+        color=COLOR_MAP.get(primary_color, 0x888888),
+    )
+
+    if isinstance(leader_card, dict) and leader_card.get("image_url"):
+        embed.set_thumbnail(url=leader_card["image_url"])
+
+    src = deck["source"]
+    embed.set_footer(
+        text=(
+            f"{deck['total_cards']} cards | {src['placement']} by {src['author']} "
+            f"({src.get('country', '?')}) | {src.get('tournament', '?')} @ {src.get('host', '?')} "
+            f"| {src.get('date', '')} | via {src['site']}"
+        )
+    )
+    return embed
+
+
+async def _post_daily_deck():
+    if not DECKS:
+        print("[daily_deck] no decks available, skipping post")
+        return
+
+    channel = bot.get_channel(DAILY_DECK_CHANNEL_ID)
+    if channel is None:
+        try:
+            channel = await bot.fetch_channel(DAILY_DECK_CHANNEL_ID)
+        except Exception as e:
+            print(f"[daily_deck] could not fetch channel {DAILY_DECK_CHANNEL_ID}: {e!r}")
+            return
+
+    deck = random.choice(DECKS)
+    embed = build_deck_embed(deck)
+    await channel.send(
+        content="@everyone Today's meta deck pick! 🏴‍☠️",
+        embed=embed,
+        allowed_mentions=discord.AllowedMentions(everyone=True),
+    )
+    print(f"[daily_deck] posted '{deck['name']}' ({deck.get('color_display', deck.get('color'))})")
+
+
+@tasks.loop(seconds=30)
+async def daily_deck_scheduler():
+    """Checks every 30s whether it's time to post, based on the persisted schedule state."""
+    if not SCHEDULE_STATE.get("enabled", False):
+        return
+
+    now = datetime.datetime.now(BANGKOK_TZ)
+    today_str = now.strftime("%Y-%m-%d")
+
+    if SCHEDULE_STATE.get("last_posted_date") == today_str:
+        return  # already posted today
+
+    target_hour = SCHEDULE_STATE.get("hour", 9)
+    target_minute = SCHEDULE_STATE.get("minute", 0)
+
+    if now.hour == target_hour and now.minute == target_minute:
+        await _post_daily_deck()
+        SCHEDULE_STATE["last_posted_date"] = today_str
+        save_schedule(SCHEDULE_STATE)
+
+
 @bot.event
 async def on_ready():
     await bot.tree.sync()
-    print(f"Logged in as {bot.user} | {len(CARDS)} cards loaded")
+    print(f"Logged in as {bot.user} | {len(CARDS)} cards loaded | {len(DECKS)} decks loaded")
+    print(f"[daily_deck] schedule: {SCHEDULE_STATE}")
+    if not daily_deck_scheduler.is_running():
+        daily_deck_scheduler.start()
 
 
 @bot.tree.command(name="card", description="Look up a One Piece TCG card by its code (e.g. OP01-016)")
@@ -206,6 +323,90 @@ async def rules(interaction: discord.Interaction, page: int = 1):
     embed = build_rules_embed(page)
     view = RuleBrowser(page)
     await interaction.response.send_message(embed=embed, view=view)
+
+
+@bot.tree.command(name="randomdeck", description="Pull a random tournament decklist right now (any color)")
+async def random_deck(interaction: discord.Interaction):
+    if not DECKS:
+        await interaction.response.send_message("No decks in the database yet.", ephemeral=True)
+        return
+
+    deck = random.choice(DECKS)
+    embed = build_deck_embed(deck)
+    await interaction.response.send_message(embed=embed)
+
+
+dailydeck_group = app_commands.Group(name="dailydeck", description="Manage the automatic daily deck post")
+
+
+@dailydeck_group.command(name="enable", description="Turn on the automatic daily deck post")
+async def dailydeck_enable(interaction: discord.Interaction):
+    SCHEDULE_STATE["enabled"] = True
+    save_schedule(SCHEDULE_STATE)
+    h, m = SCHEDULE_STATE["hour"], SCHEDULE_STATE["minute"]
+    await interaction.response.send_message(
+        f"✅ Daily deck post enabled — posting at {h:02d}:{m:02d} (GMT+7) every day.",
+        ephemeral=True,
+    )
+
+
+@dailydeck_group.command(name="disable", description="Turn off the automatic daily deck post")
+async def dailydeck_disable(interaction: discord.Interaction):
+    SCHEDULE_STATE["enabled"] = False
+    save_schedule(SCHEDULE_STATE)
+    await interaction.response.send_message("🛑 Daily deck post disabled.", ephemeral=True)
+
+
+@dailydeck_group.command(name="settime", description="Set the exact time (GMT+7) the daily deck posts")
+@app_commands.describe(hour="Hour (1-12)", minute="Minute (0-59)", ampm="AM or PM")
+@app_commands.choices(ampm=[
+    app_commands.Choice(name="AM", value="AM"),
+    app_commands.Choice(name="PM", value="PM"),
+])
+async def dailydeck_settime(
+    interaction: discord.Interaction,
+    hour: app_commands.Range[int, 1, 12],
+    minute: app_commands.Range[int, 0, 59],
+    ampm: app_commands.Choice[str],
+):
+    hour_24 = hour % 12  # 12 -> 0
+    if ampm.value == "PM":
+        hour_24 += 12
+
+    SCHEDULE_STATE["hour"] = hour_24
+    SCHEDULE_STATE["minute"] = minute
+    SCHEDULE_STATE["last_posted_date"] = None  # allow it to fire today if the new time hasn't passed yet
+    save_schedule(SCHEDULE_STATE)
+
+    await interaction.response.send_message(
+        f"⏰ Daily deck post time set to {hour:02d}:{minute:02d} {ampm.value} (GMT+7) "
+        f"→ {hour_24:02d}:{minute:02d} 24h.",
+        ephemeral=True,
+    )
+
+
+@dailydeck_group.command(name="status", description="Show the current daily deck post schedule")
+async def dailydeck_status(interaction: discord.Interaction):
+    h24 = SCHEDULE_STATE["hour"]
+    m = SCHEDULE_STATE["minute"]
+    ampm = "AM" if h24 < 12 else "PM"
+    h12 = h24 % 12
+    if h12 == 0:
+        h12 = 12
+    enabled = SCHEDULE_STATE.get("enabled", False)
+    last_posted = SCHEDULE_STATE.get("last_posted_date") or "never"
+
+    await interaction.response.send_message(
+        f"**Daily deck post status**\n"
+        f"- Enabled: {'✅ Yes' if enabled else '🛑 No'}\n"
+        f"- Time: {h12:02d}:{m:02d} {ampm} (GMT+7)\n"
+        f"- Last posted: {last_posted}\n"
+        f"- Decks in pool: {len(DECKS)}",
+        ephemeral=True,
+    )
+
+
+bot.tree.add_command(dailydeck_group)
 
 
 if __name__ == "__main__":
