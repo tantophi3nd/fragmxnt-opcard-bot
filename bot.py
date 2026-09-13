@@ -163,7 +163,7 @@ def build_embed(code: str, card: dict, art_index: int = 0) -> discord.Embed:
             inline=False,
         )
 
-    embed.set_footer(text=f"Developed by Fragmxnt TCG 🃏{'' if len(alt_arts)==0 else f' — Art {art_index+1}/{len(alt_arts)+1}'}")
+    embed.set_footer(text=f"Fragmxnt Bot | Developed by Fragmxnt{'' if len(alt_arts)==0 else f' — Art {art_index+1}/{len(alt_arts)+1}'}")
     return embed
 
 
@@ -284,6 +284,27 @@ async def daily_deck_scheduler():
         save_schedule(SCHEDULE_STATE)
 
 
+def _build_ig_post_embed(post) -> discord.Embed:
+    caption = (post.caption or "")[:400]
+    post_url = f"https://www.instagram.com/p/{post.shortcode}/"
+
+    embed = discord.Embed(
+        title=f"Latest post from @{IG_ACCOUNT}",
+        description=caption,
+        url=post_url,
+        color=0xE1306C,  # Instagram-ish pink
+    )
+    embed.set_image(url=post.url)
+    embed.set_footer(text=f"Posted {post.date_utc.strftime('%Y-%m-%d %H:%M UTC')} | via Instagram")
+    return embed
+
+
+def _fetch_latest_ig_post():
+    """Returns the latest post object for IG_ACCOUNT, or raises on failure."""
+    profile = instaloader.Profile.from_username(_ig_loader.context, IG_ACCOUNT)
+    return next(profile.get_posts())
+
+
 async def _check_instagram_for_new_post():
     channel_id = IG_SCHEDULE_STATE.get("channel_id")
     if not channel_id:
@@ -291,8 +312,7 @@ async def _check_instagram_for_new_post():
         return
 
     try:
-        profile = instaloader.Profile.from_username(_ig_loader.context, IG_ACCOUNT)
-        latest_post = next(profile.get_posts())
+        latest_post = _fetch_latest_ig_post()
     except Exception as e:
         print(f"[ig_update] failed to fetch @{IG_ACCOUNT} posts: {e!r}")
         return
@@ -309,17 +329,8 @@ async def _check_instagram_for_new_post():
             print(f"[ig_update] could not fetch channel {channel_id}: {e!r}")
             return
 
-    caption = (latest_post.caption or "")[:400]
-    post_url = f"https://www.instagram.com/p/{latest_post.shortcode}/"
-
-    embed = discord.Embed(
-        title=f"New post from @{IG_ACCOUNT}",
-        description=caption,
-        url=post_url,
-        color=0xE1306C,  # Instagram-ish pink
-    )
-    embed.set_image(url=latest_post.url)
-    embed.set_footer(text=f"Posted {latest_post.date_utc.strftime('%Y-%m-%d %H:%M UTC')} | via Instagram")
+    embed = _build_ig_post_embed(latest_post)
+    embed.title = f"New post from @{IG_ACCOUNT}"
 
     await channel.send(
         content="@everyone 📸 New OnePieceTCG Instagram update!",
@@ -596,6 +607,26 @@ async def opnews_setchannel(interaction: discord.Interaction, channel: discord.T
         f"📌 Instagram update channel set to {channel.mention}.",
         ephemeral=True,
     )
+
+
+@opnews_group.command(name="latest", description=f"Manually post the current latest @{IG_ACCOUNT} Instagram post right now")
+async def opnews_latest(interaction: discord.Interaction):
+    await interaction.response.defer()
+
+    try:
+        latest_post = _fetch_latest_ig_post()
+    except Exception as e:
+        await interaction.followup.send(
+            f"⚠️ Couldn't fetch @{IG_ACCOUNT}'s latest post: `{e!r}`", ephemeral=True
+        )
+        return
+
+    embed = _build_ig_post_embed(latest_post)
+    await interaction.followup.send(embed=embed)
+
+    # Mark this post as seen so the automatic checker doesn't re-post it as "new" later.
+    IG_SCHEDULE_STATE["last_post_shortcode"] = latest_post.shortcode
+    save_ig_schedule(IG_SCHEDULE_STATE)
 
 
 @opnews_group.command(name="status", description="Show the current Instagram update check status")
