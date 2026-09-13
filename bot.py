@@ -1,4 +1,5 @@
 import json
+import asyncio
 import os
 import difflib
 import random
@@ -312,7 +313,7 @@ async def _check_instagram_for_new_post():
         return
 
     try:
-        latest_post = _fetch_latest_ig_post()
+        latest_post = await asyncio.to_thread(_fetch_latest_ig_post)
     except Exception as e:
         print(f"[ig_update] failed to fetch @{IG_ACCOUNT} posts: {e!r}")
         return
@@ -614,7 +615,7 @@ async def opnews_latest(interaction: discord.Interaction):
     await interaction.response.defer()
 
     try:
-        latest_post = _fetch_latest_ig_post()
+        latest_post = await asyncio.to_thread(_fetch_latest_ig_post)
     except Exception as e:
         await interaction.followup.send(
             f"⚠️ Couldn't fetch @{IG_ACCOUNT}'s latest post: `{e!r}`", ephemeral=True
