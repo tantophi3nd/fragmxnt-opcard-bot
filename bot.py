@@ -84,7 +84,12 @@ def save_ig_schedule(state: dict):
 
 IG_SCHEDULE_STATE = load_ig_schedule()
 
-# Anonymous, read-only loader — no login, matches "public profile" scraping approach.
+# Authenticated loader — logs in with a dedicated account (never your personal one).
+# Anonymous scraping was found to return stale/cached results from Instagram when
+# requested from a datacenter IP, so this is required for reliable "is it actually new" checks.
+IG_USERNAME = os.environ.get("IG_BOT_USERNAME")
+IG_PASSWORD = os.environ.get("IG_BOT_PASSWORD")
+
 _ig_loader = instaloader.Instaloader(
     download_pictures=False,
     download_videos=False,
@@ -95,6 +100,27 @@ _ig_loader = instaloader.Instaloader(
     compress_json=False,
     quiet=True,
 )
+_ig_logged_in = False
+
+
+def _ig_login():
+    """Logs the dedicated account in once. Called at startup via asyncio.to_thread."""
+    global _ig_logged_in
+    if not IG_USERNAME or not IG_PASSWORD:
+        print("[ig_update] IG_BOT_USERNAME / IG_BOT_PASSWORD not set — falling back to anonymous (may see stale data)")
+        return
+    try:
+        _ig_loader.login(IG_USERNAME, IG_PASSWORD)
+        _ig_logged_in = True
+        print(f"[ig_update] logged in to Instagram as @{IG_USERNAME}")
+    except instaloader.TwoFactorAuthRequiredException:
+        print("[ig_update] login failed: 2FA is enabled on this account — disable 2FA for the bot account")
+    except instaloader.BadCredentialsException:
+        print("[ig_update] login failed: bad username/password")
+    except instaloader.ConnectionException as e:
+        print(f"[ig_update] login failed: connection/challenge issue: {e!r}")
+    except Exception as e:
+        print(f"[ig_update] login failed: {e!r}")
 
 COLOR_MAP = {
     "Red": 0xE3352E,
@@ -361,6 +387,9 @@ async def on_ready():
         daily_deck_scheduler.start()
     if not ig_update_scheduler.is_running():
         ig_update_scheduler.start()
+    global _ig_logged_in
+    if not _ig_logged_in:
+        await asyncio.to_thread(_ig_login)
 
 
 @bot.tree.command(name="card", description="Look up a One Piece TCG card by its code (e.g. OP01-016)")
