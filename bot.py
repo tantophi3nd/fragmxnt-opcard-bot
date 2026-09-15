@@ -530,19 +530,27 @@ opnews_group = AdminOnlyGroup(
 )
 
 
-@opnews_group.command(name="post", description="Post an Instagram URL to this channel right now")
-@app_commands.describe(url="The Instagram post URL to share")
-async def opnews_post(interaction: discord.Interaction, url: str):
+@opnews_group.command(name="post", description="Post an Instagram URL right now")
+@app_commands.describe(url="The Instagram post URL to share", channel="Channel to post in (defaults to this channel)")
+async def opnews_post(interaction: discord.Interaction, url: str, channel: discord.TextChannel = None):
     await interaction.response.defer()
-    sent = await _send_ig_post(interaction.channel_id, url)
+    target_channel_id = channel.id if channel else interaction.channel_id
+    sent = await _send_ig_post(target_channel_id, url)
     if sent:
-        await interaction.followup.send("✅ Posted.", ephemeral=True)
+        where = channel.mention if channel else "this channel"
+        await interaction.followup.send(f"✅ Posted in {where}.", ephemeral=True)
     else:
         await interaction.followup.send("⚠️ Couldn't post — check the bot's channel permissions.", ephemeral=True)
 
 
-@opnews_group.command(name="schedule", description="Schedule an Instagram URL to post in this channel at a specific time")
-@app_commands.describe(url="The Instagram post URL to share", hour="Hour (1-12)", minute="Minute (0-59)", ampm="AM or PM")
+@opnews_group.command(name="schedule", description="Schedule an Instagram URL to post at a specific time")
+@app_commands.describe(
+    url="The Instagram post URL to share",
+    hour="Hour (1-12)",
+    minute="Minute (0-59)",
+    ampm="AM or PM",
+    channel="Channel to post in (defaults to this channel)",
+)
 @app_commands.choices(ampm=[
     app_commands.Choice(name="AM", value="AM"),
     app_commands.Choice(name="PM", value="PM"),
@@ -553,21 +561,25 @@ async def opnews_schedule(
     hour: app_commands.Range[int, 1, 12],
     minute: app_commands.Range[int, 0, 59],
     ampm: app_commands.Choice[str],
+    channel: discord.TextChannel = None,
 ):
     hour_24 = hour % 12
     if ampm.value == "PM":
         hour_24 += 12
 
+    target_channel_id = channel.id if channel else interaction.channel_id
+
     IG_QUEUE.append({
         "url": url,
-        "channel_id": interaction.channel_id,
+        "channel_id": target_channel_id,
         "hour": hour_24,
         "minute": minute,
     })
     save_ig_queue(IG_QUEUE)
 
+    where = channel.mention if channel else "this channel"
     await interaction.response.send_message(
-        f"⏰ Scheduled for {hour:02d}:{minute:02d} {ampm.value} (GMT+7) in this channel.\n{url}",
+        f"⏰ Scheduled for {hour:02d}:{minute:02d} {ampm.value} (GMT+7) in {where}.\n{url}",
         ephemeral=True,
     )
 
