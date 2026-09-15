@@ -6,7 +6,6 @@ import random
 import datetime
 
 import discord
-import instaloader
 from discord import app_commands
 from discord.ext import commands, tasks
 
@@ -54,85 +53,28 @@ def save_schedule(state: dict):
 
 SCHEDULE_STATE = load_schedule()
 
-# --- Instagram update notifications (locked to a single account) ---
-IG_ACCOUNT = "op.tcg"
-IG_CHECK_INTERVAL_MINUTES = 10  # how often to poll for a new post
-IG_SCHEDULE_PATH = os.path.join(os.path.dirname(__file__), "data", "ig_schedule_state.json")
-
-_DEFAULT_IG_SCHEDULE = {
-    "enabled": True,
-    "channel_id": None,
-    "last_post_shortcode": None,
-}
+# --- Instagram update notifications (manual — admin pastes a post URL) ---
+# No scraping, no login: an admin runs /opnews post or /opnews schedule with a
+# real Instagram post URL, and the bot relays it (letting Discord's own link
+# preview show the image). Far more reliable than fighting Instagram's
+# anti-bot measures.
+IG_QUEUE_PATH = os.path.join(os.path.dirname(__file__), "data", "ig_queue.json")
 
 
-def load_ig_schedule() -> dict:
-    if os.path.exists(IG_SCHEDULE_PATH):
-        with open(IG_SCHEDULE_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        for k, v in _DEFAULT_IG_SCHEDULE.items():
-            data.setdefault(k, v)
-        return data
-    return dict(_DEFAULT_IG_SCHEDULE)
+def load_ig_queue() -> list:
+    if os.path.exists(IG_QUEUE_PATH):
+        with open(IG_QUEUE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
 
 
-def save_ig_schedule(state: dict):
-    os.makedirs(os.path.dirname(IG_SCHEDULE_PATH), exist_ok=True)
-    with open(IG_SCHEDULE_PATH, "w", encoding="utf-8") as f:
-        json.dump(state, f, indent=2)
+def save_ig_queue(queue: list):
+    os.makedirs(os.path.dirname(IG_QUEUE_PATH), exist_ok=True)
+    with open(IG_QUEUE_PATH, "w", encoding="utf-8") as f:
+        json.dump(queue, f, indent=2)
 
 
-IG_SCHEDULE_STATE = load_ig_schedule()
-
-# Authenticated loader — logs in with a dedicated account (never your personal one).
-# Anonymous scraping was found to return stale/cached results from Instagram when
-# requested from a datacenter IP, so this is required for reliable "is it actually new" checks.
-IG_USERNAME = os.environ.get("IG_BOT_USERNAME")
-IG_PASSWORD = os.environ.get("IG_BOT_PASSWORD")
-
-_ig_loader = instaloader.Instaloader(
-    download_pictures=False,
-    download_videos=False,
-    download_video_thumbnails=False,
-    download_geotags=False,
-    download_comments=False,
-    save_metadata=False,
-    compress_json=False,
-    quiet=True,
-)
-_ig_logged_in = False
-
-
-def _ig_login() -> tuple[bool, str]:
-    """Logs the dedicated account in. Returns (success, status_message).
-    Called at startup via asyncio.to_thread, and reusable from /opnews login."""
-    global _ig_logged_in
-    if not IG_USERNAME or not IG_PASSWORD:
-        msg = "IG_BOT_USERNAME / IG_BOT_PASSWORD not set — falling back to anonymous (may see stale data)"
-        print(f"[ig_update] {msg}")
-        return False, msg
-    try:
-        _ig_loader.login(IG_USERNAME, IG_PASSWORD)
-        _ig_logged_in = True
-        msg = f"logged in to Instagram as @{IG_USERNAME}"
-        print(f"[ig_update] {msg}")
-        return True, msg
-    except instaloader.TwoFactorAuthRequiredException:
-        msg = "login failed: 2FA is enabled on this account — disable 2FA for the bot account"
-        print(f"[ig_update] {msg}")
-        return False, msg
-    except instaloader.BadCredentialsException:
-        msg = "login failed: bad username/password"
-        print(f"[ig_update] {msg}")
-        return False, msg
-    except instaloader.ConnectionException as e:
-        msg = f"login failed: connection/challenge issue: {e!r}"
-        print(f"[ig_update] {msg}")
-        return False, msg
-    except Exception as e:
-        msg = f"login failed: {e!r}"
-        print(f"[ig_update] {msg}")
-        return False, msg
+IG_QUEUE = load_ig_queue()
 
 COLOR_MAP = {
     "Red": 0xE3352E,
@@ -323,70 +265,39 @@ async def daily_deck_scheduler():
         save_schedule(SCHEDULE_STATE)
 
 
-def _build_ig_post_embed(post) -> discord.Embed:
-    caption = (post.caption or "")[:400]
-    post_url = f"https://www.instagram.com/p/{post.shortcode}/"
-
-    embed = discord.Embed(
-        title=f"Latest post from @{IG_ACCOUNT}",
-        description=caption,
-        url=post_url,
-        color=0xE1306C,  # Instagram-ish pink
-    )
-    embed.set_image(url=post.url)
-    embed.set_footer(text=f"Posted {post.date_utc.strftime('%Y-%m-%d %H:%M UTC')} | via Instagram")
-    return embed
-
-
-def _fetch_latest_ig_post():
-    """Returns the latest post object for IG_ACCOUNT, or raises on failure."""
-    profile = instaloader.Profile.from_username(_ig_loader.context, IG_ACCOUNT)
-    return next(profile.get_posts())
-
-
-async def _check_instagram_for_new_post():
-    channel_id = IG_SCHEDULE_STATE.get("channel_id")
-    if not channel_id:
-        print("[ig_update] no channel_id set, skipping check — use /opnews setchannel")
-        return
-
-    try:
-        latest_post = await asyncio.to_thread(_fetch_latest_ig_post)
-    except Exception as e:
-        print(f"[ig_update] failed to fetch @{IG_ACCOUNT} posts: {e!r}")
-        return
-
-    if latest_post.shortcode == IG_SCHEDULE_STATE.get("last_post_shortcode"):
-        print("[ig_update] no new post since last check")
-        return
-
+async def _send_ig_post(channel_id: int, url: str):
     channel = bot.get_channel(channel_id)
     if channel is None:
         try:
             channel = await bot.fetch_channel(channel_id)
         except Exception as e:
-            print(f"[ig_update] could not fetch channel {channel_id}: {e!r}")
-            return
-
-    embed = _build_ig_post_embed(latest_post)
-    embed.title = f"New post from @{IG_ACCOUNT}"
-
+            print(f"[ig_post] could not fetch channel {channel_id}: {e!r}")
+            return False
+    # Send the raw URL as plain content — Discord's own link unfurling shows
+    # the image/preview automatically, no scraping needed on our end.
     await channel.send(
-        content="@everyone 📸 New OnePieceTCG Instagram update!",
-        embed=embed,
+        content=f"@everyone 📸 New OnePieceTCG Instagram update!\n{url}",
         allowed_mentions=discord.AllowedMentions(everyone=True),
     )
-    IG_SCHEDULE_STATE["last_post_shortcode"] = latest_post.shortcode
-    save_ig_schedule(IG_SCHEDULE_STATE)
-    print(f"[ig_update] posted new IG update: {latest_post.shortcode}")
+    return True
 
 
-@tasks.loop(minutes=IG_CHECK_INTERVAL_MINUTES)
-async def ig_update_scheduler():
-    """Polls every IG_CHECK_INTERVAL_MINUTES for a new post from the tracked account."""
-    if not IG_SCHEDULE_STATE.get("enabled", False):
+@tasks.loop(seconds=30)
+async def ig_queue_scheduler():
+    """Checks every 30s for any queued posts whose scheduled time has arrived."""
+    if not IG_QUEUE:
         return
-    await _check_instagram_for_new_post()
+
+    now = datetime.datetime.now(BANGKOK_TZ)
+    due = [item for item in IG_QUEUE if
+           now.hour == item["hour"] and now.minute == item["minute"]]
+
+    for item in due:
+        sent = await _send_ig_post(item["channel_id"], item["url"])
+        if sent:
+            print(f"[ig_post] posted scheduled item: {item['url']}")
+        IG_QUEUE.remove(item)
+        save_ig_queue(IG_QUEUE)
 
 
 @bot.event
@@ -394,14 +305,11 @@ async def on_ready():
     await bot.tree.sync()
     print(f"Logged in as {bot.user} | {len(CARDS)} cards loaded | {len(DECKS)} decks loaded")
     print(f"[daily_deck] schedule: {SCHEDULE_STATE}")
-    print(f"[ig_update] schedule: {IG_SCHEDULE_STATE}")
+    print(f"[ig_post] queue: {len(IG_QUEUE)} pending item(s)")
     if not daily_deck_scheduler.is_running():
         daily_deck_scheduler.start()
-    if not ig_update_scheduler.is_running():
-        ig_update_scheduler.start()
-    global _ig_logged_in
-    if not _ig_logged_in:
-        await asyncio.to_thread(_ig_login)
+    if not ig_queue_scheduler.is_running():
+        ig_queue_scheduler.start()
 
 
 @bot.tree.command(name="card", description="Look up a One Piece TCG card by its code (e.g. OP01-016)")
@@ -617,82 +525,80 @@ bot.tree.add_command(dailydeck_group)
 
 opnews_group = AdminOnlyGroup(
     name="opnews",
-    description=f"Manage @{IG_ACCOUNT} Instagram update notifications",
+    description="Post or schedule OnePieceTCG Instagram updates",
     default_permissions=discord.Permissions(administrator=True),
 )
 
 
-@opnews_group.command(name="login", description="Manually (re)trigger the Instagram login for the dedicated bot account")
-async def opnews_login(interaction: discord.Interaction):
-    await interaction.response.defer(ephemeral=True)
-    success, msg = await asyncio.to_thread(_ig_login)
-    emoji = "✅" if success else "⚠️"
-    await interaction.followup.send(f"{emoji} {msg}", ephemeral=True)
-
-
-@opnews_group.command(name="enable", description="Turn on daily Instagram update checks")
-async def opnews_enable(interaction: discord.Interaction):
-    IG_SCHEDULE_STATE["enabled"] = True
-    save_ig_schedule(IG_SCHEDULE_STATE)
-    await interaction.response.send_message(
-        f"✅ Instagram update checks enabled — checking @{IG_ACCOUNT} every "
-        f"{IG_CHECK_INTERVAL_MINUTES} minutes.",
-        ephemeral=True,
-    )
-
-
-@opnews_group.command(name="disable", description="Turn off Instagram update checks")
-async def opnews_disable(interaction: discord.Interaction):
-    IG_SCHEDULE_STATE["enabled"] = False
-    save_ig_schedule(IG_SCHEDULE_STATE)
-    await interaction.response.send_message("🛑 Instagram update checks disabled.", ephemeral=True)
-
-
-@opnews_group.command(name="setchannel", description="Set which channel Instagram update notifications go to")
-@app_commands.describe(channel="Channel to post Instagram updates in")
-async def opnews_setchannel(interaction: discord.Interaction, channel: discord.TextChannel):
-    IG_SCHEDULE_STATE["channel_id"] = channel.id
-    save_ig_schedule(IG_SCHEDULE_STATE)
-    await interaction.response.send_message(
-        f"📌 Instagram update channel set to {channel.mention}.",
-        ephemeral=True,
-    )
-
-
-@opnews_group.command(name="latest", description=f"Manually post the current latest @{IG_ACCOUNT} Instagram post right now")
-async def opnews_latest(interaction: discord.Interaction):
+@opnews_group.command(name="post", description="Post an Instagram URL to this channel right now")
+@app_commands.describe(url="The Instagram post URL to share")
+async def opnews_post(interaction: discord.Interaction, url: str):
     await interaction.response.defer()
+    sent = await _send_ig_post(interaction.channel_id, url)
+    if sent:
+        await interaction.followup.send("✅ Posted.", ephemeral=True)
+    else:
+        await interaction.followup.send("⚠️ Couldn't post — check the bot's channel permissions.", ephemeral=True)
 
-    try:
-        latest_post = await asyncio.to_thread(_fetch_latest_ig_post)
-    except Exception as e:
-        await interaction.followup.send(
-            f"⚠️ Couldn't fetch @{IG_ACCOUNT}'s latest post: `{e!r}`", ephemeral=True
-        )
+
+@opnews_group.command(name="schedule", description="Schedule an Instagram URL to post in this channel at a specific time")
+@app_commands.describe(url="The Instagram post URL to share", hour="Hour (1-12)", minute="Minute (0-59)", ampm="AM or PM")
+@app_commands.choices(ampm=[
+    app_commands.Choice(name="AM", value="AM"),
+    app_commands.Choice(name="PM", value="PM"),
+])
+async def opnews_schedule(
+    interaction: discord.Interaction,
+    url: str,
+    hour: app_commands.Range[int, 1, 12],
+    minute: app_commands.Range[int, 0, 59],
+    ampm: app_commands.Choice[str],
+):
+    hour_24 = hour % 12
+    if ampm.value == "PM":
+        hour_24 += 12
+
+    IG_QUEUE.append({
+        "url": url,
+        "channel_id": interaction.channel_id,
+        "hour": hour_24,
+        "minute": minute,
+    })
+    save_ig_queue(IG_QUEUE)
+
+    await interaction.response.send_message(
+        f"⏰ Scheduled for {hour:02d}:{minute:02d} {ampm.value} (GMT+7) in this channel.\n{url}",
+        ephemeral=True,
+    )
+
+
+@opnews_group.command(name="queue", description="Show pending scheduled Instagram posts")
+async def opnews_queue(interaction: discord.Interaction):
+    if not IG_QUEUE:
+        await interaction.response.send_message("No pending scheduled posts.", ephemeral=True)
         return
 
-    embed = _build_ig_post_embed(latest_post)
-    await interaction.followup.send(embed=embed)
+    lines = []
+    for i, item in enumerate(IG_QUEUE, 1):
+        h24, m = item["hour"], item["minute"]
+        ampm = "AM" if h24 < 12 else "PM"
+        h12 = h24 % 12 or 12
+        lines.append(f"`{i}.` {h12:02d}:{m:02d} {ampm} (GMT+7) in <#{item['channel_id']}> — {item['url']}")
 
-    # Mark this post as seen so the automatic checker doesn't re-post it as "new" later.
-    IG_SCHEDULE_STATE["last_post_shortcode"] = latest_post.shortcode
-    save_ig_schedule(IG_SCHEDULE_STATE)
+    await interaction.response.send_message("**Pending scheduled posts:**\n" + "\n".join(lines), ephemeral=True)
 
 
-@opnews_group.command(name="status", description="Show the current Instagram update check status")
-async def opnews_status(interaction: discord.Interaction):
-    enabled = IG_SCHEDULE_STATE.get("enabled", False)
-    channel_id = IG_SCHEDULE_STATE.get("channel_id")
-    channel_mention = f"<#{channel_id}>" if channel_id else "⚠️ not set"
+@opnews_group.command(name="cancel", description="Cancel a pending scheduled post by its number from /opnews queue")
+@app_commands.describe(number="The number shown next to the item in /opnews queue")
+async def opnews_cancel(interaction: discord.Interaction, number: app_commands.Range[int, 1, 100]):
+    idx = number - 1
+    if idx < 0 or idx >= len(IG_QUEUE):
+        await interaction.response.send_message("⚠️ No pending post with that number.", ephemeral=True)
+        return
 
-    await interaction.response.send_message(
-        f"**Instagram update status (@{IG_ACCOUNT})**\n"
-        f"- Enabled: {'✅ Yes' if enabled else '🛑 No'}\n"
-        f"- Check interval: every {IG_CHECK_INTERVAL_MINUTES} minutes\n"
-        f"- Channel: {channel_mention}\n"
-        f"- Last posted shortcode: {IG_SCHEDULE_STATE.get('last_post_shortcode') or 'none yet'}",
-        ephemeral=True,
-    )
+    removed = IG_QUEUE.pop(idx)
+    save_ig_queue(IG_QUEUE)
+    await interaction.response.send_message(f"🗑️ Cancelled: {removed['url']}", ephemeral=True)
 
 
 bot.tree.add_command(opnews_group)
