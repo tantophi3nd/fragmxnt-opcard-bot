@@ -103,24 +103,36 @@ _ig_loader = instaloader.Instaloader(
 _ig_logged_in = False
 
 
-def _ig_login():
-    """Logs the dedicated account in once. Called at startup via asyncio.to_thread."""
+def _ig_login() -> tuple[bool, str]:
+    """Logs the dedicated account in. Returns (success, status_message).
+    Called at startup via asyncio.to_thread, and reusable from /opnews login."""
     global _ig_logged_in
     if not IG_USERNAME or not IG_PASSWORD:
-        print("[ig_update] IG_BOT_USERNAME / IG_BOT_PASSWORD not set — falling back to anonymous (may see stale data)")
-        return
+        msg = "IG_BOT_USERNAME / IG_BOT_PASSWORD not set — falling back to anonymous (may see stale data)"
+        print(f"[ig_update] {msg}")
+        return False, msg
     try:
         _ig_loader.login(IG_USERNAME, IG_PASSWORD)
         _ig_logged_in = True
-        print(f"[ig_update] logged in to Instagram as @{IG_USERNAME}")
+        msg = f"logged in to Instagram as @{IG_USERNAME}"
+        print(f"[ig_update] {msg}")
+        return True, msg
     except instaloader.TwoFactorAuthRequiredException:
-        print("[ig_update] login failed: 2FA is enabled on this account — disable 2FA for the bot account")
+        msg = "login failed: 2FA is enabled on this account — disable 2FA for the bot account"
+        print(f"[ig_update] {msg}")
+        return False, msg
     except instaloader.BadCredentialsException:
-        print("[ig_update] login failed: bad username/password")
+        msg = "login failed: bad username/password"
+        print(f"[ig_update] {msg}")
+        return False, msg
     except instaloader.ConnectionException as e:
-        print(f"[ig_update] login failed: connection/challenge issue: {e!r}")
+        msg = f"login failed: connection/challenge issue: {e!r}"
+        print(f"[ig_update] {msg}")
+        return False, msg
     except Exception as e:
-        print(f"[ig_update] login failed: {e!r}")
+        msg = f"login failed: {e!r}"
+        print(f"[ig_update] {msg}")
+        return False, msg
 
 COLOR_MAP = {
     "Red": 0xE3352E,
@@ -608,6 +620,14 @@ opnews_group = AdminOnlyGroup(
     description=f"Manage @{IG_ACCOUNT} Instagram update notifications",
     default_permissions=discord.Permissions(administrator=True),
 )
+
+
+@opnews_group.command(name="login", description="Manually (re)trigger the Instagram login for the dedicated bot account")
+async def opnews_login(interaction: discord.Interaction):
+    await interaction.response.defer(ephemeral=True)
+    success, msg = await asyncio.to_thread(_ig_login)
+    emoji = "✅" if success else "⚠️"
+    await interaction.followup.send(f"{emoji} {msg}", ephemeral=True)
 
 
 @opnews_group.command(name="enable", description="Turn on daily Instagram update checks")
