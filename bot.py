@@ -265,6 +265,17 @@ async def daily_deck_scheduler():
         save_schedule(SCHEDULE_STATE)
 
 
+def _build_ig_embed(url: str) -> discord.Embed:
+    embed = discord.Embed(
+        title="📸 New OnePieceTCG Instagram Update",
+        description=f"[View on Instagram]({url})",
+        url=url,
+        color=0xE1306C,  # Instagram-ish pink
+    )
+    embed.set_footer(text="via Instagram")
+    return embed
+
+
 async def _send_ig_post(channel_id: int, url: str):
     channel = bot.get_channel(channel_id)
     if channel is None:
@@ -273,10 +284,12 @@ async def _send_ig_post(channel_id: int, url: str):
         except Exception as e:
             print(f"[ig_post] could not fetch channel {channel_id}: {e!r}")
             return False
-    # Send the raw URL as plain content — Discord's own link unfurling shows
-    # the image/preview automatically, no scraping needed on our end.
+    embed = _build_ig_embed(url)
+    # Embed gives the branded title/footer; the raw URL in content still lets
+    # Discord's own link unfurling show the actual photo — no scraping needed.
     await channel.send(
-        content=f"@everyone 📸 New OnePieceTCG Instagram update!\n{url}",
+        content=f"@everyone\n{url}",
+        embed=embed,
         allowed_mentions=discord.AllowedMentions(everyone=True),
     )
     return True
